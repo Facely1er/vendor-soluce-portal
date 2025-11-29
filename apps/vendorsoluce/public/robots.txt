@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+# Main pages
+Allow: /
+Allow: /about
+Allow: /contact
+Allow: /pricing
+Allow: /how-it-works
+Allow: /templates
+Allow: /api-docs
+Allow: /integration-guides
+
+# Tools and assessments (public access)
+Allow: /supply-chain-assessment
+Allow: /sbom-analyzer
+Allow: /vendor-risk-dashboard
+Allow: /tools/
+
+# Disallow private/authenticated areas
+Disallow: /dashboard
+Disallow: /profile
+Disallow: /account
+Disallow: /user-dashboard
+Disallow: /notifications
+Disallow: /user-activity
+Disallow: /onboarding
+
+# Sitemap
+Sitemap: https://vendorsoluce.com/sitemap.xml

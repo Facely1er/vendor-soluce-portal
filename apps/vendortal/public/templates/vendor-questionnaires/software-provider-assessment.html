@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Provider Security Assessment</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 1in;
+        }
+        h1 {
+            color: #1E3B8A;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2D7D7D;
+            margin-top: 1.5em;
+        }
+        .info-box {
+            background-color: #f0f7ff;
+            border-left: 4px solid #3B82F6;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f5f5f5;
+        }
+        .question {
+            background-color: #f9f9f9;
+            padding: 12px;
+            margin: 10px 0;
+            border-left: 3px solid #2D7D7D;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 0.8em;
+            text-align: center;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Software Provider Security Assessment</h1>
+    
+    <div class="info-box">
+        <p><strong>Purpose:</strong> This assessment evaluates software vendors and their development security practices, focusing on secure software development lifecycle (SSDLC) and supply chain security.</p>
+        <p><strong>Instructions:</strong> Complete all questions. This assessment aligns with NIST SP 800-218 Secure Software Development Framework.</p>
+    </div>
+
+    <h2>Software Provider Information</h2>
+    <table>
+        <tr>
+            <td width="30%"><strong>Company Name:</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Software Product/Service:</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Primary Contact:</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Security Contact:</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Assessment Date:</strong></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <h2>Section 1: Secure Development Practices</h2>
+    
+    <div class="question">
+        <p><strong>1.1 Secure Development Lifecycle</strong></p>
+        <p>Do you follow a documented secure software development lifecycle (SSDLC)?</p>
+        <p>□ Yes □ No</p>
+        <p>Framework used (e.g., NIST SSDF, OWASP SAMM): _______________________</p>
+    </div>
+
+    <div class="question">
+        <p><strong>1.2 Security Training</strong></p>
+        <p>Do developers receive regular security training?</p>
+        <p>□ Yes □ No</p>
+        <p>Training frequency and topics: _______________________</p>
+    </div>
+
+    <div class="question">
+        <p><strong>1.3 Secure Coding Standards</strong></p>
+        <p>Do you maintain and enforce secure coding standards?</p>
+        <p>□ Yes □ No</p>
+        <p>Standards used: _______________________</p>
+    </div>
+
+    <h2>Section 2: Code Security and Testing</h2>
+
+    <div class="question">
+        <p><strong>2.1 Static Application Security Testing (SAST)</strong></p>
+        <p>Do you perform static code analysis during development?</p>
+        <p>□ Yes □ No</p>
+        <p>Tools used: _______________________</p>
+    </div>
+
+    <div class="question">
+        <p><strong>2.2 Dynamic Application Security Testing (DAST)</strong></p>
+        <p>Do you perform dynamic security testing on running applications?</p>
+        <p>□ Yes □ No</p>
+        <p>Testing frequency: _______________________</p>
+    </div>
+
+    <div class="question">
+        <p><strong>2.3 Penetration Testing</strong></p>
+        <p>Do you conduct regular penetration testing by qualified professionals?</p>
+        <p>□ Yes □ No</p>
+        <p>Testing frequency: _______________________</p>
+    </div>
+
+    <div class="question">
+        <p><strong>2.4 Code Review Process</strong></p>
+        <p>Do you require security-focused code reviews for all changes?</p>
+        <p>□ Yes □ No</p>
+        <p>Review criteria: _______________________</p>
+    </div>
+
+    <h2>Section 3: Software Bill of Materials (SBOM)</h2>
+
+    <div class="question">
+        <p><strong>3.1 SBOM Generation</strong></p>
+        <p>Do you generate and maintain Software Bill of Materials (SBOM) for your products?</p>
+        <p>□ Yes □ No</p>
+        <p>SBOM format(s): □ SPDX □ CycloneDX □ Other: _______________________</p>
+    </div>
+
+    <div class="question">
+        <p><strong>3.2 Third-Party Component Management</strong></p>
+        <p>Do you maintain an inventory of all third-party components and dependencies?</p>
+        <p>□ Yes □ No</p>
+        <p>Management tools used: _______________________</p>
+    </div>
+
+    <div class="question">
+        <p><strong>3.3 Vulnerability Scanning</strong></p>
+        <p>Do you regularly scan third-party components for known vulnerabilities?</p>
+        <p>□ Yes □ No</p>
+        <p>Scanning frequency: _______________________</p>
+    </div>
+
+    <div class="question">
+        <p><strong>3.4 License Compliance</strong></p>
+        <p>Do you track and manage open source licenses for compliance?</p>
+        <p>□ Yes □ No</p>
+        <p>Compliance process: _______________________</p>
+    </div>
+
+    <h2>Section 4: Build and Deployment Security</h2>
+
+    <div class="question">
+        <p><strong>4.1 Build Environment Security</strong></p>
+        <p>Are your build environments secured and isolated?</p>
+        <p>□ Yes □ No</p>
+        <p>Security measures: _______________________</p>
+    </div>
+
+    <div class="question">
+        <p><strong>4.2 Code Signing</strong></p>
+        <p>Do you digitally sign your software releases?</p>
+        <p>□ Yes □ No</p>
+        <p>Signing infrastructure: _______________________</p>
+    </div>
+
+    <div class="question">
+        <p><strong>4.3 Supply Chain Integrity</strong></p>
+        <p>Do you verify the integrity of your software supply chain?</p>
+        <p>□ Yes □ No</p>
+        <p>Verification methods: _______________________</p>
+    </div>
+
+    <h2>Section 5: Vulnerability Management</h2>
+
+    <div class="question">
+        <p><strong>5.1 Vulnerability Disclosure Program</strong></p>
+        <p>Do you have a coordinated vulnerability disclosure program?</p>
+        <p>□ Yes □ No</p>
+        <p>Contact method: _______________________</p>
+    </div>
+
+    <div class="question">
+        <p><strong>5.2 Patch Management</strong></p>
+        <p>Do you have a documented process for security patching?</p>
+        <p>□ Yes □ No</p>
+        <p>Critical patch timeline: _______________________</p>
+    </div>
+
+    <div class="question">
+        <p><strong>5.3 Customer Notification</strong></p>
+        <p>Do you notify customers of security vulnerabilities and patches?</p>
+        <p>□ Yes □ No</p>
+        <p>Notification timeline: _______________________</p>
+    </div>
+
+    <h2>Section 6: Data Protection</h2>
+
+    <div class="question">
+        <p><strong>6.1 Data Encryption</strong></p>
+        <p>Do you implement encryption for sensitive data processing within your software?</p>
+        <p>□ Yes □ No</p>
+        <p>Encryption standards: _______________________</p>
+    </div>
+
+    <div class="question">
+        <p><strong>6.2 Privacy by Design</strong></p>
+        <p>Do you implement privacy-by-design principles in your software development?</p>
+        <p>□ Yes □ No</p>
+        <p>Privacy controls: _______________________</p>
+    </div>
+
+    <h2>Attestation</h2>
+    <p>I certify that the information provided in this assessment is accurate and represents our current security practices.</p>
+    <table>
+        <tr>
+            <td width="30%"><strong>Name:</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Title:</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Signature:</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Date:</strong></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <div class="footer">
+        <p>&copy; 2025 VendorSoluce. All rights reserved. | For assessment purposes only.</p>
+        <p>Based on NIST SP 800-218 Secure Software Development Framework and industry best practices</p>
+    </div>
+</body>
+</html>

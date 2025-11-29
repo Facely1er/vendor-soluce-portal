@@ -1,0 +1,166 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-04-17T10:30:00Z",
+    "tools": [
+      {
+        "vendor": "VendorSoluce",
+        "name": "VendorSoluce SBOM Generator",
+        "version": "1.0"
+      }
+    ],
+    "authors": [
+      {
+        "name": "VendorSoluce Security Team",
+        "email": "security@vendorsoluce.com"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "name": "example-application",
+      "version": "1.0.0",
+      "bom-ref": "pkg:npm/example-application@1.0.0",
+      "purl": "pkg:npm/example-application@1.0.0",
+      "supplier": {
+        "name": "Example Corp",
+        "url": "https://example.com"
+      },
+      "author": "Example Corp Development Team",
+      "publisher": "Example Corp",
+      "description": "Example application for SBOM demonstration",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "react",
+      "version": "18.2.0",
+      "bom-ref": "pkg:npm/react@18.2.0",
+      "purl": "pkg:npm/react@18.2.0",
+      "publisher": "Meta Platforms, Inc.",
+      "description": "React is a JavaScript library for building user interfaces.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:facebook:react:18.2.0:*:*:*:*:node.js:*:*"
+    },
+    {
+      "type": "library",
+      "name": "lodash",
+      "version": "4.17.21",
+      "bom-ref": "pkg:npm/lodash@4.17.21",
+      "purl": "pkg:npm/lodash@4.17.21",
+      "publisher": "JS Foundation",
+      "description": "Lodash modular utilities.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:lodash:lodash:4.17.21:*:*:*:*:node.js:*:*"
+    },
+    {
+      "type": "framework",
+      "name": "express",
+      "version": "4.18.2",
+      "bom-ref": "pkg:npm/express@4.18.2",
+      "purl": "pkg:npm/express@4.18.2",
+      "publisher": "TJ Holowaychuk",
+      "description": "Fast, unopinionated, minimalist web framework",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:expressjs:express:4.18.2:*:*:*:*:node.js:*:*"
+    },
+    {
+      "type": "library",
+      "name": "axios",
+      "version": "1.3.5",
+      "bom-ref": "pkg:npm/axios@1.3.5",
+      "purl": "pkg:npm/axios@1.3.5",
+      "publisher": "Matt Zabriskie",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:npm/example-application@1.0.0",
+      "dependsOn": [
+        "pkg:npm/react@18.2.0",
+        "pkg:npm/lodash@4.17.21",
+        "pkg:npm/express@4.18.2",
+        "pkg:npm/axios@1.3.5"
+      ]
+    },
+    {
+      "ref": "pkg:npm/express@4.18.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/react@18.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/lodash@4.17.21",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/axios@1.3.5",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "bom-ref": "vulnerability-example-001",
+      "id": "CVE-2023-12345",
+      "affects": [
+        {
+          "ref": "pkg:npm/example-dependency@1.2.3"
+        }
+      ],
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv3",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+        }
+      ],
+      "description": "This is an example vulnerability description for demonstration purposes. In a real SBOM, this would contain actual vulnerability data.",
+      "recommendation": "Upgrade to version 1.2.4 or higher",
+      "published": "2023-09-21T10:00:00Z",
+      "updated": "2023-09-25T14:30:00Z"
+    }
+  ]
+}

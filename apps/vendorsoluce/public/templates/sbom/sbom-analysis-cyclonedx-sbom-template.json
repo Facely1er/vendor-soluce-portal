@@ -1,0 +1,182 @@
+{
+  "document": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79",
+    "created": "2025-04-17T10:30:00Z",
+    "authors": [
+      {
+        "name": "VendorSoluce Security Team",
+        "email": "security@vendorsoluce.com"
+      }
+    ],
+    "generators": [],
+    "sourceFile": "/workspace/public/templates/sbom/cyclonedx-sbom-template.json"
+  },
+  "components": [
+    {
+      "component": {
+        "id": "pkg:npm/react@18.2.0",
+        "name": "react",
+        "version": "18.2.0",
+        "type": "library",
+        "ecosystem": "npm",
+        "license": "MIT",
+        "purl": "pkg:npm/react@18.2.0",
+        "description": "React is a JavaScript library for building user interfaces.",
+        "maintainer": "Meta Platforms, Inc."
+      },
+      "vulnerabilities": [],
+      "riskScore": 100,
+      "dataQuality": {
+        "missingHashes": true,
+        "missingSupplier": true
+      }
+    },
+    {
+      "component": {
+        "id": "pkg:npm/lodash@4.17.21",
+        "name": "lodash",
+        "version": "4.17.21",
+        "type": "library",
+        "ecosystem": "npm",
+        "license": "MIT",
+        "purl": "pkg:npm/lodash@4.17.21",
+        "description": "Lodash modular utilities.",
+        "maintainer": "JS Foundation"
+      },
+      "vulnerabilities": [],
+      "riskScore": 100,
+      "dataQuality": {
+        "missingHashes": true,
+        "missingSupplier": true
+      }
+    },
+    {
+      "component": {
+        "id": "pkg:npm/express@4.18.2",
+        "name": "express",
+        "version": "4.18.2",
+        "type": "framework",
+        "ecosystem": "npm",
+        "license": "MIT",
+        "purl": "pkg:npm/express@4.18.2",
+        "description": "Fast, unopinionated, minimalist web framework",
+        "maintainer": "TJ Holowaychuk"
+      },
+      "vulnerabilities": [],
+      "riskScore": 100,
+      "dataQuality": {
+        "missingHashes": true,
+        "missingSupplier": true
+      }
+    },
+    {
+      "component": {
+        "id": "pkg:npm/axios@1.3.5",
+        "name": "axios",
+        "version": "1.3.5",
+        "type": "library",
+        "ecosystem": "npm",
+        "license": "MIT",
+        "purl": "pkg:npm/axios@1.3.5",
+        "description": "Promise based HTTP client for the browser and node.js",
+        "maintainer": "Matt Zabriskie"
+      },
+      "vulnerabilities": [],
+      "riskScore": 100,
+      "dataQuality": {
+        "missingHashes": true,
+        "missingSupplier": true
+      }
+    }
+  ],
+  "dependencyEdges": [
+    {
+      "from": "pkg:npm/example-application@1.0.0",
+      "to": "pkg:npm/react@18.2.0",
+      "type": "dependsOn"
+    },
+    {
+      "from": "pkg:npm/example-application@1.0.0",
+      "to": "pkg:npm/lodash@4.17.21",
+      "type": "dependsOn"
+    },
+    {
+      "from": "pkg:npm/example-application@1.0.0",
+      "to": "pkg:npm/express@4.18.2",
+      "type": "dependsOn"
+    },
+    {
+      "from": "pkg:npm/example-application@1.0.0",
+      "to": "pkg:npm/axios@1.3.5",
+      "type": "dependsOn"
+    }
+  ],
+  "vulnerabilitySummary": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "unknown": 0,
+    "total": 0
+  },
+  "ntiaCompliance": {
+    "compliant": true,
+    "checks": {
+      "hasDependencyGraph": true,
+      "hasAuthorOrOriginator": true,
+      "hasSbomTimestamp": true,
+      "hasSpecVersion": true,
+      "hasSerialNumberOrDocumentNamespace": true
+    },
+    "failedChecks": [],
+    "score": 100
+  },
+  "dataQuality": {
+    "issues": [
+      {
+        "componentId": "pkg:npm/react@18.2.0",
+        "field": "hashes",
+        "issue": "Missing component hashes (prefer SHA-256)"
+      },
+      {
+        "componentId": "pkg:npm/react@18.2.0",
+        "field": "supplier",
+        "issue": "Missing supplier information"
+      },
+      {
+        "componentId": "pkg:npm/lodash@4.17.21",
+        "field": "hashes",
+        "issue": "Missing component hashes (prefer SHA-256)"
+      },
+      {
+        "componentId": "pkg:npm/lodash@4.17.21",
+        "field": "supplier",
+        "issue": "Missing supplier information"
+      },
+      {
+        "componentId": "pkg:npm/express@4.18.2",
+        "field": "hashes",
+        "issue": "Missing component hashes (prefer SHA-256)"
+      },
+      {
+        "componentId": "pkg:npm/express@4.18.2",
+        "field": "supplier",
+        "issue": "Missing supplier information"
+      },
+      {
+        "componentId": "pkg:npm/axios@1.3.5",
+        "field": "hashes",
+        "issue": "Missing component hashes (prefer SHA-256)"
+      },
+      {
+        "componentId": "pkg:npm/axios@1.3.5",
+        "field": "supplier",
+        "issue": "Missing supplier information"
+      }
+    ]
+  },
+  "overallRiskScore": 100,
+  "analyzedAt": "2025-11-12T18:27:31.312Z"
+}

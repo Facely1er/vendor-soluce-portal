@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supply Chain Security Maturity Model</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 1in;
+        }
+        h1 {
+            color: #1E3B8A;
+            text-align: center;
+            border-bottom: 2px solid #1E3B8A;
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: #2D7D7D;
+            margin-top: 1.5em;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #3B82F6;
+            margin-top: 1em;
+        }
+        .info-box {
+            background-color: #f0f7ff;
+            border-left: 4px solid #3B82F6;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.9em;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f5f5f5;
+        }
+        .maturity-level-1 {
+            background-color: #fee2e2;
+        }
+        .maturity-level-2 {
+            background-color: #ffedd5;
+        }
+        .maturity-level-3 {
+            background-color: #fef3c7;
+        }
+        .maturity-level-4 {
+            background-color: #d1fae5;
+        }
+        .maturity-level-5 {
+            background-color: #bfdbfe;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 0.8em;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-top: -20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Supply Chain Security Maturity Model</h1>
+    <p class="subtitle">Aligned with NIST SP 800-161 Rev. 1</p>
+
+    <div class="info-box">
+        <p><strong>Purpose:</strong> This maturity model helps organizations assess their current supply chain security capabilities and develop a roadmap for improvement. The model is aligned with NIST SP 800-161 and provides a framework for measuring progress in implementing supply chain security practices.</p>
+        <p><strong>How to Use:</strong> Evaluate your organization's current state for each capability area. Identify gaps between current and desired maturity levels. Develop action plans to advance to higher maturity levels.</p>
+    </div>
+
+    <h2>Maturity Levels Overview</h2>
+    
+    <table>
+        <tr>
+            <th>Level</th>
+            <th>Title</th>
+            <th>Description</th>
+        </tr>
+        <tr class="maturity-level-1">
+            <td><strong>1</strong></td>
+            <td>Initial</td>
+            <td>Supply chain security practices are ad hoc, reactive, and not formalized. Limited awareness of supply chain risks.</td>
+        </tr>
+        <tr class="maturity-level-2">
+            <td><strong>2</strong></td>
+            <td>Developing</td>
+            <td>Basic supply chain security practices are established but implementation is inconsistent. Some policies exist but may not be comprehensive.</td>
+        </tr>
+        <tr class="maturity-level-3">
+            <td><strong>3</strong></td>
+            <td>Defined</td>
+            <td>Formal supply chain security processes are documented and standardized across the organization. Consistent application of controls.</td>
+        </tr>
+        <tr class="maturity-level-4">
+            <td><strong>4</strong></td>
+            <td>Managed</td>
+            <td>Supply chain security is quantitatively measured and controlled. Detailed metrics are collected and used to improve processes.</td>
+        </tr>
+        <tr class="maturity-level-5">
+            <td><strong>5</strong></td>
+            <td>Optimizing</td>
+            <td>Continuous improvement of supply chain security through innovative approaches, advanced analytics, and proactive risk management.</td>
+        </tr>
+    </table>
+
+    <h2>Capability Domain 1: Governance & Strategy</h2>
+    
+    <table>
+        <tr>
+            <th>Capability</th>
+            <th>Level 1: Initial</th>
+            <th>Level 2: Developing</th>
+            <th>Level 3: Defined</th>
+            <th>Level 4: Managed</th>
+            <th>Level 5: Optimizing</th>
+        </tr>
+        <tr>
+            <td><strong>SCRM Program</strong></td>
+            <td class="maturity-level-1">No formal SCRM program exists</td>
+            <td class="maturity-level-2">Basic SCRM program established with limited scope</td>
+            <td class="maturity-level-3">Comprehensive SCRM program with documented processes across organization</td>
+            <td class="maturity-level-4">SCRM program with quantitative objectives and measurements</td>
+            <td class="maturity-level-5">SCRM program continuously improved based on metrics and emerging practices</td>
+        </tr>
+        <tr>
+            <td><strong>Governance Structure</strong></td>
+            <td class="maturity-level-1">No defined roles or responsibilities for SCRM</td>
+            <td class="maturity-level-2">Some roles defined but limited executive involvement</td>
+            <td class="maturity-level-3">Clear roles, responsibilities, and oversight structure established</td>
+            <td class="maturity-level-4">Executive-level oversight with performance metrics reviewed regularly</td>
+            <td class="maturity-level-5">Integrated governance structure with dynamic adjustment based on changing risk landscape</td>
+        </tr>
+        <tr>
+            <td><strong>Risk Management Strategy</strong></td>
+            <td class="maturity-level-1">No documented supply chain risk strategy</td>
+            <td class="maturity-level-2">Basic strategy exists but not fully implemented</td>
+            <td class="maturity-level-3">Comprehensive strategy aligned with organizational objectives</td>
+            <td class="maturity-level-4">Strategy includes quantitative risk tolerance and measurement</td>
+            <td class="maturity-level-5">Strategy is regularly reviewed and adapted based on emerging threats and organizational changes</td>
+        </tr>
+    </table>
+
+    <h2>Capability Domain 2: Supplier Risk Management</h2>
+    
+    <table>
+        <tr>
+            <th>Capability</th>
+            <th>Level 1: Initial</th>
+            <th>Level 2: Developing</th>
+            <th>Level 3: Defined</th>
+            <th>Level 4: Managed</th>
+            <th>Level 5: Optimizing</th>
+        </tr>
+        <tr>
+            <td><strong>Supplier Assessment Process</strong></td>
+            <td class="maturity-level-1">Ad hoc or no formal assessment process</td>
+            <td class="maturity-level-2">Basic assessment process for critical suppliers only</td>
+            <td class="maturity-level-3">Standardized assessment process for all suppliers with tiered approach</td>
+            <td class="maturity-level-4">Data-driven assessment process with detailed metrics and trends analysis</td>
+            <td class="maturity-level-5">Predictive supplier risk modeling and continuous improvement of assessment methods</td>
+        </tr>
+        <tr>
+            <td><strong>Supplier Contracts</strong></td>
+            <td class="maturity-level-1">No security requirements in contracts</td>
+            <td class="maturity-level-2">Basic security clauses in some contracts</td>
+            <td class="maturity-level-3">Standardized security requirements in all contracts with right-to-audit</td>
+            <td class="maturity-level-4">Tiered security requirements based on risk with performance metrics</td>
+            <td class="maturity-level-5">Dynamic contract requirements that adapt to changing threat landscape</td>
+        </tr>
+        <tr>
+            <td><strong>Supplier Monitoring</strong></td>
+            <td class="maturity-level-1">No ongoing monitoring of suppliers</td>
+            <td class="maturity-level-2">Periodic reassessment of critical suppliers only</td>
+            <td class="maturity-level-3">Regular monitoring program for all suppliers with defined frequency</td>
+            <td class="maturity-level-4">Continuous monitoring with automated alerts for risk changes</td>
+            <td class="maturity-level-5">Predictive monitoring using AI/ML and external threat intelligence</td>
+        </tr>
+    </table>
+
+    <h2>Capability Domain 3: Product Security</h2>
+    
+    <table>
+        <tr>
+            <th>Capability</th>
+            <th>Level 1: Initial</th>
+            <th>Level 2: Developing</th>
+            <th>Level 3: Defined</th>
+            <th>Level 4: Managed</th>
+            <th>Level 5: Optimizing</th>
+        </tr>
+        <tr>
+            <td><strong>Component Validation</strong></td>
+            <td class="maturity-level-1">No validation of components</td>
+            <td class="maturity-level-2">Basic validation for select critical components</td>
+            <td class="maturity-level-3">Standardized validation procedures for all components</td>
+            <td class="maturity-level-4">Comprehensive validation with quantifiable integrity measures</td>
+            <td class="maturity-level-5">Advanced provenance tracking and real-time validation capabilities</td>
+        </tr>
+        <tr>
+            <td><strong>SBOM Management</strong></td>
+            <td class="maturity-level-1">No use of SBOMs</td>
+            <td class="maturity-level-2">Basic SBOM collection for critical systems only</td>
+            <td class="maturity-level-3">Standardized SBOM requirements and analysis for all software</td>
+            <td class="maturity-level-4">Automated SBOM analysis with integration to vulnerability management</td>
+            <td class="maturity-level-5">Real-time SBOM monitoring with automated risk mitigation</td>
+        </tr>
+        <tr>
+            <td><strong>Vulnerability Management</strong></td>
+            <td class="maturity-level-1">Reactive vulnerability management</td>
+            <td class="maturity-level-2">Basic scanning of critical systems</td>
+            <td class="maturity-level-3">Comprehensive vulnerability management program with defined processes</td>
+            <td class="maturity-level-4">Metrics-driven vulnerability prioritization and remediation tracking</td>
+            <td class="maturity-level-5">Automated vulnerability remediation and proactive vulnerability prediction</td>
+        </tr>
+    </table>
+
+    <h2>Capability Domain 4: Incident Management</h2>
+    
+    <table>
+        <tr>
+            <th>Capability</th>
+            <th>Level 1: Initial</th>
+            <th>Level 2: Developing</th>
+            <th>Level 3: Defined</th>
+            <th>Level 4: Managed</th>
+            <th>Level 5: Optimizing</th>
+        </tr>
+        <tr>
+            <td><strong>Supply Chain Incident Response</strong></td>
+            <td class="maturity-level-1">No specific supply chain incident procedures</td>
+            <td class="maturity-level-2">Basic procedures for supply chain incidents</td>
+            <td class="maturity-level-3">Comprehensive incident response plan with supplier coordination</td>
+            <td class="maturity-level-4">Regularly tested incident response with performance metrics</td>
+            <td class="maturity-level-5">Advanced simulation capabilities and continuous improvement of response</td>
+        </tr>
+        <tr>
+            <td><strong>Communication Protocols</strong></td>
+            <td class="maturity-level-1">Ad hoc communication during incidents</td>
+            <td class="maturity-level-2">Basic notification protocols for critical incidents</td>
+            <td class="maturity-level-3">Documented communication procedures for all stakeholders</td>
+            <td class="maturity-level-4">Tested and measured communication effectiveness</td>
+            <td class="maturity-level-5">Automated, secure communication channels with all supply chain stakeholders</td>
+        </tr>
+        <tr>
+            <td><strong>Recovery Planning</strong></td>
+            <td class="maturity-level-1">Limited or no recovery plans for supply chain disruptions</td>
+            <td class="maturity-level-2">Basic recovery plans for critical components</td>
+            <td class="maturity-level-3">Comprehensive recovery procedures for all supply chain elements</td>
+            <td class="maturity-level-4">Regularly tested recovery capabilities with time-to-recover metrics</td>
+            <td class="maturity-level-5">Dynamic recovery strategies with automated failover for critical functions</td>
+        </tr>
+    </table>
+
+    <h2>Capability Domain 5: Information Sharing</h2>
+    
+    <table>
+        <tr>
+            <th>Capability</th>
+            <th>Level 1: Initial</th>
+            <th>Level 2: Developing</th>
+            <th>Level 3: Defined</th>
+            <th>Level 4: Managed</th>
+            <th>Level 5: Optimizing</th>
+        </tr>
+        <tr>
+            <td><strong>Threat Intelligence Sharing</strong></td>
+            <td class="maturity-level-1">No sharing of supply chain threat intelligence</td>
+            <td class="maturity-level-2">Ad hoc sharing of critical threats with key suppliers</td>
+            <td class="maturity-level-3">Formal process for sharing relevant threats with all suppliers</td>
+            <td class="maturity-level-4">Metrics-driven intelligence sharing with effectiveness tracking</td>
+            <td class="maturity-level-5">Automated, bi-directional threat intelligence sharing ecosystem</td>
+        </tr>
+        <tr>
+            <td><strong>Information Protection</strong></td>
+            <td class="maturity-level-1">No controls for shared supply chain information</td>
+            <td class="maturity-level-2">Basic confidentiality controls for sensitive information</td>
+            <td class="maturity-level-3">Comprehensive information protection controls with classification</td>
+            <td class="maturity-level-4">Measured effectiveness of information protection controls</td>
+            <td class="maturity-level-5">Advanced data protection with real-time monitoring and AI-driven controls</td>
+        </tr>
+        <tr>
+            <td><strong>Community Participation</strong></td>
+            <td class="maturity-level-1">No participation in SCRM information sharing communities</td>
+            <td class="maturity-level-2">Limited participation in industry groups</td>
+            <td class="maturity-level-3">Active participation in relevant information sharing communities</td>
+            <td class="maturity-level-4">Leadership roles in information sharing initiatives with measured value</td>
+            <td class="maturity-level-5">Driving innovation in community-based threat intelligence sharing</td>
+        </tr>
+    </table>
+
+    <h2>Implementation with VendorSoluce</h2>
+    
+    <p>VendorSoluce provides tools and capabilities to help organizations advance their maturity in each of the capability domains:</p>
+    
+    <h3>Assessment Tools</h3>
+    <ul>
+        <li>Maturity Self-Assessment Questionnaire</li>
+        <li>Gap Analysis Dashboard</li>
+        <li>Maturity Roadmap Generator</li>
+        <li>Progress Tracking Tools</li>
+    </ul>
+
+    <h3>Implementation Resources</h3>
+    <ul>
+        <li>Domain-specific implementation guides</li>
+        <li>Best practice templates for each capability</li>
+        <li>Policy and procedure templates</li>
+        <li>Training materials for stakeholders</li>
+    </ul>
+
+    <h3>Continuous Improvement</h3>
+    <ul>
+        <li>Regular maturity reassessment</li>
+        <li>Benchmarking against industry peers</li>
+        <li>Detailed metrics to measure progress</li>
+        <li>Roadmap updates based on changing requirements</li>
+    </ul>
+
+    <div class="info-box">
+        <p><strong>Federal Agency Guidance:</strong> Federal agencies should target at least Maturity Level 3 (Defined) across all capability domains to meet NIST SP 800-161 requirements. High-impact systems or agencies with elevated risk profiles should target Level 4 (Managed) for critical capabilities.</p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 VendorSoluce. All rights reserved.</p>
+        <p>Based on NIST SP 800-161 Rev. 1 and industry best practices for supply chain security maturity.</p>
+        <p>For more information, contact <a href="mailto:federal@vendorsoluce.com">federal@vendorsoluce.com</a></p>
+    </div>
+</body>
+</html>

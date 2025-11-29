@@ -1,0 +1,21 @@
+/* Vendor Verification Component Styles */
+
+.vendor-verification-progress-bar-container {
+  width: 100%;
+  background-color: rgb(229 231 235); /* bg-gray-200 */
+  border-radius: 9999px; /* rounded-full */
+  height: 0.5rem; /* h-2 */
+}
+
+.dark .vendor-verification-progress-bar-container {
+  background-color: rgb(55 65 81); /* dark:bg-gray-700 */
+}
+
+.vendor-verification-progress-bar-fill {
+  background-color: var(--vendorsoluce-green, #33691E); /* bg-vendorsoluce-green */
+  height: 0.5rem; /* h-2 */
+  border-radius: 9999px; /* rounded-full */
+  transition: all 300ms ease-out;
+  width: var(--vendor-verification-progress-width, 0%);
+}
+

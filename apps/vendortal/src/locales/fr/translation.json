@@ -1,0 +1,3183 @@
+{
+  "contact": {
+    "title": "Nous Contacter",
+    "description": "Nous sommes là pour vous aider à sécuriser votre chaîne d'approvisionnement. N'hésitez pas à nous contacter pour toute question concernant notre plateforme ou la gestion des risques de la chaîne d'approvisionnement.",
+    "form": {
+      "title": "Entrer en Contact",
+      "fields": {
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "email": "Adresse Email",
+        "phone": "Numéro de Téléphone",
+        "company": "Entreprise",
+        "message": "Message",
+        "messagePlaceholder": "Veuillez fournir des détails sur votre demande...",
+        "topic": {
+          "label": "Comment pouvons-nous vous aider ?",
+          "placeholder": "Sélectionnez un sujet",
+          "options": {
+            "productInfo": "Informations Produit",
+            "techSupport": "Support Technique",
+            "demo": "Planifier une Démo",
+            "partnership": "Opportunités de Partenariat",
+            "compliance": "Questions de Conformité Fédérale",
+            "other": "Autre"
+          }
+        },
+        "termsPrefix": "J'accepte la",
+        "privacyPolicy": "politique de confidentialité",
+        "termsSuffix": "et consens à être contacté concernant ma demande."
+      },
+      "validation": {
+        "requiredFields": "Veuillez remplir tous les champs obligatoires.",
+        "termsRequired": "Veuillez accepter la politique de confidentialité.",
+        "submitError": "Échec de l'envoi de votre message. Veuillez réessayer plus tard."
+      },
+      "submit": "Envoyer",
+      "submitting": "Envoi en cours...",
+      "success": {
+        "title": "Merci !",
+        "message": "Nous avons reçu votre message et vous répondrons sous peu.",
+        "sendAnother": "Envoyer un Autre Message"
+      }
+    },
+    "info": {
+      "title": "Informations de Contact",
+      "email": {
+        "label": "Email",
+        "value": "contact@ermits.com"
+      },
+      "phone": {
+        "label": "Téléphone",
+        "value": "+1 (240) 599-0102"
+      },
+      "address": {
+        "label": "Siège Social",
+        "line1": "8300 McCullough Lane",
+        "line2": "Suite 203",
+        "line3": "Gaithersburg, MD 20877"
+      },
+      "hours": {
+        "label": "Horaires",
+        "weekdays": "Lundi - Vendredi : 9h00 - 18h00 ET",
+        "weekends": "Samedi - Dimanche : Fermé"
+      }
+    },
+    "demo": {
+      "title": "Planifier une Démo",
+      "description": "Découvrez comment VendorTal™ Risk Review peut aider à sécuriser votre chaîne d'approvisionnement et répondre aux exigences de conformité fédérale.",
+      "duration": "Démo personnalisée de 30 minutes",
+      "button": "Planifier Maintenant"
+    },
+    "faq": {
+      "title": "Questions Fréquemment Posées",
+      "questions": {
+        "nist": {
+          "question": "Comment VendorTal™ Risk Review aide-t-il avec la conformité NIST 800-161 ?",
+          "answer": "VendorTal™ Risk Review fournit des modèles d'évaluation, des mappages de contrôles et une notation des risques qui s'alignent avec les exigences NIST SP 800-161, facilitant la mise en œuvre et la documentation du programme de gestion des risques de la chaîne d'approvisionnement des organisations."
+        },
+        "integration": {
+          "question": "VendorTal™ Risk Review peut-il s'intégrer avec notre plateforme GRC existante ?",
+          "answer": "Oui, VendorTal™ Risk Review offre des intégrations API avec les principales plateformes GRC incluant ServiceNow, RSA Archer, MetricStream, et plus. Nos guides d'intégration fournissent des instructions étape par étape."
+        },
+        "sbom": {
+          "question": "Quels formats SBOM VendorTal™ Risk Review supporte-t-il ?",
+          "answer": "VendorTal™ Risk Review supporte tous les principaux formats SBOM incluant SPDX (JSON, XML, RDF), CycloneDX (JSON, XML), et peut également traiter des listes de composants en texte simple."
+        },
+        "setup": {
+          "question": "À quelle vitesse pouvons-nous commencer avec VendorTal™ Risk Review ?",
+          "answer": "La plupart des clients sont opérationnels en une journée. Notre processus d'intégration inclut un gestionnaire de succès client dédié, et notre plateforme est conçue pour une configuration en libre-service facile."
+        },
+        "services": {
+          "question": "VendorTal™ Risk Review offre-t-il des services professionnels ?",
+          "answer": "Oui, nous offrons des services professionnels pour les clients qui ont besoin d'aide avec l'implémentation, la personnalisation, ou la création de modèles d'évaluation personnalisés pour des industries ou exigences de conformité spécifiques."
+        },
+        "security": {
+          "question": "Quelles certifications de sécurité VendorTal™ Risk Review a-t-il ?",
+          "answer": "VendorTal™ Risk Review est certifié SOC 2 Type II et conforme FedRAMP Moderate, assurant que vos données sont protégées selon les plus hauts standards de l'industrie."
+        }
+      }
+    },
+    "cta": {
+      "title": "Prêt à sécuriser votre chaîne d'approvisionnement ?",
+      "description": "Commencez avec VendorTal™ Risk Review aujourd'hui et apportez la conformité NIST SP 800-161 à votre organisation.",
+      "demoButton": "Planifier une Démo",
+      "freeButton": "Essayer Gratuitement"
+    }
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour : 15 avril 2025",
+    "section1": {
+      "title": "1. Introduction",
+      "paragraph1": "VendorTal™ Risk Review (\"nous\", \"notre\", ou \"nos\") s'engage à protéger votre confidentialité. Cette Politique de Confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous visitez notre site web vendortal.com, utilisez notre plateforme, ou utilisez notre application mobile (collectivement, les \"Services\").",
+      "paragraph2": "Veuillez lire attentivement cette Politique de Confidentialité. Si vous n'acceptez pas les termes de cette Politique de Confidentialité, veuillez ne pas accéder aux Services. En accédant ou utilisant nos Services, vous consentez à la collecte, l'utilisation et le stockage de vos informations comme décrit dans cette Politique de Confidentialité.",
+      "paragraph3": "Nous nous réservons le droit d'apporter des modifications à cette Politique de Confidentialité à tout moment et pour toute raison. Nous vous alerterons de tout changement en mettant à jour la date de \"Dernière mise à jour\" de cette Politique de Confidentialité. Vous êtes encouragé à examiner périodiquement cette Politique de Confidentialité pour rester informé des mises à jour."
+    },
+    "section2": {
+      "title": "2. Informations Que Nous Collectons",
+      "personalInfo": {
+        "title": "Informations Personnelles",
+        "description": "Nous pouvons collecter des informations personnelles que vous nous fournissez volontairement lorsque vous vous inscrivez sur les Services, exprimez un intérêt à obtenir des informations sur nous ou nos produits et Services, participez à des activités sur les Services, ou nous contactez autrement. Les informations personnelles que nous collectons peuvent inclure :",
+        "items": {
+          "contact": "Nom, adresse email, numéro de téléphone, et données de contact ou d'authentification",
+          "billing": "Adresse de facturation, informations de paiement, et données financières",
+          "employer": "Informations sur l'employeur et titre du poste",
+          "preferences": "Préférences et paramètres utilisateur",
+          "other": "Autres informations que vous choisissez de fournir"
+        }
+      },
+      "automaticData": {
+        "title": "Données Collectées Automatiquement",
+        "description": "Nous collectons automatiquement certaines informations lorsque vous visitez, utilisez ou naviguez sur les Services. Ces informations ne révèlent pas votre identité spécifique mais peuvent inclure :",
+        "items": {
+          "device": "Informations sur l'appareil et l'utilisation, telles que votre adresse IP, caractéristiques du navigateur et de l'appareil, système d'exploitation, préférences linguistiques, URL de référence, nom de l'appareil, pays, localisation, et informations sur comment et quand vous utilisez nos Services",
+          "tracking": "Informations collectées via des cookies, balises pixel, et autres technologies de suivi"
+        }
+      },
+      "thirdParty": {
+        "title": "Informations de Tiers",
+        "description": "Nous pouvons collecter des informations vous concernant à partir de sources tierces, telles que des bases de données publiques, partenaires de marketing conjoint, plateformes de médias sociaux, et autres tiers. Des exemples d'informations que nous recevons d'autres sources incluent des informations de profil de médias sociaux, des prospects marketing, et des résultats de recherche et liens, incluant des listes payantes."
+      }
+    },
+    "section3": {
+      "title": "3. Comment Nous Utilisons Vos Informations",
+      "description": "Nous utilisons les informations que nous collectons à diverses fins commerciales, incluant :",
+      "items": {
+        "provide": "Fournir, exploiter et maintenir nos Services",
+        "improve": "Améliorer, personnaliser et étendre nos Services",
+        "understand": "Comprendre et analyser comment vous utilisez nos Services",
+        "develop": "Développer de nouveaux produits, services, fonctionnalités et fonctionnalités",
+        "communicate": "Communiquer avec vous, incluant le service client, les mises à jour et les fins marketing",
+        "process": "Traiter vos transactions et gérer votre compte",
+        "fraud": "Trouver et prévenir la fraude, et répondre aux problèmes de confiance et de sécurité",
+        "compliance": "À des fins de conformité, processus légal et application de la loi"
+      }
+    },
+    "section4": {
+      "title": "4. Partage de Vos Informations",
+      "description": "Nous pouvons partager vos informations dans les situations suivantes :",
+      "items": {
+        "serviceProviders": {
+          "title": "Fournisseurs de Services",
+          "description": "Nous pouvons partager vos informations avec des fournisseurs tiers, prestataires de services, contractants ou agents qui fournissent des services pour nous ou en notre nom."
+        },
+        "businessTransfers": {
+          "title": "Transferts d'Entreprise",
+          "description": "Nous pouvons partager ou transférer vos informations en relation avec, ou pendant les négociations de, toute fusion, vente d'actifs d'entreprise, financement, ou acquisition de tout ou partie de notre entreprise à une autre société."
+        },
+        "affiliates": {
+          "title": "Affiliés",
+          "description": "Nous pouvons partager vos informations avec nos affiliés, auquel cas nous exigerons que ces affiliés respectent cette Politique de Confidentialité."
+        },
+        "businessPartners": {
+          "title": "Partenaires Commerciaux",
+          "description": "Nous pouvons partager vos informations avec nos partenaires commerciaux pour vous offrir certains produits, services ou promotions."
+        },
+        "consent": {
+          "title": "Avec Votre Consentement",
+          "description": "Nous pouvons divulguer vos informations à toute autre fin avec votre consentement."
+        },
+        "otherUsers": {
+          "title": "Autres Utilisateurs",
+          "description": "Lorsque vous partagez des informations personnelles ou interagissez autrement avec des zones publiques des Services, ces informations peuvent être vues par tous les utilisateurs et peuvent être distribuées publiquement."
+        }
+      }
+    },
+    "section5": {
+      "title": "5. Sécurité de Vos Informations",
+      "description": "Nous utilisons des mesures de sécurité administratives, techniques et physiques pour aider à protéger vos informations personnelles contre l'accès, l'utilisation ou la divulgation non autorisés. Celles-ci incluent :",
+      "items": {
+        "encryption": "Chiffrement des données sensibles au repos et en transit",
+        "assessments": "Évaluations de sécurité régulières et tests de pénétration",
+        "accessControls": "Contrôles d'accès et exigences d'authentification",
+        "monitoring": "Surveillance des activités suspectes",
+        "physical": "Sécurité physique de nos centres de données et bureaux"
+      },
+      "disclaimer": "Bien que nous ayons mis en place des mesures de sécurité raisonnables, veuillez comprendre qu'aucun système de sécurité n'est impénétrable, et nous ne pouvons pas garantir la sécurité absolue de nos bases de données, ni garantir que les informations que vous fournissez ne seront pas interceptées lors de la transmission sur Internet."
+    },
+    "section6": {
+      "title": "6. Vos Droits de Confidentialité",
+      "description": "Selon votre localisation, vous pouvez avoir les droits suivants concernant vos informations personnelles :",
+      "rights": {
+        "access": {
+          "title": "Droit d'Accès",
+          "description": "Vous pouvez demander à examiner les informations personnelles que nous avons collectées à votre sujet."
+        },
+        "rectification": {
+          "title": "Droit de Rectification",
+          "description": "Vous pouvez demander que nous corrigions toute information personnelle inexacte ou incomplète."
+        },
+        "erasure": {
+          "title": "Droit à l'Effacement",
+          "description": "Vous pouvez demander la suppression de vos informations personnelles, sous réserve de certaines exceptions."
+        },
+        "restrict": {
+          "title": "Droit de Restreindre le Traitement",
+          "description": "Vous pouvez demander que nous restreignions le traitement de vos informations dans certaines circonstances."
+        },
+        "portability": {
+          "title": "Droit à la Portabilité des Données",
+          "description": "Vous pouvez demander une copie de vos informations personnelles dans un format structuré et lisible par machine."
+        },
+        "object": {
+          "title": "Droit d'Objection",
+          "description": "Vous pouvez vous opposer à notre traitement de vos informations personnelles dans certaines circonstances."
+        }
+      },
+      "exercise": "Pour exercer ces droits, veuillez nous contacter en utilisant les informations de contact fournies à la fin de cette Politique de Confidentialité. Nous répondrons à votre demande dans un délai raisonnable."
+    },
+    "section7": {
+      "title": "7. Cookies et Technologies de Suivi",
+      "paragraph1": "Nous utilisons des cookies et des technologies de suivi similaires pour collecter et utiliser des informations vous concernant, y compris pour diffuser de la publicité basée sur les intérêts. Les cookies sont de petits fichiers de données placés sur votre appareil. Nous utilisons à la fois des cookies de session (qui expirent une fois que vous fermez votre navigateur web) et des cookies persistants (qui restent sur votre appareil jusqu'à ce que vous les supprimiez).",
+      "paragraph2": "Vous pouvez configurer votre navigateur pour refuser tous ou certains cookies de navigateur, ou pour vous alerter lorsque des cookies sont envoyés. Cependant, si vous désactivez ou refusez les cookies, veuillez noter que certaines parties des Services peuvent être inaccessibles ou ne pas fonctionner correctement."
+    },
+    "section8": {
+      "title": "8. Confidentialité des Enfants",
+      "paragraph1": "Nos Services ne sont pas destinés à être utilisés par des enfants de moins de 18 ans. Nous ne collectons pas sciemment d'informations personnelles d'enfants de moins de 18 ans. Si vous avez moins de 18 ans, n'utilisez pas et ne fournissez aucune information sur nos Services. Si nous apprenons que nous avons collecté ou reçu des informations personnelles d'un enfant de moins de 18 ans sans vérification du consentement parental, nous supprimerons ces informations."
+    },
+    "section9": {
+      "title": "9. Transferts Internationaux de Données",
+      "paragraph1": "Nous sommes basés aux États-Unis et traitons les données à la fois à l'intérieur et à l'extérieur des États-Unis. Si vous accédez à nos Services depuis l'extérieur des États-Unis, veuillez être conscient que vos informations peuvent être transférées vers, stockées et traitées par nous dans nos installations et par nos fournisseurs de services tiers aux États-Unis et dans d'autres pays.",
+      "paragraph2": "Si vous êtes un résident de l'Espace Économique Européen (EEE), nous nous assurons que vos données sont protégées lorsqu'elles sont transférées en dehors de l'EEE. Nous nous appuyons sur des mécanismes tels que les clauses contractuelles standard, la certification Privacy Shield, ou d'autres moyens légaux pour transférer des données à l'international."
+    },
+    "section10": {
+      "title": "10. Conservation des Données",
+      "description": "Nous ne conserverons vos informations personnelles que le temps nécessaire aux fins énoncées dans cette Politique de Confidentialité. Nous conserverons et utiliserons vos informations dans la mesure nécessaire pour nous conformer à nos obligations légales, résoudre les litiges et faire respecter nos politiques. Lorsque nous n'avons plus besoin de vos informations personnelles, nous les supprimerons ou les anonymiserons de manière sécurisée."
+    },
+    "section11": {
+      "title": "11. Nous Contacter",
+      "description": "Si vous avez des questions ou des commentaires sur cette Politique de Confidentialité, veuillez nous contacter à :",
+      "contact": {
+        "company": "VendorTal™ Risk Review",
+        "address1": "8300 McCullough Lane, Suite 203",
+        "address2": "Gaithersburg, MD 20877",
+        "email": "Email : contact@ermits.com",
+        "phone": "Téléphone : +1 (240) 599-0102"
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "À Propos de VendorTal™ Risk Review",
+      "subtitle": "Nous avons pour mission de rendre la sécurité de la chaîne d'approvisionnement accessible, exploitable et alignée sur les normes fédérales pour les organisations de toutes tailles."
+    },
+    "story": {
+      "title": "Notre Histoire",
+      "paragraph1": "VendorTal™ Risk Review a été fondé en 2023 par une équipe d'experts en cybersécurité et chaîne d'approvisionnement qui ont reconnu le besoin critique de meilleurs outils pour gérer les risques tiers, en particulier pour les organisations travaillant avec des contrats fédéraux.",
+      "paragraph2": "Après des années à aider les organisations à implémenter manuellement les contrôles NIST SP 800-161 et à lutter avec des feuilles de calcul et des outils déconnectés, nous avons décidé de construire une plateforme complète qui rend la gestion des risques de la chaîne d'approvisionnement accessible, efficace et alignée sur les exigences fédérales.",
+      "paragraph3": "Aujourd'hui, VendorTal™ Risk Review aide les organisations de toutes tailles à évaluer, surveiller et atténuer les risques dans leur chaîne d'approvisionnement avec des outils puissants conçus spécifiquement pour la conformité NIST SP 800-161."
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Sécuriser la chaîne d'approvisionnement numérique en rendant les évaluations de sécurité de niveau entreprise accessibles à toutes les organisations et en les alignant sur les exigences de conformité fédérale."
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "description": "Un monde où les organisations peuvent gérer en toute confiance les risques de leur chaîne d'approvisionnement avec des outils puissants mais simples à utiliser, leur permettant de se concentrer sur l'innovation tout en maintenant la sécurité et la conformité."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "security": {
+        "title": "Sécurité d'Abord",
+        "description": "Nous croyons en la sécurité par conception, pas comme une réflexion après coup. Ce principe guide notre développement de produits et nos opérations d'entreprise."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "Nous visons l'excellence dans tout ce que nous faisons, de la qualité de nos produits au support client, et maintenons les plus hauts standards."
+      },
+      "integrity": {
+        "title": "Intégrité",
+        "description": "Nous construisons la confiance par la transparence, une communication honnête, et en faisant toujours ce qui est juste pour nos clients et partenaires."
+      }
+    },
+    "whyChoose": {
+      "title": "Pourquoi Choisir VendorTal™ Risk Review",
+      "nistAlignment": {
+        "title": "Alignement NIST",
+        "description": "Notre plateforme est construite spécifiquement pour la conformité NIST SP 800-161, la rendant idéale pour les contractants fédéraux et les organisations travaillant avec des agences gouvernementales."
+      },
+      "federalExperience": {
+        "title": "Expérience Fédérale",
+        "description": "Fondé par des dirigeants ayant une vaste expérience de travail avec des agences fédérales et des contractants sur les défis de sécurité de la chaîne d'approvisionnement."
+      },
+      "comprehensiveSolution": {
+        "title": "Solution Complète",
+        "description": "Des évaluations de fournisseurs à l'analyse SBOM et aux tableaux de bord de risques, nous fournissons tous les outils dont vous avez besoin pour une gestion efficace des risques de la chaîne d'approvisionnement."
+      },
+      "apiFirst": {
+        "title": "Architecture API-First",
+        "description": "Notre approche API-first permet une intégration transparente avec vos systèmes, flux de travail et outils de sécurité existants."
+      }
+    },
+    "careers": {
+      "title": "Rejoignez Notre Équipe",
+      "subtitle": "Nous recherchons toujours des individus talentueux passionnés par la sécurité, la gestion des risques de la chaîne d'approvisionnement et la construction de grands produits.",
+      "jobs": {
+        "securityEngineer": {
+          "title": "Ingénieur Sécurité",
+          "description": "Aidez à construire et sécuriser notre plateforme en vous concentrant sur les meilleures pratiques de sécurité de la chaîne d'approvisionnement.",
+          "details": "Télétravail • Temps plein"
+        },
+        "productManager": {
+          "title": "Chef de Produit",
+          "description": "Dirigez le développement de nouvelles fonctionnalités axées sur la gestion des risques de la chaîne d'approvisionnement.",
+          "details": "Télétravail • Temps plein"
+        },
+        "customerSuccess": {
+          "title": "Ingénieur Succès Client",
+          "description": "Aidez les clients à implémenter et tirer le meilleur parti de nos outils de gestion des risques de la chaîne d'approvisionnement.",
+          "details": "Télétravail • Temps plein"
+        }
+      },
+      "viewAllPositions": "Voir Tous les Postes Ouverts"
+    }
+  },
+  "assetDashboard": {
+    "loading": "Chargement du tableau de bord...",
+    "title": "Tableau de Bord des Risques Actifs-Fournisseurs",
+    "subtitle": "Vue complète de l'inventaire des actifs et des relations fournisseurs",
+    "addAsset": "Ajouter un Actif",
+    "tabs": {
+      "overview": "Aperçu",
+      "assets": "Actifs",
+      "vendors": "Fournisseurs",
+      "relationships": "Relations",
+      "alerts": "Alertes"
+    },
+    "search": {
+      "placeholder": "Rechercher des actifs, fournisseurs ou relations..."
+    },
+    "filters": {
+      "allItems": "Tous les Éléments",
+      "assetsOnly": "Actifs Seulement",
+      "vendorsOnly": "Fournisseurs Seulement",
+      "allRisks": "Tous les Niveaux de Risque",
+      "lowRisk": "Risque Faible",
+      "mediumRisk": "Risque Moyen",
+      "highRisk": "Risque Élevé",
+      "criticalRisk": "Risque Critique"
+    },
+    "matrix": {
+      "title": "Matrice des Risques Actifs-Fournisseurs"
+    },
+    "primaryVendor": "Fournisseur Principal : ",
+    "recentAlerts": "Alertes Récentes",
+    "assets": {
+      "title": "Actifs"
+    },
+    "vendors": {
+      "title": "Fournisseurs"
+    },
+    "relationships": {
+      "title": "Relations Actifs-Fournisseurs"
+    },
+    "systemAlerts": "Alertes Système",
+    "table": {
+      "asset": "Actif",
+      "type": "Type",
+      "criticality": "Criticité",
+      "riskScore": "Score de Risque",
+      "vendors": "Fournisseurs",
+      "vendor": "Fournisseur",
+      "industry": "Industrie",
+      "assets": "Actifs",
+      "criticalAssets": "Actifs Critiques"
+    },
+    "risk": {
+      "label": "Risque {{level}}"
+    },
+    "notAssessed": "Non évalué",
+    "vendorCount": "{{count}} fournisseur(s)",
+    "relationshipCount": "{{count}} relation(s)",
+    "assetCount": "{{count}} actif(s)",
+    "criticalCount": "{{count}} critique(s)",
+    "unknownVendor": "Fournisseur Inconnu",
+    "access": "accès",
+    "acknowledge": "Reconnaître"
+  },
+  "onboarding": {
+    "welcome": {
+      "title": "Bienvenue sur VendorTal™ Risk Review",
+      "subtitle": "Votre plateforme complète de gestion des risques de la chaîne d'approvisionnement",
+      "greeting": "Bienvenue, {{name}} !",
+      "description": "VendorTal™ Risk Review vous aide à évaluer, surveiller et atténuer les risques tiers dans votre chaîne d'approvisionnement avec des outils alignés sur NIST SP 800-161.",
+      "cards": {
+        "assessVendors": {
+          "title": "Évaluer les Fournisseurs",
+          "desc": "Évaluations conformes NIST 800-161"
+        },
+        "monitorRisks": {
+          "title": "Surveiller les Risques",
+          "desc": "Tableaux de bord de risques en temps réel"
+        },
+        "analyzeSboms": {
+          "title": "Analyser les SBOM",
+          "desc": "Analyse des nomenclatures logicielles"
+        }
+      }
+    },
+    "profile": {
+      "title": "Votre Rôle et Organisation",
+      "subtitle": "Aidez-nous à personnaliser votre expérience",
+      "header": "Parlez-nous de vous",
+      "helper": "Cela nous aide à vous montrer les fonctionnalités et le contenu les plus pertinents",
+      "roleLabel": "Votre Rôle Principal",
+      "sizeLabel": "Taille de l'Organisation",
+      "industryLabel": "Industrie",
+      "role": {
+        "placeholder": "Sélectionnez votre rôle",
+        "security": "Professionnel de la Sécurité",
+        "procurement": "Responsable des Achats",
+        "compliance": "Responsable de la Conformité",
+        "risk": "Responsable des Risques",
+        "it": "Responsable IT",
+        "executive": "Dirigeant"
+      },
+      "size": {
+        "placeholder": "Sélectionnez la taille",
+        "startup": "Startup (1-50 employés)",
+        "small": "Petite Entreprise (51-200 employés)",
+        "medium": "Entreprise Moyenne (201-1000 employés)",
+        "large": "Grande Entreprise (1000+ employés)"
+      },
+      "industry": {
+        "placeholder": "Sélectionnez l'industrie",
+        "technology": "Technologie",
+        "healthcare": "Santé",
+        "financial": "Services Financiers",
+        "manufacturing": "Manufacture",
+        "government": "Secteur Public/Gouvernemental",
+        "defense": "Défense/Aérospatial",
+        "energy": "Énergie/Utilitaires",
+        "retail": "Commerce de Détail/E-commerce"
+      }
+    },
+    "getStarted": {
+      "title": "Commencer",
+      "subtitle": "Choisissez votre première action",
+      "question": "Que souhaitez-vous faire en premier ?",
+      "helper": "Choisissez une action pour commencer avec VendorTal™ Risk Review",
+      "assessment": {
+        "title": "Lancer une Évaluation de la Chaîne d'Approvisionnement",
+        "desc": "Évaluez la posture de sécurité de la chaîne d'approvisionnement de votre organisation"
+      },
+      "vendor": {
+        "title": "Ajouter Votre Premier Fournisseur",
+        "desc": "Commencez à construire votre portefeuille de risques fournisseurs"
+      },
+      "sbom": {
+        "title": "Analyser les Composants Logiciels",
+        "desc": "Téléchargez et analysez une Nomenclature Logicielle"
+      },
+      "tour": {
+        "title": "Faire un Tour Rapide",
+        "desc": "Apprenez les fonctionnalités clés avec une visite guidée"
+      }
+    },
+    "tour": {
+      "title": "Tour Rapide",
+      "subtitle": "Aperçu des fonctionnalités clés",
+      "header": "Fonctionnalités Clés de VendorTal™ Risk Review",
+      "assessments": {
+        "title": "Évaluations de la Chaîne d'Approvisionnement",
+        "desc": "Évaluations complètes alignées NIST SP 800-161 pour évaluer votre posture de sécurité de la chaîne d'approvisionnement dans 6 domaines clés."
+      },
+      "vendorRisk": {
+        "title": "Gestion des Risques Fournisseurs",
+        "desc": "Suivez et surveillez les risques fournisseurs avec notation automatisée, suivi de conformité et tableaux de bord personnalisables."
+      },
+      "sbom": {
+        "title": "Analyse SBOM",
+        "desc": "Analysez les Nomenclatures Logicielles pour les vulnérabilités, la conformité des licences et les risques des composants avec support des formats SPDX et CycloneDX."
+      },
+      "quickTools": {
+        "title": "Outils Rapides",
+        "desc": "Accédez aux outils d'évaluation rapides comme le Calculateur de Risque Fournisseur, le Scan Rapide SBOM et la Liste de Contrôle NIST 800-161."
+      }
+    },
+    "actions": {
+      "skipTour": "Passer le Tour",
+      "getStarted": "Commencer"
+    }
+  },
+  "vendorRiskRadar": {
+    "title": "Radar des Risques Fournisseurs",
+    "description": "Évaluez les risques fournisseurs en mettant l'accent sur la confidentialité des données, les exigences de protection et la conformité réglementaire",
+    "steps": {
+      "selectCategory": "1. Sélectionner la Catégorie Fournisseur",
+      "vendorInfo": "2. Informations Fournisseur",
+      "riskDimensions": "3. Dimensions d'Évaluation des Risques"
+    },
+    "vendorCategories": {
+      "cloudStorage": {
+        "name": "Stockage Cloud et Sauvegarde",
+        "description": "Services de stockage de fichiers, sauvegarde et gestion de documents",
+        "commonUseCase": "Stockage de documents, partage de fichiers, solutions de sauvegarde",
+        "privacyImpact": "Élevé - Hébergement et traitement direct des données",
+        "commonRegulations": ["RGPD", "SOX", "HIPAA", "SOC 2"]
+      },
+      "paymentProcessor": {
+        "name": "Traitement des Paiements",
+        "description": "Passerelles de paiement, facturation et services de transactions financières",
+        "commonUseCase": "Traitement de cartes de crédit, facturation d'abonnements, paiements",
+        "privacyImpact": "Critique - Traitement des données financières et DPI",
+        "commonRegulations": ["PCI DSS", "RGPD", "PSD2", "SOX"]
+      },
+      "hrSoftware": {
+        "name": "RH et Gestion du Personnel",
+        "description": "SIRH, paie, recrutement et systèmes de gestion des employés",
+        "commonUseCase": "Données employés, paie, gestion de la performance",
+        "privacyImpact": "Élevé - Données sensibles des employés et personnelles",
+        "commonRegulations": ["RGPD", "CCPA", "Droit du Travail", "SOX"]
+      },
+      "saasProductivity": {
+        "name": "Outils de Productivité SaaS",
+        "description": "Logiciels de collaboration, communication et productivité",
+        "commonUseCase": "Email, messagerie, gestion de projet, CRM",
+        "privacyImpact": "Moyen - Communications d'entreprise et données de flux de travail",
+        "commonRegulations": ["RGPD", "SOC 2", "ISO 27001"]
+      },
+      "analyticsMarketing": {
+        "name": "Analytique et Marketing",
+        "description": "Analyse de données, automatisation marketing et suivi client",
+        "commonUseCase": "Analyse client, campagnes marketing, suivi",
+        "privacyImpact": "Élevé - Suivi du comportement client et DPI",
+        "commonRegulations": ["RGPD", "CCPA", "PECR", "ePrivacy"]
+      },
+      "infrastructure": {
+        "name": "Infrastructure et Hébergement",
+        "description": "Infrastructure cloud, hébergement et services techniques",
+        "commonUseCase": "Hébergement serveur, infrastructure cloud, CDN",
+        "privacyImpact": "Moyen-Élevé - Accès aux données au niveau infrastructure",
+        "commonRegulations": ["SOC 2", "ISO 27001", "RGPD", "FedRAMP"]
+      }
+    },
+    "riskDimensions": {
+      "dataSensitivity": {
+        "name": "Niveau de Sensibilité des Données",
+        "shortName": "Sensibilité des Données",
+        "description": "Classification et sensibilité des données en cours de traitement",
+        "privacyRegulations": ["RGPD Art. 9", "CCPA", "HIPAA"],
+        "protectionRequirements": ["Classification des Données", "Contrôles d'Accès", "Chiffrement au Repos"]
+      },
+      "accessControl": {
+        "name": "Contrôle d'Accès et Authentification",
+        "shortName": "Contrôle d'Accès",
+        "description": "Gestion d'identité et mécanismes de contrôle d'accès",
+        "privacyRegulations": ["RGPD Art. 25", "SOX", "ISO 27001"],
+        "protectionRequirements": ["AMF", "Accès Basé sur les Rôles", "Journalisation d'Audit"]
+      },
+      "dataResidency": {
+        "name": "Résidence et Juridiction des Données",
+        "shortName": "Résidence des Données",
+        "description": "Localisation géographique et juridiction légale du traitement des données",
+        "privacyRegulations": ["RGPD Art. 44-49", "Schrems II", "Lois de Localisation des Données"],
+        "protectionRequirements": ["Décisions d'Adéquation", "CTC", "Cartographie des Données"]
+      },
+      "retentionControl": {
+        "name": "Rétention et Suppression des Données",
+        "shortName": "Contrôle de Rétention",
+        "description": "Gestion du cycle de vie des données et capacités de suppression",
+        "privacyRegulations": ["RGPD Art. 17", "CCPA", "Minimisation des Données"],
+        "protectionRequirements": ["Politiques de Rétention", "Suppression Sécurisée", "Portabilité des Données"]
+      },
+      "encryptionStandards": {
+        "name": "Normes de Chiffrement et de Sécurité",
+        "shortName": "Chiffrement",
+        "description": "Contrôles cryptographiques et mise en œuvre de la sécurité",
+        "privacyRegulations": ["RGPD Art. 32", "PCI DSS", "FIPS 140-2"],
+        "protectionRequirements": ["Chiffrement en Transit", "Chiffrement au Repos", "Gestion des Clés"]
+      },
+      "complianceFramework": {
+        "name": "Conformité et Certification",
+        "shortName": "Conformité",
+        "description": "Conformité réglementaire et certifications de l'industrie",
+        "privacyRegulations": ["SOC 2", "ISO 27001", "Normes de l'Industrie"],
+        "protectionRequirements": ["Audits Réguliers", "Surveillance de la Conformité", "Réponse aux Incidents"]
+      }
+    },
+    "form": {
+      "vendorNameLabel": "Nom du Fournisseur",
+      "vendorNamePlaceholder": "Entrez le nom du fournisseur...",
+      "categoryOverview": "Aperçu de la Catégorie",
+      "commonUseCase": "Cas d'Usage Courant :",
+      "privacyImpact": "Impact sur la Confidentialité :",
+      "keyRegulations": "Réglementations Clés :",
+      "lowRisk": "Faible Risque",
+      "highRisk": "Risque Élevé",
+      "privacyRegulations": "Réglementations de Confidentialité :",
+      "protectionRequirements": "Exigences de Protection :"
+    },
+    "buttons": {
+      "generateRadar": "Générer le Radar des Risques",
+      "viewFullDashboard": "Voir le Tableau de Bord Complet"
+    },
+    "results": {
+      "radarVisualization": "Visualisation du Radar des Risques",
+      "overallAssessment": "Évaluation Globale des Risques",
+      "privacyRecommendations": "Recommandations de Confidentialité",
+      "currentRisk": "Risque Actuel",
+      "requiredControls": "Contrôles Requis"
+    },
+    "howToUse": {
+      "title": "Comment Utiliser le Radar des Risques",
+      "step1": "Choisissez la catégorie de fournisseur qui correspond le mieux à votre cas d'usage pour charger les paramètres de risque de base",
+      "step2": "Ajustez les dimensions de risque en fonction de votre sensibilité de données spécifique et de vos exigences réglementaires",
+      "step3": "Générez le graphique radar pour visualiser les niveaux de risque et les écarts de contrôles requis"
+    },
+    "demo": {
+      "title": "Mode Démo Actif",
+      "description": "Utilisation de CloudCorp Document Storage comme exemple. Sélectionnez une catégorie pour voir différents profils de risque."
+    },
+    "errors": {
+      "enterVendorName": "Veuillez entrer un nom de fournisseur",
+      "calculationFailed": "Échec du calcul du score de risque"
+    },
+    "status": {
+      "saving": "Sauvegarde en cours...",
+      "saved": "Progrès sauvegardé automatiquement",
+      "analyzing": "Analyse du risque fournisseur..."
+    },
+    "riskLevels": {
+      "low": "Faible",
+      "medium": "Moyen",
+      "high": "Élevé",
+      "critical": "Critique"
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "solutions": "Solutions",
+    "vendors": "Fournisseurs",
+    "dashboard": "Tableau de bord",
+    "tools": "Outils",
+    "templates": "Modèles",
+    "about": "À propos",
+    "contact": "Contact",
+    "pricing": "Tarifs",
+    "signIn": "Se connecter",
+    "signOut": "Se déconnecter",
+    "premium": "Premium"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "retry": "Réessayer",
+    "retrying": "Nouvel essai...",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "continue": "Continuer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "close": "Fermer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "add": "Ajouter",
+    "remove": "Retirer",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "export": "Exporter",
+    "import": "Importer",
+    "download": "Télécharger",
+    "upload": "Télécharger",
+    "refresh": "Actualiser",
+    "view": "Voir",
+    "details": "Détails",
+    "summary": "Résumé",
+    "status": "Statut",
+    "actions": "Actions",
+    "settings": "Paramètres",
+    "preferences": "Préférences",
+    "help": "Aide",
+    "support": "Support",
+    "documentation": "Documentation",
+    "feedback": "Commentaires",
+    "success": "Succès",
+    "warning": "Avertissement",
+    "info": "Info",
+    "confirm": "Confirmer",
+    "yes": "Oui",
+    "no": "Non",
+    "maybe": "Peut-être",
+    "unknown": "Inconnu",
+    "pending": "En attente",
+    "completed": "Terminé",
+    "failed": "Échoué",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "enabled": "Activé",
+    "disabled": "Désactivé"
+  },
+  "home": {
+    "hero": {
+      "title_line1": "Envoyez des Questionnaires de Sécurité",
+      "title_line2": "aux Fournisseurs pour la Due Diligence",
+      "subtitle": "Envoyez des questionnaires de sécurité aux fournisseurs, collectez les réponses et examinez pour la due diligence. Rationalisez votre processus d'évaluation de sécurité des fournisseurs.",
+      "description": "VendorTal™ Risk Review vous permet d'envoyer des questionnaires de sécurité aux fournisseurs pour la due diligence, de suivre les réponses et d'examiner la posture de sécurité des fournisseurs.",
+      "carousel": {
+        "text1": "Envoyez des questionnaires de sécurité aux fournisseurs pour la due diligence - envoi automatisé avec portail fournisseur pour les réponses.",
+        "text2": "Envoyez des questionnaires CMMC et NIST aux fournisseurs. Collectez les réponses et examinez pour la conformité.",
+        "text3": "Envoyez des questionnaires aux fournisseurs et suivez les réponses en temps réel. Examinez la sécurité des fournisseurs pour la due diligence.",
+        "text4": "Envoyez des questionnaires de sécurité aux fournisseurs, collectez les réponses et générez des rapports de due diligence.",
+        "text5": "Envoyez des questionnaires aux fournisseurs pour la due diligence. Examinez les réponses et générez des rapports de conformité."
+      },
+      "cta1": "Envoyer un Questionnaire de Sécurité",
+      "cta2": "Voir la Démo du Questionnaire",
+      "benefits": {
+        "section1": {
+          "title": "Envoi Automatisé de Questionnaires",
+          "benefit1": "Envoyez des questionnaires de sécurité aux fournisseurs automatiquement",
+          "benefit2": "Portail fournisseur pour compléter les questionnaires",
+          "benefit3": "Suivez les réponses aux questionnaires en temps réel"
+        },
+        "section2": {
+          "title": "Flux de Travail de Due Diligence",
+          "benefit1": "Envoyez des questionnaires aux fournisseurs pour la due diligence",
+          "benefit2": "Collectez les réponses des fournisseurs de manière sécurisée",
+          "benefit3": "Examinez les réponses pour la conformité"
+        },
+        "section3": {
+          "title": "Prêt pour la Conformité",
+          "benefit1": "Modèles de questionnaires CMMC et NIST",
+          "benefit2": "Suivi automatisé des réponses",
+          "benefit3": "Rapports de due diligence"
+        }
+      },
+      "trustIndicators": {
+        "customers": "Clients Entreprise",
+        "assessments": "10 000+ Fournisseurs Évalués",
+        "success": "Conformité de Niveau Entreprise"
+      }
+    },
+    "assessments": {
+      "title": "Évaluations Disponibles",
+      "description": "Choisissez parmi nos outils d'évaluation complets pour évaluer votre posture de sécurité de la chaîne d'approvisionnement et votre préparation à la conformité.",
+      "cta": "Commencer l'Évaluation",
+      "supplyChain": {
+        "title": "Évaluation des Risques de la Chaîne d'Approvisionnement",
+        "description": "Évaluation complète alignée sur NIST SP 800-161 pour la conformité fédérale et la gestion des risques d'entreprise.",
+        "feature1": "Conformité au cadre NIST SP 800-161",
+        "feature2": "Notation automatisée des risques et reporting",
+        "feature3": "Analyse des écarts avec recommandations exploitables",
+        "feature4": "Résumé exécutif pour la communication aux parties prenantes"
+      },
+      "sbom": {
+        "title": "Analyse SBOM",
+        "description": "Téléchargez et analysez les fichiers de nomenclature logicielle (SBOM) pour identifier les vulnérabilités et les problèmes de conformité.",
+        "feature1": "Support des formats SPDX et CycloneDX",
+        "feature2": "Analyse des vulnérabilités et évaluation des risques",
+        "feature3": "Vérification de la conformité des licences",
+        "feature4": "Rapports détaillés d'analyse des composants"
+      },
+      "vendor": {
+        "title": "Évaluations de Sécurité des Fournisseurs",
+        "description": "Envoyez des questionnaires de sécurité complets aux fournisseurs avec suivi et notation automatisés.",
+        "feature1": "Modèles d'évaluation CMMC Niveau 1 et 2",
+        "feature2": "Questionnaires NIST Privacy Framework",
+        "feature3": "Notation automatisée et évaluation des risques",
+        "feature4": "Portail sécurisé de collecte de preuves"
+      }
+    },
+    "stakeholders": {
+      "title": "Solutions pour Chaque Partie Prenante",
+      "description": "Notre plateforme répond aux défis uniques rencontrés par les équipes de sécurité, les professionnels de l'approvisionnement, les responsables de la conformité et les dirigeants dans la gestion des risques de la chaîne d'approvisionnement.",
+      "common": {
+        "challenges": "Défis Clés"
+      },
+      "security": {
+        "title": "Équipes de Sécurité",
+        "description": "Les professionnels de la sécurité ont besoin d'une visibilité complète sur les risques et vulnérabilités tiers dans leur chaîne d'approvisionnement.",
+        "challenges": {
+          "visibility": "Visibilité limitée sur les composants logiciels tiers et les dépendances",
+          "manual": "Processus manuels pour les évaluations et examens de sécurité des fournisseurs",
+          "tracking": "Difficulté à suivre et gérer les vulnérabilités dans la chaîne d'approvisionnement",
+          "compliance": "Exigences de conformité complexes pour les normes fédérales et industrielles"
+        },
+        "solutions": {
+          "sbom": {
+            "title": "Analyse SBOM et Gestion des Vulnérabilités",
+            "description": "Analyse complète de la nomenclature logicielle avec scan automatisé des vulnérabilités et vérification de la conformité des licences.",
+            "benefits": {
+              "vulnerabilities": "Identifier les vulnérabilités critiques dans les composants tiers",
+              "licenses": "Assurer la conformité des licences dans les dépendances logicielles",
+              "reports": "Générer des rapports de sécurité détaillés pour la conformité",
+              "monitoring": "Surveillance continue du statut de sécurité des composants"
+            },
+            "cta": "Analyser SBOM"
+          },
+          "assessments": {
+            "title": "Envoyer des Questionnaires de Sécurité",
+            "description": "Envoyez des questionnaires de sécurité aux fournisseurs pour la due diligence. Collectez les réponses et examinez pour la conformité.",
+            "benefits": {
+              "cmmc": "Envoyez des questionnaires CMMC Niveau 1 et 2 aux fournisseurs",
+              "nist": "Envoyez des questionnaires NIST Privacy Framework aux fournisseurs",
+              "scoring": "Examinez les réponses des fournisseurs et générez des scores de conformité",
+              "portal": "Les fournisseurs complètent les questionnaires dans un portail sécurisé",
+              "tracking": "Suivez l'envoi des questionnaires et la collecte des réponses"
+            },
+            "cta": "Envoyer le Questionnaire"
+          }
+        }
+      },
+      "procurement": {
+        "title": "Équipes d'Approvisionnement",
+        "description": "Les professionnels de l'approvisionnement doivent équilibrer coût, qualité et risque lors de la sélection et de la gestion des fournisseurs tout au long du cycle de vie de la relation.",
+        "challenges": {
+          "balancing": "Équilibrer les considérations de coût avec les exigences de sécurité et de conformité",
+          "lifecycle": "Gérer les relations fournisseurs tout au long du cycle de vie d'approvisionnement",
+          "contracts": "Incorporer des termes de sécurité appropriés dans les contrats fournisseurs",
+          "diligence": "Effectuer une diligence raisonnable approfondie sur les fournisseurs potentiels"
+        },
+        "solutions": {
+          "calculator": {
+            "title": "Calculateur de Risque Fournisseur",
+            "description": "Outil d'évaluation rapide des risques pour évaluer les fournisseurs potentiels basé sur plusieurs facteurs de sécurité et d'affaires.",
+            "benefits": {
+              "criteria": "Critères standardisés d'évaluation des risques",
+              "scoring": "Méthodologie objective de notation des risques fournisseurs",
+              "comparison": "Comparaisons côte à côte des risques fournisseurs",
+              "integration": "Intégration avec les flux de travail d'approvisionnement"
+            },
+            "cta": "Calculer le Risque"
+          },
+          "dashboard": {
+            "title": "Tableau de Bord des Risques Fournisseurs",
+            "description": "Tableau de bord centralisé pour surveiller et gérer toutes les relations fournisseurs et les risques associés.",
+            "benefits": {
+              "monitoring": "Surveillance des risques fournisseurs en temps réel",
+              "tracking": "Suivi du statut de conformité à travers les fournisseurs",
+              "alerts": "Alertes automatisées de seuil de risque",
+              "reporting": "Reporting exécutif et analytique"
+            },
+            "cta": "Voir le Tableau de Bord"
+          }
+        }
+      },
+      "compliance": {
+        "title": "Responsables de la Conformité",
+        "description": "Les équipes de conformité doivent assurer l'adhésion aux exigences réglementaires en évolution tout en maintenant une documentation complète et des pistes d'audit.",
+        "challenges": {
+          "evolving": "Suivre l'évolution des exigences réglementaires et des cadres",
+          "documenting": "Documenter les efforts de conformité pour les audits et évaluations",
+          "obligations": "Gérer les obligations de conformité complexes des tiers",
+          "frameworks": "Mapper les exigences à travers plusieurs cadres de conformité"
+        },
+        "solutions": {
+          "nist": {
+            "title": "Évaluation de Conformité NIST SP 800-161",
+            "description": "Évaluation complète alignée sur les pratiques de gestion des risques de la chaîne d'approvisionnement NIST SP 800-161.",
+            "benefits": {
+              "templates": "Modèles d'évaluation pré-construits alignés NIST",
+              "scoring": "Notation automatisée de la conformité et analyse des écarts",
+              "documentation": "Piste d'audit et documentation complètes",
+              "analysis": "Analyse des risques et recommandations de remédiation"
+            },
+            "cta": "Commencer l'Évaluation"
+          },
+          "templates": {
+            "title": "Modèles et Ressources de Conformité",
+            "description": "Modèles prêts à l'emploi, listes de contrôle et documentation pour divers cadres de conformité.",
+            "benefits": {
+              "federal": "Modèles et guides de conformité fédérale",
+              "industry": "Cadres d'évaluation spécifiques à l'industrie",
+              "matrices": "Matrices de notation des risques et méthodologies",
+              "executive": "Modèles de résumé exécutif et de reporting"
+            },
+            "cta": "Parcourir les Modèles"
+          }
+        }
+      },
+      "executives": {
+        "title": "Direction Exécutive",
+        "description": "Les dirigeants ont besoin d'une visibilité claire sur les risques de la chaîne d'approvisionnement et leur impact commercial potentiel pour prendre des décisions stratégiques éclairées.",
+        "challenges": {
+          "understanding": "Comprendre l'impact commercial des risques de sécurité de la chaîne d'approvisionnement",
+          "investment": "Justifier les investissements de sécurité et l'allocation des ressources",
+          "demonstrating": "Démontrer la posture de conformité aux parties prenantes et clients",
+          "balancing": "Équilibrer l'efficacité opérationnelle avec les exigences de sécurité"
+        },
+        "solutions": {
+          "dashboards": {
+            "title": "Tableaux de Bord des Risques Exécutifs",
+            "description": "Tableaux de bord de haut niveau fournissant des insights stratégiques sur la posture de risque et les tendances de la chaîne d'approvisionnement.",
+            "benefits": {
+              "metrics": "Métriques clés de risque et indicateurs de performance",
+              "portfolio": "Visibilité et tendances des risques à l'échelle du portefeuille",
+              "compliance": "Statut de conformité à travers les cadres",
+              "recommendations": "Recommandations et priorités stratégiques"
+            },
+            "cta": "Voir le Tableau de Bord"
+          },
+          "reporting": {
+            "title": "Reporting et Analytique Exécutifs",
+            "description": "Capacités de reporting automatisé pour les présentations du conseil et les communications aux parties prenantes.",
+            "benefits": {
+              "automated": "Génération et planification automatisées de rapports",
+              "customizable": "Modèles de reporting personnalisables",
+              "analysis": "Analyse des tendances et prévision des risques",
+              "presentations": "Présentations et résumés prêts pour le conseil"
+            },
+            "cta": "Générer un Rapport"
+          }
+        }
+      },
+      "cta": {
+        "title": "Prêt à Envoyer des Questionnaires de Sécurité ?",
+        "description": "Envoyez des questionnaires de sécurité aux fournisseurs pour la due diligence. Commencez votre premier questionnaire ou planifiez une démo.",
+        "startAssessment": "Envoyer un Questionnaire de Sécurité",
+        "scheduleDemo": "Voir la Démo du Questionnaire"
+      }
+    },
+    "features": {
+      "title": "Fonctionnalités Clés",
+      "description": "Envoyez des questionnaires de sécurité aux fournisseurs pour la due diligence et gérez les réponses",
+      "feature1": {
+        "title": "Envoyer des Questionnaires de Sécurité",
+        "description": "Envoyez des questionnaires de sécurité aux fournisseurs pour la due diligence. Envoi automatisé avec portail fournisseur pour les réponses."
+      },
+      "feature2": {
+        "title": "Modèles de Questionnaires",
+        "description": "Modèles de questionnaires de sécurité pré-construits (NIST, CMMC, SOC2, etc.) prêts à envoyer aux fournisseurs"
+      },
+      "feature3": {
+        "title": "Portail Fournisseur et Collaboration",
+        "description": "Les fournisseurs complètent les questionnaires dans un portail dédié. Suivez les progrès et collectez les réponses."
+      },
+      "feature4": {
+        "title": "Analytique et Reporting des Réponses",
+        "description": "Examinez les réponses des fournisseurs et générez des rapports de due diligence pour la conformité"
+      },
+      "learnMore": "En Savoir Plus"
+    },
+    "benefits": {
+      "title": "Pourquoi Choisir Notre Plateforme",
+      "item1": "Réduire significativement les coûts de conformité",
+      "item2": "Automatiser les tâches d'évaluation répétitives",
+      "item3": "Obtenir des rapports prêts pour les dirigeants en minutes"
+    },
+    "quickTools": {
+      "title": "Outils Rapides",
+      "description": "Commencez immédiatement avec nos outils d'évaluation gratuits"
+    },
+    "cta": {
+      "title": "Prêt à Envoyer des Questionnaires de Sécurité ?",
+      "description": "Envoyez des questionnaires de sécurité aux fournisseurs pour la due diligence. Commencez votre premier questionnaire aujourd'hui."
+    }
+  },
+  "vendorPortal": {
+  },
+  "vendorAssessments": {
+    "title": "Envoyer des Questionnaires de Sécurité pour la Due Diligence",
+    "description": "Envoyez des questionnaires de sécurité aux fournisseurs pour la due diligence. Collectez les réponses et examinez pour la conformité.",
+    "premiumFeature": "Fonctionnalité Premium",
+    "buttons": {
+      "newAssessment": "Envoyer un Questionnaire",
+      "createFirstAssessment": "Envoyer Votre Premier Questionnaire",
+      "sendAssessment": "Envoyer le Questionnaire",
+      "view": "Voir",
+      "copyLink": "Copier le Lien",
+      "signUpFreeTrial": "S'Inscrire pour l'Essai Gratuit",
+      "viewPricing": "Voir les Tarifs"
+    },
+    "features": {
+      "cmmcAssessments": {
+        "title": "Évaluations CMMC",
+        "description": "Modèles d'évaluation CMMC Niveau 1 et 2 pré-construits avec notation automatisée et collecte de preuves.",
+        "feature1": "Ensembles de questions alignés DoD",
+        "feature2": "Notation automatisée de la conformité",
+        "feature3": "Portail de collecte de preuves"
+      },
+      "vendorPortal": {
+        "title": "Portail Fournisseur",
+        "description": "Portail d'évaluation sécurisé pour que les fournisseurs complètent les questionnaires et téléchargent les preuves.",
+        "feature1": "Accès sécurisé avec liens uniques",
+        "feature2": "Sauvegarde des progrès et reprise",
+        "feature3": "Notifications automatisées"
+      },
+      "analytics": {
+        "title": "Analytique et Reporting",
+        "description": "Analytique avancée et reporting exécutif pour le statut de conformité des fournisseurs.",
+        "feature1": "Analyse des tendances de conformité",
+        "feature2": "Tableaux de bord exécutifs",
+        "feature3": "Génération automatisée de rapports"
+      }
+    },
+    "frameworks": {
+      "cmmcLevel1": {
+        "name": "CMMC Niveau 1",
+        "description": "Pratiques d'hygiène cybersécuritaire de base pour protéger les Informations de Contrat Fédéral (FCI)"
+      },
+      "cmmcLevel2": {
+        "name": "CMMC Niveau 2",
+        "description": "Pratiques intermédiaires pour protéger les Informations Non Classifiées Contrôlées (CUI)"
+      },
+      "nistPrivacy": {
+        "name": "NIST Privacy Framework",
+        "description": "Évaluation complète de gestion des risques de confidentialité"
+      },
+      "nist80053": {
+        "name": "Contrôles NIST SP 800-53",
+        "description": "Contrôles de sécurité et de confidentialité pour les systèmes d'information"
+      }
+    },
+    "estimatedTime": {
+      "short": "1-2 heures",
+      "medium": "2-3 heures",
+      "long": "4-6 heures"
+    },
+    "status": {
+      "pending": "En Attente",
+      "sent": "Envoyé",
+      "inProgress": "En Cours",
+      "completed": "Terminé",
+      "reviewed": "Examiné"
+    },
+    "search": {
+      "placeholder": "Rechercher des évaluations..."
+    },
+    "filters": {
+      "allStatuses": "Tous les Statuts"
+    },
+    "actions": {
+      "exportReport": "Exporter le Rapport"
+    },
+    "table": {
+      "title": "Questionnaires des Fournisseurs",
+      "count": "{{count}} questionnaires",
+      "headers": {
+        "vendor": "Fournisseur",
+        "framework": "Cadre",
+        "status": "Statut",
+        "progress": "Progrès",
+        "dueDate": "Date d'Échéance",
+        "score": "Score",
+        "actions": "Actions"
+      }
+    },
+    "emptyState": {
+      "title": "Aucun questionnaire trouvé",
+      "noMatches": "Aucun questionnaire ne correspond à vos filtres actuels.",
+      "noAssessments": "Envoyez votre premier questionnaire de sécurité à un fournisseur pour la due diligence."
+    },
+    "overview": {
+      "premiumBenefits": {
+        "title": "Fonctionnalités d'Évaluation Premium",
+        "cmmcAligned": {
+          "title": "CMMC et Confidentialité Alignés",
+          "description": "Modèles d'évaluation pré-construits alignés sur les niveaux CMMC et le NIST Privacy Framework"
+        },
+        "securePortal": {
+          "title": "Portail Fournisseur Sécurisé",
+          "description": "Portail dédié pour que les fournisseurs complètent les évaluations et téléchargent les preuves en toute sécurité"
+        },
+        "evidenceCollection": {
+          "title": "Collecte de Preuves",
+          "description": "Collecte automatisée de preuves, validation et gestion de la piste d'audit"
+        }
+      },
+      "statistics": {
+        "totalAssessments": "Total des Évaluations",
+        "inProgress": "En Cours",
+        "completed": "Terminées",
+        "highCompliance": "Haute Conformité"
+      },
+      "gettingStarted": {
+        "title": "Commencer",
+        "step1": {
+          "title": "Sélectionner un Fournisseur",
+          "description": "Choisissez un fournisseur à qui envoyer un questionnaire de sécurité pour la due diligence"
+        },
+        "step2": {
+          "title": "Choisir un Modèle de Questionnaire",
+          "description": "Sélectionnez CMMC, NIST Privacy Framework ou un modèle de questionnaire personnalisé"
+        },
+        "step3": {
+          "title": "Envoyer le Questionnaire",
+          "description": "Envoyez le questionnaire de sécurité au fournisseur. Le fournisseur complète dans le portail et vous examinez les réponses."
+        }
+      },
+      "capabilities": {
+        "title": "Capacités d'Évaluation",
+        "evidenceCollection": "Collecte automatisée de preuves",
+        "progressTracking": "Suivi des progrès en temps réel",
+        "secureSharing": "Partage sécurisé de documents",
+        "automatedScoring": "Notation automatisée de la conformité",
+        "auditTrail": "Piste d'audit et reporting",
+        "multiFramework": "Support multi-cadres"
+      }
+    },
+    "assessments": {
+      "title": "Évaluations Actives",
+      "fields": {
+        "framework": "Cadre",
+        "sentDate": "Date d'Envoi",
+        "dueDate": "Date d'Échéance",
+        "progress": "Progrès",
+        "notSent": "Non envoyé",
+        "notSet": "Non défini"
+      }
+    },
+    "templates": {
+      "title": "Modèles de Cadres d'Évaluation",
+      "fields": {
+        "questions": "Questions",
+        "estimatedTime": "Temps Est."
+      }
+    },
+    "portal": {
+      "title": "Portail d'Évaluation des Fournisseurs",
+      "features": {
+        "title": "Fonctionnalités du Portail Fournisseur Sécurisé",
+        "capabilities": {
+          "title": "Capacités du Portail",
+          "secureLinks": "Liens d'évaluation uniques sécurisés",
+          "progressSaving": "Sauvegarde des progrès et capacité de reprise",
+          "encryptedUploads": "Téléchargements chiffrés de fichiers de preuves",
+          "realTimeCollaboration": "Fonctionnalités de collaboration en temps réel",
+          "mobileResponsive": "Design réactif mobile"
+        },
+        "security": {
+          "title": "Fonctionnalités de Sécurité",
+          "endToEndEncryption": "Chiffrement de bout en bout",
+          "multiFactorAuth": "Authentification multi-facteurs",
+          "auditLogging": "Journalisation de la piste d'audit",
+          "timeLimitedTokens": "Jetons d'accès à durée limitée",
+          "ipAllowlist": "Support de liste d'autorisation IP"
+        },
+        "exampleUrl": "URL d'Exemple du Portail :"
+      }
+    },
+    "upgrade": {
+      "title": "Débloquer les Fonctionnalités de Questionnaire Premium",
+      "description": "Créez un compte pour envoyer des questionnaires de sécurité aux fournisseurs pour la due diligence"
+    }
+  },
+  "buttons": {
+    "startAssessment": "Commencer l'Évaluation",
+    "analyzeNow": "Analyser Maintenant",
+    "learnMore": "En Savoir Plus",
+    "getStarted": "Commencer"
+  },
+  "assessment": {
+    "title": "Évaluation des Risques de la Chaîne d'Approvisionnement",
+    "subtitle": "Évaluation complète alignée NIST SP 800-161",
+    "view": "Voir l'Évaluation",
+    "current": "Évaluation Actuelle",
+    "complete": "Terminé",
+    "incomplete": "Incomplet",
+    "overallScore": "Score Global",
+    "score": "Score",
+    "backToHome": "Retour à l'Accueil",
+    "backToStart": "Retour au Début de l'Évaluation",
+    "restartAssessment": "Redémarrer l'Évaluation",
+    "section": "Section",
+    "sectionProgress": "Progrès de la Section",
+    "previousSection": "Section Précédente",
+    "nextSection": "Section Suivante",
+    "viewResults": "Voir les Résultats",
+    "saving": "Sauvegarde en cours...",
+    "saved": "Progrès sauvegardé automatiquement",
+    "saveError": "Erreur lors de la sauvegarde",
+    "sections": "Sections",
+    "startScreen": {
+      "startAssessment": "Commencer l'Évaluation",
+      "nistAligned": "Aligné NIST",
+      "nistDescription": "Évaluation basée sur le cadre de gestion des risques de la chaîne d'approvisionnement NIST SP 800-161",
+      "comprehensive": "Complet",
+      "comprehensiveDescription": "24 questions à travers 6 domaines clés de sécurité de la chaîne d'approvisionnement",
+      "actionable": "Exploitable",
+      "actionableDescription": "Obtenez des recommandations personnalisées et un rapport de conformité détaillé",
+      "infoMessage": "Cette évaluation vous aidera à évaluer la posture de sécurité de la chaîne d'approvisionnement de votre organisation par rapport aux directives NIST SP 800-161. Vous recevrez un score détaillé et des recommandations exploitables pour améliorer votre posture de sécurité."
+    },
+    "onboarding": {
+      "nameYourAssessment": "Nommez Votre Évaluation",
+      "assessmentDescription": "Donnez à votre évaluation un nom descriptif pour vous aider à l'identifier plus tard. Ce nom apparaîtra dans votre liste d'évaluations et vos rapports.",
+      "assessmentNameLabel": "Nom de l'Évaluation",
+      "assessmentNamePlaceholder": "ex. Évaluation Chaîne d'Approvisionnement T3 2025",
+      "whatToExpect": "À quoi s'attendre :",
+      "expectation1": "24 questions à travers 6 domaines de sécurité de la chaîne d'approvisionnement",
+      "expectation2": "Environ 15-20 minutes pour terminer",
+      "expectation3": "Votre progrès est automatiquement sauvegardé",
+      "expectation4": "Résultats détaillés et recommandations",
+      "continueToAssessment": "Continuer vers l'Évaluation",
+      "back": "Retour"
+    },
+    "progress": {
+      "progressLabel": "Progrès : {{answered}} / {{total}} questions",
+      "questionsAnswered": "{{count}} / {{total}}"
+    },
+    "supplyChain": {
+      "title": "Évaluation des Risques de la Chaîne d'Approvisionnement",
+      "description": "Évaluation complète basée sur le cadre NIST SP 800-161 pour évaluer la posture de sécurité des fournisseurs et les risques de la chaîne d'approvisionnement.",
+      "feature1": "Évaluation de la sécurité des fournisseurs",
+      "feature2": "Mappage des contrôles NIST SCRM",
+      "feature3": "Notation et priorisation des risques",
+      "feature4": "Exigences d'intégration des fournisseurs"
+    },
+    "sbom": {
+      "title": "Analyseur SBOM",
+      "description": "Outil d'analyse de la nomenclature logicielle pour l'évaluation de conformité NIST SP 800-161 3.4.1 et le scan de vulnérabilités.",
+      "feature1": "Scan de vulnérabilités",
+      "feature2": "Vérification de conformité des licences",
+      "feature3": "Analyse des risques des composants",
+      "feature4": "Reporting de conformité fédérale"
+    },
+    "vendor": {
+      "title": "Tableau de Bord des Risques Fournisseurs",
+      "description": "Tableau de bord complet pour surveiller, suivre et gérer les risques dans tout votre écosystème de fournisseurs.",
+      "feature1": "Méthodologie de notation des risques",
+      "feature2": "Gestion du portefeuille de fournisseurs",
+      "feature3": "Analyse des tendances et alertes",
+      "feature4": "Suivi du statut de conformité"
+    }
+  },
+  "supplyChain": {
+    "sections": {
+      "information": {
+        "title": "Sécurité de l'Information",
+        "description": "Évaluez les contrôles et pratiques de sécurité de l'information dans votre chaîne d'approvisionnement",
+        "questions": {
+          "is1": {
+            "question": "Avez-vous des politiques de sécurité de l'information documentées ?",
+            "guidance": "Les organisations doivent maintenir des politiques de sécurité de l'information actuelles et documentées qui traitent des risques de la chaîne d'approvisionnement"
+          },
+          "is2": {
+            "question": "Les exigences de sécurité sont-elles incluses dans les contrats fournisseurs ?",
+            "guidance": "Tous les accords fournisseurs doivent inclure des exigences de sécurité spécifiques et des obligations de conformité"
+          },
+          "is3": {
+            "question": "Effectuez-vous des évaluations de sécurité régulières des fournisseurs ?",
+            "guidance": "Les évaluations de sécurité régulières aident à identifier et atténuer les risques évolutifs dans votre chaîne d'approvisionnement"
+          },
+          "is4": {
+            "question": "La classification et la manipulation des données sensibles sont-elles documentées ?",
+            "guidance": "Des procédures claires de classification et de manipulation des données assurent une protection appropriée tout au long de la chaîne d'approvisionnement"
+          }
+        }
+      },
+      "supplier": {
+        "title": "Gestion des Fournisseurs",
+        "description": "Évaluez les processus d'intégration, de surveillance et de gestion des fournisseurs",
+        "questions": {
+          "sr1": {
+            "question": "Avez-vous un processus formel d'intégration des fournisseurs ?",
+            "guidance": "Un processus d'intégration structuré assure que tous les fournisseurs respectent les exigences de sécurité minimales avant l'engagement"
+          },
+          "sr2": {
+            "question": "Les capacités de sécurité des fournisseurs sont-elles régulièrement examinées ?",
+            "guidance": "Les examens réguliers aident à s'assurer que les fournisseurs maintiennent une posture de sécurité adéquate tout au long de la relation"
+          },
+          "sr3": {
+            "question": "Maintenez-vous une liste de fournisseurs approuvés ?",
+            "guidance": "Une liste de fournisseurs approuvés aide à contrôler quels vendeurs peuvent accéder à vos systèmes et données"
+          },
+          "sr4": {
+            "question": "Les procédures de résiliation des fournisseurs sont-elles documentées ?",
+            "guidance": "Des procédures de résiliation claires assurent un départ sécurisé et la protection des actifs organisationnels"
+          }
+        }
+      },
+      "vulnerability": {
+        "title": "Gestion des Vulnérabilités",
+        "description": "Évaluez les processus d'identification, de suivi et de remédiation des vulnérabilités",
+        "questions": {
+          "vm1": {
+            "question": "Avez-vous un programme de gestion des vulnérabilités ?",
+            "guidance": "Un programme complet de gestion des vulnérabilités est essentiel pour maintenir la sécurité dans la chaîne d'approvisionnement"
+          },
+          "vm2": {
+            "question": "Les vulnérabilités sont-elles suivies et priorisées ?",
+            "guidance": "Le suivi systématique et la priorisation assurent que les vulnérabilités critiques sont traitées rapidement"
+          },
+          "vm3": {
+            "question": "Exigez-vous la divulgation de vulnérabilités des fournisseurs ?",
+            "guidance": "Les fournisseurs doivent être tenus de divulguer les vulnérabilités connues dans leurs produits et services"
+          },
+          "vm4": {
+            "question": "Les processus de gestion des correctifs sont-ils documentés ?",
+            "guidance": "Des processus clairs de gestion des correctifs aident à assurer la remédiation rapide des vulnérabilités identifiées"
+          }
+        }
+      },
+      "incident": {
+        "title": "Réponse aux Incidents",
+        "description": "Évaluez les capacités de réponse aux incidents et la coordination de la chaîne d'approvisionnement",
+        "questions": {
+          "ir1": {
+            "question": "Avez-vous un plan de réponse aux incidents ?",
+            "guidance": "Un plan complet de réponse aux incidents doit traiter les incidents de sécurité liés à la chaîne d'approvisionnement"
+          },
+          "ir2": {
+            "question": "Les fournisseurs sont-ils tenus de signaler les incidents de sécurité ?",
+            "guidance": "Les fournisseurs doivent être contractuellement obligés de signaler les incidents de sécurité qui peuvent affecter votre organisation"
+          },
+          "ir3": {
+            "question": "Effectuez-vous des exercices de réponse aux incidents ?",
+            "guidance": "Les exercices réguliers aident à s'assurer que votre équipe est préparée à répondre efficacement aux incidents de la chaîne d'approvisionnement"
+          },
+          "ir4": {
+            "question": "Les leçons apprises sont-elles documentées et partagées ?",
+            "guidance": "Documenter et partager les leçons apprises aide à améliorer les capacités futures de réponse aux incidents"
+          }
+        }
+      },
+      "threat": {
+        "title": "Gestion des Menaces",
+        "description": "Évaluez les capacités de renseignement sur les menaces et de sensibilisation aux menaces de la chaîne d'approvisionnement",
+        "questions": {
+          "tm1": {
+            "question": "Avez-vous accès au renseignement sur les menaces ?",
+            "guidance": "Le renseignement actuel sur les menaces aide les organisations à comprendre et se préparer aux menaces de la chaîne d'approvisionnement"
+          },
+          "tm2": {
+            "question": "Les menaces de la chaîne d'approvisionnement sont-elles régulièrement évaluées ?",
+            "guidance": "Les évaluations régulières des menaces aident à identifier les risques émergents dans votre chaîne d'approvisionnement"
+          },
+          "tm3": {
+            "question": "Partagez-vous des informations sur les menaces avec les fournisseurs ?",
+            "guidance": "Partager des informations pertinentes sur les menaces aide les fournisseurs à mieux protéger votre organisation"
+          },
+          "tm4": {
+            "question": "Des activités de chasse aux menaces sont-elles menées ?",
+            "guidance": "La chasse proactive aux menaces aide à identifier les menaces avancées qui peuvent avoir contourné les défenses traditionnelles"
+          }
+        }
+      },
+      "lifecycle": {
+        "title": "Gestion du Cycle de Vie",
+        "description": "Évaluez la gestion de la sécurité du cycle de vie des produits et services",
+        "questions": {
+          "sl1": {
+            "question": "Les exigences de sécurité sont-elles définies pour l'ensemble du cycle de vie ?",
+            "guidance": "La sécurité doit être considérée tout au long du cycle de vie complet du produit ou service"
+          },
+          "sl2": {
+            "question": "Effectuez-vous des examens de sécurité aux jalons du cycle de vie ?",
+            "guidance": "Les examens de sécurité réguliers aux jalons clés aident à assurer le maintien de la posture de sécurité"
+          },
+          "sl3": {
+            "question": "Les procédures de fin de vie sont-elles documentées ?",
+            "guidance": "Des procédures claires de fin de vie assurent l'élimination ou le déclassement sécurisé des produits et services"
+          },
+          "sl4": {
+            "question": "Suivez-vous les dépendances des produits et services ?",
+            "guidance": "Comprendre les dépendances aide à identifier les points de défaillance uniques potentiels dans votre chaîne d'approvisionnement"
+          }
+        }
+      }
+    }
+  },
+  "sbom": {
+    "title": "Analyseur SBOM",
+    "description": "Analysez les fichiers de nomenclature logicielle (SBOM) pour identifier les vulnérabilités, les problèmes de licence et les écarts de conformité dans vos composants logiciels.",
+    "features": {
+      "componentAnalysis": {
+        "title": "Analyse des Composants",
+        "description": "Analyse complète des composants logiciels, des dépendances et de leur posture de sécurité."
+      },
+      "vulnerabilityDetection": {
+        "title": "Détection de Vulnérabilités",
+        "description": "Identifiez les vulnérabilités connues dans vos composants logiciels avec des évaluations de risque détaillées."
+      },
+      "licenseCompliance": {
+        "title": "Conformité des Licences",
+        "description": "Suivez les licences open source et assurez la conformité avec les politiques organisationnelles."
+      }
+    },
+    "upload": {
+      "title": "Télécharger SBOM",
+      "supportedFormats": "Formats Supportés",
+      "noSbom": "Aucun SBOM Téléchargé",
+      "uploadPrompt": "Téléchargez un fichier de nomenclature logicielle pour commencer l'analyse. Nous supportons SPDX, CycloneDX et d'autres formats standards.",
+      "dropHere": "Déposez votre fichier SBOM ici",
+      "browseFiles": "Parcourir les Fichiers",
+      "analyzing": "Analyse du SBOM en cours..."
+    },
+    "results": {
+      "title": "Résultats d'Analyse",
+      "components": "Composants",
+      "vulnerabilities": "Vulnérabilités",
+      "licenses": "Licences",
+      "overallSecurityScore": "Score de Sécurité Global",
+      "criticalCVEs": "CVE Critiques",
+      "licenseIssues": "Problèmes de Licence",
+      "recommendations": "Recommandations :",
+      "immediateAction": "Action immédiate requise : {{count}} vulnérabilités critiques trouvées",
+      "goodPosture": "Bonne posture de sécurité. Continuez la surveillance pour les nouvelles vulnérabilités.",
+      "reviewComponents": "Examinez et mettez à jour les composants vulnérables. Considérez l'implémentation d'un scan automatisé."
+    },
+    "recentAnalyses": "Analyses Récentes",
+    "export": "Exporter",
+    "aboutSBOM": {
+      "title": "À Propos de l'Analyse SBOM",
+      "whatIsSBOM": "Qu'est-ce qu'un SBOM ?",
+      "sbomDescription": "Une nomenclature logicielle (SBOM) est un enregistrement formel contenant les détails et les relations de la chaîne d'approvisionnement de divers composants utilisés dans la construction de logiciels. Elle fournit une transparence sur la composition logicielle et permet une gestion efficace des vulnérabilités.",
+      "benefits": {
+        "identifyVulnerabilities": "Identifier rapidement les composants vulnérables",
+        "trackLicenses": "Suivre les licences open source pour la conformité",
+        "meetRequirements": "Respecter les exigences de transparence fédérales"
+      },
+      "nistAlignment": "Alignement NIST SP 800-161",
+      "nistDescription": "Notre analyse SBOM s'aligne avec les pratiques de gestion des risques de la chaîne d'approvisionnement NIST SP 800-161, aidant les organisations à respecter les exigences de conformité fédérales.",
+      "controls": {
+        "authenticity": "Contrôle C-SCRM-7 : Authenticité des composants",
+        "management": "Contrôle C-SCRM-16 : Gestion SBOM",
+        "executiveOrder": "Exigences de l'ordre exécutif 14028"
+      },
+      "helpSection": {
+        "title": "Besoin d'Aide pour Commencer ?",
+        "description": "Apprenez-en plus sur l'implémentation SBOM et téléchargez des modèles pour commencer.",
+        "downloadTemplates": "Télécharger les Modèles",
+        "implementationGuide": "Guide d'Implémentation"
+      }
+    }
+  },
+  "vendorRisk": {
+    "title": "Gestion des Risques Fournisseurs",
+    "description": "Plateforme complète d'évaluation et de surveillance des risques fournisseurs",
+    "riskOverview": "Aperçu des Risques",
+    "vendorOverview": "Aperçu des Fournisseurs",
+    "complianceStatus": "Statut de Conformité",
+    "addNewVendor": "Ajouter un Nouveau Fournisseur",
+    "totalVendors": "Total des Fournisseurs",
+    "monitoredVendors": "Fournisseurs Surveillés",
+    "highRisk": "Risque Élevé",
+    "mediumRisk": "Risque Moyen",
+    "compliant": "Conforme",
+    "nonCompliant": "Non Conforme",
+    "partial": "Partiel",
+    "navigation": {
+      "overviewDashboard": "Tableau de Bord Général",
+      "workflowAutomation": "Automatisation des Flux de Travail",
+      "threatIntelligence": "Renseignement sur les Menaces",
+      "predictiveAnalytics": "Analytique Prédictive"
+    },
+    "dashboard": {
+      "advancedDashboard": "Tableau de Bord Avancé",
+      "exportDashboard": "Exporter le Tableau de Bord",
+      "viewFullDashboard": "Voir le Tableau de Bord Complet"
+    },
+    "workflows": {
+      "title": "Automatisation des Flux de Travail",
+      "description": "Automatisez vos processus de gestion des risques fournisseurs",
+      "newWorkflow": "Nouveau Flux de Travail",
+      "manageAutomation": "Gérer l'Automatisation",
+      "stats": {
+        "activeTasks": "Tâches Actives",
+        "completed": "Terminées",
+        "overdue": "En Retard",
+        "automationRules": "Règles d'Automatisation"
+      }
+    },
+    "threatIntelligence": {
+      "title": "Renseignement sur les Menaces",
+      "description": "Surveillez les menaces de sécurité affectant vos fournisseurs",
+      "stats": {
+        "activeSources": "Sources Actives",
+        "threatsToday": "Menaces Aujourd'hui",
+        "coverage": "Couverture"
+      },
+      "sources": {
+        "title": "Sources de Renseignement sur les Menaces"
+      }
+    },
+    "analytics": {
+      "title": "Analytique Prédictive",
+      "description": "Insights alimentés par l'IA et prédictions de risques",
+      "exportReport": {
+        "title": "Exporter le Rapport d'Analytique",
+        "description": "Générer un rapport complet de vos insights analytiques",
+        "button": "Exporter le Rapport"
+      }
+    },
+    "alerts": {
+      "workflowCreation": "La création de flux de travail s'ouvrirait ici. Cette fonctionnalité vous permet de créer des règles d'automatisation personnalisées pour la gestion des risques fournisseurs.",
+      "automationManagement": "L'interface de gestion de l'automatisation s'ouvrirait ici. Configurez les déclencheurs, actions et paramètres de notification."
+    },
+    "table": {
+      "vendor": "Fournisseur",
+      "riskScore": "Score de Risque",
+      "riskLevel": "Niveau de Risque",
+      "complianceStatus": "Statut de Conformité",
+      "lastAssessment": "Dernière Évaluation"
+    },
+    "riskScoring": {
+      "title": "Notation des Risques",
+      "description": "Notation automatisée des risques basée sur plusieurs facteurs",
+      "lowRisk": "Faible Risque",
+      "mediumRisk": "Risque Moyen",
+      "highRisk": "Risque Élevé",
+      "criticalRisk": "Risque Critique",
+      "excellent": "Excellent",
+      "acceptable": "Acceptable",
+      "concerning": "Préoccupant",
+      "unacceptable": "Inacceptable"
+    },
+    "actions": {
+      "title": "Actions Recommandées",
+      "lowRisk": {
+        "title": "Fournisseurs à Faible Risque",
+        "description": "Continuer la surveillance régulière et les évaluations annuelles"
+      },
+      "mediumRisk": {
+        "title": "Fournisseurs à Risque Moyen",
+        "description": "Augmenter la fréquence de surveillance et exiger des contrôles de sécurité supplémentaires"
+      },
+      "highRisk": {
+        "title": "Fournisseurs à Risque Élevé",
+        "description": "Implémenter un plan de remédiation immédiat et une surveillance renforcée"
+      },
+      "criticalRisk": {
+        "title": "Fournisseurs à Risque Critique",
+        "description": "Considérer la résiliation ou exiger des améliorations de sécurité immédiates"
+      }
+    }
+  },
+  "supplyChainResults": {
+    "defaultTitle": "Évaluation des risques de la chaîne d'approvisionnement",
+    "resultsTitle": "Résultats",
+    "accountPrompt": {
+      "title": "Créez un compte pour sauvegarder vos résultats",
+      "description": "Inscrivez-vous gratuitement pour sauvegarder vos résultats d'évaluation, suivre les progrès au fil du temps et accéder à des fonctionnalités supplémentaires.",
+      "createAccount": "Créer un compte",
+      "signIn": "Se connecter"
+    },
+    "keyFindings": {
+      "title": "Principales conclusions",
+      "primaryRiskAreas": "Zones de risque principales",
+      "strengths": "Points forts",
+      "compliance": "conformité",
+      "noCriticalRisks": "Aucune zone de risque critique identifiée",
+      "noSignificantStrengths": "Aucun point fort significatif identifié"
+    },
+    "viewDetailedRecommendations": "Voir les recommandations détaillées"
+  },
+  "supplyChainRecommendations": {
+    "title": "Recommandations de gestion des risques de la chaîne d'approvisionnement",
+    "subtitle": "Recommandations priorisées pour améliorer votre posture de sécurité de la chaîne d'approvisionnement",
+    "stats": {
+      "totalRecommendations": "Total des recommandations",
+      "criticalPriority": "Priorité critique",
+      "inProgress": "En cours",
+      "completed": "Terminé"
+    },
+    "search": {
+      "placeholder": "Rechercher des recommandations par titre, description ou catégorie..."
+    },
+    "filters": {
+      "priority": "Priorité",
+      "category": "Catégorie",
+      "timeframe": "Délai",
+      "effort": "Effort",
+      "status": "Statut",
+      "allPriorities": "Toutes les priorités",
+      "allCategories": "Toutes les catégories",
+      "allTimeframes": "Tous les délais",
+      "allEffortLevels": "Tous les niveaux d'effort",
+      "allStatuses": "Tous les statuts",
+      "clearAll": "Effacer tous les filtres"
+    },
+    "priorities": {
+      "critical": "Critique",
+      "high": "Élevé",
+      "medium": "Moyen",
+      "low": "Faible"
+    },
+    "timeframes": {
+      "immediate": "Immédiat",
+      "shortterm": "Court terme",
+      "mediumterm": "Moyen terme",
+      "longterm": "Long terme"
+    },
+    "efforts": {
+      "minimal": "Minimal",
+      "moderate": "Modéré",
+      "significant": "Significatif"
+    },
+    "statuses": {
+      "notStarted": "Pas commencé",
+      "inProgress": "En cours",
+      "completed": "Terminé"
+    },
+    "impactLevels": {
+      "high": "Élevé"
+    },
+    "labels": {
+      "timeframe": "Délai",
+      "effort": "Effort",
+      "impact": "Impact",
+      "expectedImpact": "Impact attendu",
+      "implementationSteps": "Étapes de mise en œuvre",
+      "references": "Références"
+    },
+    "actions": {
+      "filters": "Filtres",
+      "exportPdf": "Exporter PDF",
+      "exporting": "Exportation en cours...",
+      "retry": "Réessayer",
+      "viewSteps": "Voir les étapes de mise en œuvre",
+      "completed": "Terminé",
+      "markComplete": "Marquer comme terminé"
+    },
+    "navigation": {
+      "backToResults": "Retour aux résultats"
+    },
+    "errors": {
+      "loadingError": "Erreur lors du chargement des recommandations"
+    },
+    "emptyState": {
+      "noRecommendations": "Aucune recommandation trouvée",
+      "tryDifferentFilters": "Essayez d'ajuster vos termes de recherche ou filtres pour trouver des recommandations."
+    },
+    "resultsCount": "Affichage de {{filtered}} sur {{total}} recommandations"
+  },
+  "quickTools": {
+    "nistChecklist": {
+      "title": "Liste de Contrôle Conformité NIST",
+      "description": "Évaluation rapide de votre posture de conformité NIST SP 800-161",
+      "aboutTitle": "À Propos de Cette Liste de Contrôle",
+      "aboutText1": "Cette liste de contrôle fournit une évaluation de haut niveau de la conformité de votre organisation avec les directives de gestion des risques de la chaîne d'approvisionnement NIST SP 800-161.",
+      "aboutText2": "Complétez tous les éléments pour obtenir un score de conformité global et des recommandations d'amélioration.",
+      "keyAreas": "Domaines Clés",
+      "checklistTitle": "Liste de Contrôle de Conformité",
+      "instructions": "Cochez chaque élément que votre organisation a implémenté",
+      "complianceResults": "Résultats de Conformité",
+      "checkCompliance": "Vérifier la Conformité",
+      "downloadReport": "Télécharger le Rapport",
+      "fullAssessment": "Commencer l'Évaluation Complète",
+      "action": "Action Requise",
+      "implemented": "Implémenté",
+      "improvementNeeded": "Amélioration Nécessaire",
+      "goodCompliance": "Bonne Conformité",
+      "compliantMessage": "Votre organisation montre une bonne conformité avec les directives NIST",
+      "nonCompliantMessage": "Plusieurs domaines nécessitent une attention pour améliorer la posture de conformité",
+      "areas": {
+        "governance": "Gouvernance et Stratégie",
+        "supplierManagement": "Gestion des Fournisseurs",
+        "informationSharing": "Partage d'Information",
+        "productSecurity": "Sécurité des Produits",
+        "incidentResponse": "Réponse aux Incidents"
+      },
+      "items": {
+        "scrm1": "Politique de gestion des risques de la chaîne d'approvisionnement établie",
+        "scrm2": "Exigences de sécurité des fournisseurs définies",
+        "scrm3": "Processus d'intégration des fournisseurs implémenté",
+        "scrm4": "Évaluations régulières des fournisseurs effectuées",
+        "scrm5": "Plan de réponse aux incidents inclut la chaîne d'approvisionnement",
+        "scrm6": "Programme de gestion des vulnérabilités actif",
+        "scrm7": "Surveillance des risques tiers en place",
+        "scrm8": "Exigences de sécurité dans les contrats",
+        "scrm9": "Audits de conformité réguliers effectués",
+        "scrm10": "Formation du personnel sur les risques de la chaîne d'approvisionnement"
+      }
+    },
+    "riskCalculator": {
+      "title": "Calculateur de Risque Fournisseur",
+      "description": "Calculez les scores de risque fournisseur basés sur plusieurs facteurs",
+      "howToUse": "Comment Utiliser",
+      "inputTitle": "Informations Fournisseur",
+      "vendorName": "Nom du Fournisseur",
+      "vendorNamePlaceholder": "Entrez le nom du fournisseur",
+      "riskFactors": "Facteurs de Risque",
+      "step1": "Entrez les détails du fournisseur",
+      "step2": "Évaluez les facteurs de risque",
+      "step3": "Examinez le risque calculé",
+      "calculate": "Calculer le Risque",
+      "resultsTitle": "Résultats de l'Évaluation des Risques",
+      "vendorRiskScore": "Score de Risque du Fournisseur",
+      "recommendation": "Recommandation",
+      "viewDashboard": "Voir le Tableau de Bord Complet",
+      "disclaimer": "Ceci est une évaluation préliminaire. Effectuez une évaluation complète pour les fournisseurs critiques.",
+      "action": "Action Recommandée",
+      "lowRisk": "Faible Risque",
+      "highRisk": "Risque Élevé",
+      "factors": {
+        "criticality": {
+          "name": "Criticité Métier",
+          "description": "Quelle est la criticité de ce fournisseur pour vos opérations métier ?"
+        },
+        "dataAccess": {
+          "name": "Niveau d'Accès aux Données",
+          "description": "Quel niveau de données sensibles ce fournisseur accède-t-il ?"
+        },
+        "systemExposure": {
+          "name": "Exposition du Système",
+          "description": "Combien d'accès ce fournisseur a-t-il à vos systèmes ?"
+        },
+        "compliance": {
+          "name": "Statut de Conformité",
+          "description": "Quelle est la posture de conformité du fournisseur ?"
+        },
+        "securityControls": {
+          "name": "Contrôles de Sécurité",
+          "description": "À quel point les contrôles de sécurité du fournisseur sont-ils robustes ?"
+        }
+      },
+      "results": {
+        "low": "Continuer avec les procédures de surveillance standard",
+        "medium": "Implémenter une surveillance renforcée et des contrôles supplémentaires",
+        "high": "Exiger une remédiation immédiate et une surveillance renforcée",
+        "critical": "Considérer la résiliation du contrat ou des mesures de sécurité d'urgence"
+      }
+    },
+    "sbomScan": {
+      "title": "Scanner SBOM",
+      "description": "Scan rapide de votre nomenclature logicielle",
+      "action": "Scanner SBOM",
+      "scanComplete": "Scan Terminé",
+      "noVulnerabilities": "Aucune vulnérabilité critique trouvée",
+      "fullAnalysis": "Exécuter l'Analyse Complète",
+      "formatInfo": "Supporte les formats SPDX, CycloneDX et SWID"
+    }
+  },
+  "howItWorks": {
+    "title": "Comment Ça Marche",
+    "subtitle": "Gestion simple et complète des risques de la chaîne d'approvisionnement en quatre étapes",
+    "hero": {
+      "scheduleDemo": "Planifier une Démo",
+      "tryNow": "Essayer Maintenant"
+    },
+    "process": {
+      "title": "Notre Processus",
+      "description": "De l'évaluation à la surveillance continue, nous vous guidons à chaque étape",
+      "stepTitle": "Étape"
+    },
+    "steps": {
+      "assess": {
+        "title": "Évaluer les Risques",
+        "description": "Évaluation complète des risques utilisant les cadres NIST",
+        "cta": "Commencer l'Évaluation",
+        "features": {
+          "nist": "Aligné NIST SP 800-161",
+          "questions": "Questionnaires guidés",
+          "scoring": "Notation automatisée des risques",
+          "recommendations": "Recommandations exploitables"
+        }
+      },
+      "sbom": {
+        "title": "Analyser les Composants",
+        "description": "Analyse de la nomenclature logicielle pour les vulnérabilités",
+        "cta": "Analyser SBOM",
+        "features": {
+          "formats": "Support de formats multiples",
+          "vulnerability": "Scan de vulnérabilités",
+          "license": "Conformité des licences",
+          "compliance": "Conformité réglementaire"
+        }
+      },
+      "vendors": {
+        "title": "Gérer les Fournisseurs",
+        "description": "Évaluation et surveillance rationalisées des fournisseurs",
+        "cta": "Ajouter des Fournisseurs",
+        "features": {
+          "assessment": "Évaluations de sécurité",
+          "scoring": "Notation des risques",
+          "monitoring": "Surveillance continue",
+          "reporting": "Reporting de conformité"
+        }
+      },
+      "monitor": {
+        "title": "Surveiller en Continu",
+        "description": "Surveillance et reporting continus pour la conformité",
+        "cta": "Voir le Tableau de Bord",
+        "features": {
+          "dashboard": "Tableau de bord en temps réel",
+          "alerts": "Alertes de risque",
+          "trends": "Analyse des tendances",
+          "reports": "Rapports exécutifs"
+        }
+      }
+    },
+    "benefits": {
+      "title": "Avantages Clés",
+      "description": "Pourquoi les organisations choisissent notre plateforme pour la sécurité de la chaîne d'approvisionnement",
+      "compliance": {
+        "title": "Automatisation de la Conformité",
+        "description": "Automatiser le reporting de conformité NIST, CMMC et ISO"
+      },
+      "efficiency": {
+        "title": "Efficacité Améliorée",
+        "description": "Automatiser les tâches d'évaluation manuelles"
+      },
+      "insights": {
+        "title": "Insights Exploitables",
+        "description": "Obtenir des recommandations claires pour la remédiation des risques"
+      },
+      "automation": {
+        "title": "Automatisation des Processus",
+        "description": "Rationaliser l'intégration et la surveillance des fournisseurs"
+      }
+    },
+    "quickTools": {
+      "title": "Outils Rapides",
+      "description": "Commencez immédiatement avec nos outils gratuits",
+      "nistChecklist": {
+        "title": "Liste de Contrôle NIST",
+        "description": "Évaluation rapide de la conformité",
+        "cta": "Vérifier la Conformité"
+      },
+      "riskCalculator": {
+        "title": "Calculateur de Risque",
+        "description": "Calculer les scores de risque des fournisseurs",
+        "cta": "Calculer le Risque"
+      },
+      "sbomScan": {
+        "title": "Scanner SBOM",
+        "description": "Scanner pour les vulnérabilités",
+        "cta": "Scanner Maintenant"
+      }
+    },
+    "integration": {
+      "title": "Intégration et Export",
+      "description": "Intégrez-vous facilement avec vos outils et flux de travail existants",
+      "cta": "Voir les Intégrations",
+      "features": {
+        "api": "Accès API",
+        "apiDesc": "API RESTful pour les intégrations personnalisées",
+        "export": "Export de Données",
+        "exportDesc": "Exporter les rapports dans plusieurs formats",
+        "alerts": "Alertes Automatisées",
+        "alertsDesc": "Notifications et alertes en temps réel",
+        "templates": "Modèles Personnalisés",
+        "templatesDesc": "Personnaliser les évaluations selon vos besoins"
+      }
+    },
+    "getStarted": {
+      "title": "Commencez Aujourd'hui",
+      "description": "Rejoignez des milliers d'organisations sécurisant leurs chaînes d'approvisionnement",
+      "steps": {
+        "step1": {
+          "title": "S'Inscrire",
+          "description": "Créez votre compte gratuit en minutes"
+        },
+        "step2": {
+          "title": "Configurer",
+          "description": "Configurez vos modèles d'évaluation et fournisseurs"
+        },
+        "step3": {
+          "title": "Évaluer",
+          "description": "Commencez votre première évaluation des risques de la chaîne d'approvisionnement"
+        }
+      },
+      "cta": {
+        "signup": "S'Inscrire Gratuitement",
+        "resources": "Parcourir les Ressources"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Tarification Simple et Transparente",
+    "subtitle": "Choisissez le plan qui correspond aux besoins de votre organisation",
+    "cta": {
+      "title": "Prêt à Commencer ?",
+      "subtitle": "Rejoignez des milliers d'organisations gérant les risques de la chaîne d'approvisionnement",
+      "startTrial": "Commencer l'Essai Gratuit",
+      "scheduleDemo": "Planifier une Démo"
+    },
+    "faq": {
+      "title": "Questions Fréquemment Posées",
+      "questions": {
+        "freeTrial": {
+          "question": "Offrez-vous un essai gratuit ?",
+          "answer": "Oui, nous offrons un essai gratuit de 14 jours avec accès complet à toutes les fonctionnalités de démarrage."
+        },
+        "dataSecure": {
+          "question": "Mes données sont-elles sécurisées ?",
+          "answer": "Nous utilisons une sécurité de niveau entreprise avec chiffrement au repos et en transit, conformité SOC 2, et audits de sécurité réguliers."
+        },
+        "supportIncluded": {
+          "question": "Quel support est inclus ?",
+          "answer": "Tous les plans incluent le support par email. Les plans Professionnel et Entreprise incluent le support prioritaire et un succès client dédié."
+        },
+        "changePlans": {
+          "question": "Puis-je changer de plan à tout moment ?",
+          "answer": "Oui, vous pouvez passer à un plan supérieur ou inférieur à tout moment. Les changements prennent effet à votre prochain cycle de facturation."
+        },
+        "customIntegrations": {
+          "question": "Supportez-vous les intégrations personnalisées ?",
+          "answer": "Les plans Entreprise incluent les intégrations personnalisées. Les plans Professionnels ont un accès API pour les intégrations en libre-service."
+        },
+        "paymentMethods": {
+          "question": "Quels modes de paiement acceptez-vous ?",
+          "answer": "Nous acceptons toutes les cartes de crédit principales, les virements ACH, et pouvons accommoder les bons de commande pour les clients Entreprise."
+        }
+      }
+    },
+    "tiers": {
+      "starter": {
+        "name": "Démarrage",
+        "description": "Parfait pour les petites équipes qui commencent avec la gestion des risques de la chaîne d'approvisionnement",
+        "cta": "Commencer l'Essai Gratuit",
+        "maxUsers": "Jusqu'à 5 utilisateurs",
+        "maxVendors": "Jusqu'à 25 fournisseurs",
+        "features": {
+          "nistBasic": "Évaluations NIST de base",
+          "sbomAnalyzer": "Analyseur SBOM",
+          "vendorDashboard": "Tableau de bord fournisseurs",
+          "basicReporting": "Reporting de base",
+          "standardTemplates": "Modèles standards",
+          "emailSupport": "Support par email"
+        }
+      },
+      "professional": {
+        "name": "Professionnel",
+        "description": "Fonctionnalités avancées pour les organisations en croissance avec des chaînes d'approvisionnement complexes",
+        "cta": "Commencer l'Essai Gratuit",
+        "popular": "Le Plus Populaire",
+        "maxUsers": "Jusqu'à 25 utilisateurs",
+        "maxVendors": "Jusqu'à 100 fournisseurs",
+        "features": {
+          "everythingStarter": "Tout dans Démarrage",
+          "advancedNist": "Conformité NIST avancée",
+          "unlimitedSbom": "Analyse SBOM illimitée",
+          "customTemplates": "Modèles personnalisés",
+          "advancedReporting": "Reporting avancé",
+          "workflowAutomation": "Automatisation des flux de travail",
+          "apiAccess": "Accès API",
+          "threatIntelligence": "Renseignement sur les menaces",
+          "prioritySupport": "Support prioritaire"
+        }
+      },
+      "enterprise": {
+        "name": "Entreprise",
+        "description": "Solution complète pour les grandes organisations avec des exigences de niveau entreprise",
+        "cta": "Contacter les Ventes",
+        "maxUsers": "Utilisateurs illimités",
+        "maxVendors": "Fournisseurs illimités",
+        "features": {
+          "everythingProfessional": "Tout dans Professionnel",
+          "ssoSecurity": "SSO et sécurité avancée",
+          "customBranding": "Image de marque personnalisée",
+          "advancedAnalytics": "Analytique avancée",
+          "customIntegrations": "Intégrations personnalisées",
+          "dedicatedManager": "Succès client dédié",
+          "professionalServices": "Services professionnels",
+          "slaGuarantees": "Garanties SLA",
+          "multiTenant": "Architecture multi-locataire"
+        }
+      },
+      "federal": {
+        "name": "Fédéral",
+        "description": "Solution spécialisée pour les agences fédérales et contractants avec des exigences FedRAMP",
+        "cta": "Contacter les Ventes",
+        "maxUsers": "Utilisateurs illimités",
+        "maxVendors": "Fournisseurs illimités",
+        "features": {
+          "fullNistCompliance": "Suite complète de conformité NIST",
+          "fedrampAuth": "Infrastructure autorisée FedRAMP",
+          "govCloudDeployment": "Déploiement GovCloud",
+          "cacPivAuth": "Authentification CAC/PIV",
+          "enhancedSecurity": "Contrôles de sécurité renforcés",
+          "federalReporting": "Reporting spécifique fédéral",
+          "fismaCompliance": "Outils de conformité FISMA",
+          "atoSupport": "Services de support ATO",
+          "federalSupportTeam": "Équipe de support fédéral dédiée"
+        }
+      }
+    },
+    "enterpriseFeatures": {
+      "title": "Fonctionnalités Entreprise",
+      "features": {
+        "supplyChainMapping": "Cartographie et visualisation de la chaîne d'approvisionnement",
+        "advancedVulnerability": "Gestion avancée des vulnérabilités",
+        "predictiveAnalytics": "Analytique prédictive des risques",
+        "thirdPartyScoring": "Notation des risques tiers",
+        "regulatoryAutomation": "Automatisation de la conformité réglementaire",
+        "incidentAutomation": "Automatisation de la réponse aux incidents"
+      }
+    }
+  },
+  "resources": {
+    "templates": {
+      "title": "Modèles et Ressources",
+      "description": "Téléchargez des modèles et ressources pour accélérer votre programme de gestion des risques de la chaîne d'approvisionnement",
+      "download": "Télécharger le Modèle",
+      "customization": {
+        "title": "Besoin de Modèles Personnalisés ?",
+        "description": "Notre équipe peut aider à créer des modèles d'évaluation personnalisés adaptés à vos exigences spécifiques d'industrie.",
+        "contactButton": "Nous Contacter"
+      },
+      "categories": {
+        "vendorQuestionnaires": {
+          "title": "Questionnaires Fournisseurs",
+          "description": "Questionnaires prêts à l'emploi pour les évaluations de sécurité des fournisseurs",
+          "items": {
+            "nistComplete": "Questionnaire NIST SP 800-161 complet",
+            "vendorQuick": "Évaluation rapide de sécurité fournisseur",
+            "cloudProvider": "Questionnaire de sécurité fournisseur cloud",
+            "softwareProvider": "Modèle d'évaluation fournisseur logiciel"
+          }
+        },
+        "riskAssessment": {
+          "title": "Modèles d'Évaluation des Risques",
+          "description": "Modèles pour effectuer des évaluations complètes des risques",
+          "items": {
+            "scoringMatrix": "Modèle de matrice de notation des risques",
+            "riskRegister": "Registre des risques de la chaîne d'approvisionnement",
+            "managementPlan": "Modèle de plan de gestion des risques",
+            "execSummary": "Modèle de résumé exécutif"
+          }
+        },
+        "sbomTemplates": {
+          "title": "Modèles SBOM",
+          "description": "Modèles et générateurs de nomenclature logicielle",
+          "items": {
+            "spdx": "Modèle format SPDX",
+            "cyclonedx": "Modèle format CycloneDX",
+            "generator": "Outil générateur SBOM",
+            "report": "Modèle de rapport d'analyse SBOM"
+          }
+        }
+      },
+      "implementationGuides": {
+        "title": "Guides d'Implémentation",
+        "items": {
+          "sbomGuide": {
+            "title": "Guide d'Implémentation SBOM",
+            "description": "Guide complet pour implémenter la nomenclature logicielle"
+          },
+          "maturityModel": {
+            "title": "Modèle de Maturité de la Chaîne d'Approvisionnement",
+            "description": "Évaluez et améliorez la maturité de sécurité de votre chaîne d'approvisionnement"
+          },
+          "federalCompliance": {
+            "title": "Guide de Conformité Fédérale",
+            "description": "Naviguez les exigences et réglementations fédérales de la chaîne d'approvisionnement"
+          }
+        }
+      },
+      "nistResources": {
+        "title": "Ressources NIST",
+        "keyDocuments": {
+          "title": "Documents Clés",
+          "items": {
+            "nistRev1": {
+              "title": "NIST SP 800-161 Rev. 1",
+              "description": "Pratiques de Gestion des Risques de Cybersécurité de la Chaîne d'Approvisionnement"
+            },
+            "quickStart": {
+              "title": "Guide de Démarrage Rapide",
+              "description": "Commencer avec la gestion des risques de la chaîne d'approvisionnement NIST"
+            },
+            "controlMapping": {
+              "title": "Guide de Mappage des Contrôles",
+              "description": "Mapper les contrôles NIST à votre cadre de sécurité existant"
+            }
+          }
+        }
+      }
+    },
+    "apiDocs": {
+      "title": "Documentation API",
+      "description": "Intégrez notre plateforme avec vos outils et flux de travail existants",
+      "overview": "Aperçu API",
+      "sections": {
+        "authentication": "Authentification",
+        "rateLimits": "Limites de Taux",
+        "nistControlsApi": "API Contrôles NIST",
+        "sbomApi": "API SBOM",
+        "vendorRiskApi": "API Risque Fournisseur",
+        "webhooks": "Webhooks"
+      },
+      "authentication": {
+        "description": "Authentification API sécurisée utilisant des clés API",
+        "security": "Meilleures Pratiques de Sécurité",
+        "securityTips": {
+          "clientSide": "Ne jamais exposer les clés API dans le code côté client",
+          "rotation": "Faire tourner les clés API régulièrement",
+          "envVars": "Stocker les clés dans les variables d'environnement",
+          "ipRestrictions": "Utiliser les restrictions IP quand possible"
+        }
+      },
+      "rateLimits": {
+        "description": "Limites de taux API pour assurer une utilisation équitable",
+        "rateLimit": "Limite de Taux",
+        "burstLimit": "Limite de Rafale",
+        "plan": "Plan",
+        "plans": {
+          "free": "Gratuit",
+          "standard": "Standard",
+          "enterprise": "Entreprise"
+        },
+        "limits": {
+          "free": {
+            "rate": "100 requêtes/heure",
+            "burst": "10 requêtes/minute"
+          },
+          "standard": {
+            "rate": "1 000 requêtes/heure",
+            "burst": "50 requêtes/minute"
+          },
+          "enterprise": {
+            "rate": "10 000 requêtes/heure",
+            "burst": "200 requêtes/minute"
+          }
+        }
+      },
+      "nistControlsApi": {
+        "description": "Accéder aux cadres de contrôles NIST et évaluations",
+        "endpoints": "Points de Terminaison Disponibles",
+        "endpointDescriptions": {
+          "listControls": "Lister tous les contrôles NIST disponibles",
+          "getControl": "Obtenir des informations détaillées sur un contrôle spécifique",
+          "getQuestions": "Obtenir les questions d'évaluation pour les contrôles"
+        }
+      },
+      "sbomApi": {
+        "description": "Analyser et gérer les nomenclatures logicielles",
+        "endpoints": "Points de Terminaison Disponibles",
+        "supportedFormats": "Formats SBOM Supportés",
+        "formats": {
+          "spdx": "SPDX (Software Package Data Exchange)",
+          "cyclonedx": "CycloneDX",
+          "plainText": "Format texte simple"
+        },
+        "endpointDescriptions": {
+          "analyzeSbom": "Soumettre SBOM pour analyse",
+          "getAnalysis": "Obtenir les résultats d'analyse",
+          "getVulnerabilities": "Obtenir les informations de vulnérabilité"
+        }
+      },
+      "vendorRiskApi": {
+        "description": "Gérer les évaluations fournisseurs et scores de risque",
+        "endpoints": "Points de Terminaison Disponibles",
+        "endpointDescriptions": {
+          "listVendors": "Lister tous les fournisseurs",
+          "getVendor": "Obtenir les détails du fournisseur",
+          "createVendor": "Créer un nouveau fournisseur",
+          "updateVendor": "Mettre à jour les informations du fournisseur",
+          "getRiskScore": "Obtenir le score de risque du fournisseur",
+          "createAssessment": "Créer une évaluation fournisseur"
+        }
+      },
+      "webhooks": {
+        "description": "Notifications en temps réel pour les événements importants",
+        "availableEvents": "Événements Disponibles",
+        "payloadExample": "Exemple de Charge Utile",
+        "events": {
+          "assessmentCompleted": "Évaluation terminée",
+          "riskScoreChanged": "Score de risque modifié",
+          "vulnerabilityFound": "Nouvelle vulnérabilité trouvée",
+          "vendorCreated": "Fournisseur créé",
+          "vendorUpdated": "Fournisseur mis à jour",
+          "sbomAnalyzed": "Analyse SBOM terminée"
+        }
+      },
+      "common": {
+        "description": "Description",
+        "method": "Méthode",
+        "endpoint": "Point de Terminaison",
+        "exampleRequest": "Exemple de Requête",
+        "exampleResponse": "Exemple de Réponse"
+      }
+    }
+  },
+  "integrationGuides": {
+    "title": "Guides d'Intégration",
+    "description": "Connectez VendorTal™ Risk Review avec vos systèmes et flux de travail existants. Suivez nos guides étape par étape pour intégrer la gestion des risques de la chaîne d'approvisionnement dans votre pile technologique.",
+    "quickStart": {
+      "title": "Commencer avec l'API VendorTal™ Risk Review",
+      "description": "Nouveau dans les intégrations VendorTal™ Risk Review ? Commencez par notre guide API REST pour comprendre les bases de l'authentification, des points de terminaison et des formats de données.",
+      "viewApiDocs": "Voir la Documentation API",
+      "downloadSDKs": "Télécharger les SDKs"
+    },
+    "categories": {
+      "all": "Toutes les Intégrations",
+      "api": "Intégration API",
+      "webhooks": "Webhooks",
+      "sso": "SSO/Authentification",
+      "export": "Export de Données",
+      "automation": "Automatisation"
+    },
+    "difficulty": {
+      "beginner": "débutant",
+      "intermediate": "intermédiaire",
+      "advanced": "avancé"
+    },
+    "guides": {
+      "restApi": {
+        "title": "Intégration API REST",
+        "description": "Connectez vos applications à VendorTal™ Risk Review en utilisant notre API REST pour les données fournisseurs, les évaluations et l'analyse SBOM.",
+        "estimatedTime": "30-60 minutes",
+        "steps": [
+          "Obtenez les identifiants API depuis votre tableau de bord VendorTal™ Risk Review",
+          "Configurez les en-têtes d'authentification dans votre application",
+          "Effectuez votre premier appel API pour récupérer les données fournisseurs",
+          "Implémentez la gestion d'erreurs et la limitation du taux",
+          "Testez l'intégration avec des données d'exemple"
+        ]
+      },
+      "webhookSetup": {
+        "title": "Configuration des Webhooks",
+        "description": "Recevez des notifications en temps réel lorsque les scores de risque fournisseurs changent, les évaluations sont terminées ou des vulnérabilités sont détectées.",
+        "estimatedTime": "45 minutes",
+        "steps": [
+          "Configurez les points de terminaison webhook dans votre tableau de bord VendorTal™ Risk Review",
+          "Configurez un point de terminaison HTTPS sécurisé pour recevoir les webhooks",
+          "Vérifiez les signatures webhook pour la sécurité",
+          "Gérez différents types d'événements (changements de risque, évaluations)",
+          "Implémentez la logique de nouvelle tentative pour les livraisons webhook échouées"
+        ]
+      },
+      "ssoIntegration": {
+        "title": "Authentification Unique (SSO)",
+        "description": "Intégrez VendorTal™ Risk Review avec le fournisseur d'identité de votre organisation en utilisant SAML 2.0 ou OpenID Connect.",
+        "estimatedTime": "2-4 heures",
+        "steps": [
+          "Configurez les paramètres de votre fournisseur d'identité (IdP)",
+          "Échangez les métadonnées SAML avec VendorTal™ Risk Review",
+          "Configurez le mappage d'attributs pour les rôles utilisateur",
+          "Testez le flux de connexion SSO avec des utilisateurs de test",
+          "Configurez les contrôles d'accès basés sur les groupes"
+        ]
+      },
+      "dataExport": {
+        "title": "Export Automatisé de Données",
+        "description": "Configurez des exports programmés des données fournisseurs, résultats d'évaluation et rapports de conformité vers votre entrepôt de données.",
+        "estimatedTime": "20 minutes",
+        "steps": [
+          "Choisissez votre format d'export préféré (CSV, JSON, XML)",
+          "Configurez les plannings d'export dans le tableau de bord",
+          "Configurez le transfert de fichiers sécurisé (SFTP, S3, etc.)",
+          "Mappez les champs de données à vos systèmes internes",
+          "Testez le processus d'export et validez les données"
+        ]
+      },
+      "workflowAutomation": {
+        "title": "Automatisation des Flux de Travail",
+        "description": "Automatisez l'intégration des fournisseurs, les évaluations de risques et le suivi de conformité en utilisant les APIs VendorTal™ Risk Review.",
+        "estimatedTime": "1-2 heures",
+        "steps": [
+          "Concevez votre flux de travail d'automatisation",
+          "Configurez les conditions de déclenchement (nouveau fournisseur, seuil de risque)",
+          "Configurez les actions automatisées (envoyer évaluations, alertes)",
+          "Implémentez les flux de travail d'approbation pour les fournisseurs à haut risque",
+          "Surveillez et optimisez les performances d'automatisation"
+        ]
+      },
+      "cloudIntegration": {
+        "title": "Intégration de Plateforme Cloud",
+        "description": "Connectez VendorTal™ Risk Review avec AWS, Azure ou GCP pour une surveillance de sécurité et conformité renforcées.",
+        "estimatedTime": "2-3 heures",
+        "steps": [
+          "Configurez les identifiants et permissions des services cloud",
+          "Configurez les connecteurs cloud VendorTal™ Risk Review",
+          "Mappez les ressources cloud aux relations fournisseurs",
+          "Activez la surveillance automatisée de la conformité",
+          "Configurez les alertes pour les événements de sécurité"
+        ]
+      }
+    },
+    "common": {
+      "implementationSteps": "Étapes d'Implémentation :",
+      "moreSteps": "+ {{count}} étapes supplémentaires",
+      "codeExample": "Exemple de Code :",
+      "copied": "Copié",
+      "copy": "Copier",
+      "viewGuide": "Voir le Guide",
+      "examples": "Exemples"
+    },
+    "sdks": {
+      "title": "SDKs et Outils",
+      "javascript": {
+        "title": "SDK JavaScript",
+        "description": "SDK officiel JavaScript/TypeScript pour les applications web et Node.js.",
+        "npmInstall": "npm install",
+        "github": "GitHub"
+      },
+      "python": {
+        "title": "SDK Python",
+        "description": "Bibliothèque Python pour la science des données et les flux de travail d'automatisation.",
+        "pipInstall": "pip install",
+        "pypi": "PyPI"
+      },
+      "cli": {
+        "title": "Outil CLI",
+        "description": "Interface de ligne de commande pour les opérations par lots et l'intégration CI/CD.",
+        "download": "Télécharger",
+        "docs": "Documentation"
+      }
+    },
+    "support": {
+      "title": "Besoin d'Aide pour l'Intégration ?",
+      "description": "Notre équipe technique est là pour vous aider à intégrer VendorTal™ Risk Review avec vos systèmes. Obtenez un support personnalisé pour les intégrations complexes et les implémentations personnalisées.",
+      "contactSupport": "Contacter le Support",
+      "scheduleConsultation": "Planifier une Consultation"
+    }
+  },
+  "navigation": {
+    "home": "Accueil",
+    "solutions": "Solutions",
+    "dashboard": "Tableau de bord",
+    "pricing": "Tarifs",
+    "howItWorks": "Comment ça marche",
+    "assessment": "Évaluation",
+    "sbom": "Analyse SBOM",
+    "vendorRisk": "Risque fournisseur",
+    "vendorRiskRadar": "Radar des risques fournisseurs",
+    "vendorAssessments": "Envoyer des Questionnaires",
+    "templates": "Modèles",
+    "resources": "Ressources",
+    "apiDocs": "Documentation API",
+    "integration": "Intégration",
+    "about": "À propos",
+    "contact": "Contact",
+    "privacy": "Confidentialité"
+  },
+  "auth": {
+    "login": "Se connecter",
+    "logout": "Se déconnecter",
+    "account": "Compte",
+    "dashboard": "Tableau de bord",
+    "profile": "Profil"
+    
+  },
+  "components": {
+    "yes": "Oui",
+    "no": "Non",
+    "partial": "Partiel"
+  },
+  "footer": {
+    "company": {
+      "name": "VendorTal™ Risk Review™ ",
+      "description": "Plateforme complète de gestion des risques de la chaîne d'approvisionnement pour les organisations modernes avec évaluations et outils de conformité automatisés.",
+      "contact": {
+        "email": "contact@ermits.com",
+        "phone": "+1 (240) 599-0102",
+        "address": "Gaithersburg, MD"
+      }
+    },
+    "sections": {
+      "solutions": "Solutions",
+      "resources": "Ressources",
+      "company": "Entreprise"
+    },
+    "links": {
+      "solutions": {
+        "supplyChainAssessment": "Évaluation de la Chaîne d'Approvisionnement",
+        "sbomAnalysis": "Analyse SBOM",
+        "vendorRiskDashboard": "Tableau de Bord des Risques Fournisseurs",
+        "vendorAssessments": "Évaluations de Sécurité des Fournisseurs"
+      },
+      "resources": {
+        "templates": "Modèles et Téléchargements",
+        "apiDocs": "Documentation API",
+        "integrationGuides": "Guides d'Intégration",
+        "howItWorks": "Comment ça Marche"
+      },
+      "company": {
+        "about": "À Propos de Nous",
+        "contact": "Contact",
+        "pricing": "Tarifs",
+        "privacy": "Politique de Confidentialité"
+      },
+      "quickTools": {
+        "title": "Outils Rapides",
+        "description": "Obtenez des insights instantanés avec nos outils d'évaluation rapide",
+        "sbomScan": {
+          "title": "Scan SBOM Rapide",
+          "description": "Scannez rapidement les fichiers SBOM pour les vulnérabilités",
+          "action": "Scanner Maintenant"
+        },
+        "riskCalculator": {
+          "title": "Calculateur de Risque Fournisseur",
+          "description": "Calculez instantanément les scores de risque fournisseur",
+          "action": "Calculer le Risque"
+        },
+        "nistChecklist": {
+          "title": "Liste de Contrôle NIST",
+          "description": "Vérifiez la conformité NIST SP 800-161",
+          "action": "Vérifier la Conformité"
+        }
+      },
+      "features": {
+        "title": "Sécurité Complète de la Chaîne d'Approvisionnement",
+        "description": "Tout ce dont vous avez besoin pour évaluer, surveiller et gérer les risques de la chaîne d'approvisionnement",
+        "feature1": {
+          "title": "Évaluation des Risques",
+          "description": "Évaluations alignées NIST SP 800-161"
+        },
+        "feature2": {
+          "title": "Analyse SBOM",
+          "description": "Scan de vulnérabilités des composants logiciels"
+        },
+        "feature3": {
+          "title": "Gestion des Fournisseurs",
+          "description": "Surveillance complète des risques fournisseurs"
+        },
+        "feature4": {
+          "title": "Automatisation",
+          "description": "Automatisation des flux de travail et reporting"
+        },
+        "learnMore": "En Savoir Plus"
+      }
+    },
+    "cta": {
+      "text": "Commencer l'Évaluation Gratuite"
+    },
+    "copyright": "© 2025 ERMITS LLC. Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "security": "Sécurité"
+  },
+  "misc": {
+    "json": "JSON",
+    "csv": "CSV",
+    "div": "div",
+    "content-type": "Content-Type",
+    "en-US": "fr-FR",
+    "Please log in to import data": "Veuillez vous connecter pour importer des données",
+    "Report generation would start here": "La génération de rapport commencerait ici"
+  },
+  "app": {
+    "name": "Plateforme de Sécurité de la Chaîne d'Approvisionnement"
+  },
+  "errors": {
+    "AUTHZ_ERROR": "Erreur d'Autorisation",
+    "AUTH_ERROR": "Erreur d'Authentification",
+    "BAD_GATEWAY_ERROR": "Erreur de Passerelle",
+    "BAD_REQUEST_ERROR": "Erreur de Requête",
+    "CONFLICT_ERROR": "Erreur de Conflit",
+    "DATABASE_ERROR": "Erreur de Base de Données",
+    "EXPECTATION_FAILED_ERROR": "Erreur d'Attente Échouée",
+    "FORBIDDEN_ERROR": "Erreur Interdite",
+    "GATEWAY_TIMEOUT_ERROR": "Erreur de Délai d'Attente de Passerelle",
+    "HTTP_VERSION_NOT_SUPPORTED_ERROR": "Erreur de Version HTTP Non Supportée",
+    "INSUFFICIENT_STORAGE_ERROR": "Erreur de Stockage Insuffisant",
+    "INTERNAL_SERVER_ERROR_ERROR": "Erreur Interne du Serveur",
+    "I_AM_A_TEAPOT_ERROR": "Je Suis une Théière",
+    "LENGTH_REQUIRED_ERROR": "Erreur de Longueur Requise",
+    "LOCKED_ERROR": "Erreur Verrouillée",
+    "LOOP_DETECTED_ERROR": "Erreur de Boucle Détectée",
+    "METHOD_NOT_ALLOWED_ERROR": "Erreur de Méthode Non Autorisée",
+    "MISDIRECTED_REQUEST_ERROR": "Erreur de Requête Mal Dirigée",
+    "NETWORK_AUTHENTICATION_REQUIRED_ERROR": "Erreur d'Authentification Réseau Requise",
+    "NETWORK_ERROR": "Erreur Réseau",
+    "NOT_EXTENDED_ERROR": "Erreur Non Étendue",
+    "NOT_FOUND_ERROR": "Erreur Non Trouvée",
+    "NOT_IMPLEMENTED_ERROR": "Erreur Non Implémentée",
+    "PAYMENT_REQUIRED_ERROR": "Erreur de Paiement Requis",
+    "PRECONDITION_FAILED_ERROR": "Erreur de Précondition Échouée",
+    "PRECONDITION_REQUIRED_ERROR": "Erreur de Précondition Requise",
+    "QUOTA_EXCEEDED_ERROR": "Erreur de Quota Dépassé",
+    "RATE_LIMIT_ERROR": "Erreur de Limite de Taux",
+    "REQUESTED_RANGE_NOT_SATISFIABLE_ERROR": "Erreur de Plage Demandée Non Satisfaisable",
+    "REQUEST_ENTITY_TOO_LARGE_ERROR": "Erreur d'Entité de Requête Trop Grande",
+    "REQUEST_HEADER_FIELDS_TOO_LARGE_ERROR": "Erreur de Champs d'En-tête de Requête Trop Grands",
+    "REQUEST_TIMEOUT_ERROR": "Erreur de Délai d'Attente de Requête",
+    "REQUEST_URI_TOO_LONG_ERROR": "Erreur d'URI de Requête Trop Longue",
+    "SERVICE_UNAVAILABLE_ERROR": "Erreur de Service Indisponible",
+    "TIMEOUT_ERROR": "Erreur de Délai d'Attente",
+    "TOO_EARLY_ERROR": "Erreur Trop Précoce",
+    "TOO_MANY_REQUESTS_ERROR": "Erreur de Trop de Requêtes",
+    "UNAUTHORIZED_ERROR": "Erreur Non Autorisée",
+    "UNAVAILABLE_FOR_LEGAL_REASONS_ERROR": "Erreur Indisponible pour des Raisons Légales",
+    "UNPROCESSABLE_ENTITY_ERROR": "Erreur d'Entité Non Traitable",
+    "UNSUPPORTED_MEDIA_TYPE_ERROR": "Erreur de Type de Média Non Supporté",
+    "UPGRADE_REQUIRED_ERROR": "Erreur de Mise à Niveau Requise",
+    "VALIDATION_ERROR": "Erreur de Validation",
+    "VARIANT_ALSO_NEGOTIATES_ERROR": "Erreur de Variante Négocie Aussi"
+  },
+  "ui": {
+    "API Calls": "Appels API",
+    "API Integrations": "Intégrations API",
+    "About VendorTal™ Risk Review": "À Propos de VendorTal™ Risk Review",
+    "Acceptance of Terms": "Acceptation des Conditions",
+    "Access Denied": "Accès Refusé",
+    "Access Forbidden": "Accès Interdit",
+    "Account Status": "Statut du Compte",
+    "Accuracy of Materials": "Exactitude des Matériaux",
+    "Achievements": "Réalisations",
+    "Activate User": "Activer l'Utilisateur",
+    "Active": "Actif",
+    "Add Integration": "Ajouter une Intégration",
+    "Add User": "Ajouter un Utilisateur",
+    "Add Vendor": "Ajouter un Fournisseur",
+    "Admin": "Admin",
+    "Admin User": "Utilisateur Admin",
+    "Affected Services": "Services Affectés",
+    "Alert Thresholds": "Seuils d'Alerte",
+    "Alternative Options": "Options Alternatives",
+    "An unexpected error occurred on the server": "Une erreur inattendue s'est produite sur le serveur",
+    "An unexpected error occurred while processing your request.": "Une erreur inattendue s'est produite lors du traitement de votre demande.",
+    "Assessment History": "Historique des Évaluations",
+    "Assessments": "Évaluations",
+    "Audit Logs": "Journaux d'Audit",
+    "Authentication": "Authentification",
+    "Authentication Error": "Erreur d'Authentification",
+    "Authorization Error": "Erreur d'Autorisation",
+    "Avg Compliance Score": "Score de Conformité Moyen",
+    "Avoid using multiple tabs simultaneously": "Évitez d'utiliser plusieurs onglets simultanément",
+    "Backup & Restore": "Sauvegarde et Restauration",
+    "Bad Gateway": "Mauvaise Passerelle",
+    "Bad Request": "Mauvaise Requête",
+    "Billing & Subscription": "Facturation et Abonnement",
+    "Bug Report - VendorTal™ Risk Review": "Rapport de Bug - VendorTal™ Risk Review",
+    "By accessing and using VendorTal™ Risk Review, you accept and agree to be bound by the terms and provision of this agreement.": "En accédant et en utilisant VendorTal™ Risk Review, vous acceptez et convenez d'être lié par les termes et dispositions de cet accord.",
+    "CEO": "PDG",
+    "CMMC Level 1": "CMMC Niveau 1",
+    "Card Title": "Titre de la Carte",
+    "Card content": "Contenu de la carte",
+    "Check API documentation": "Vérifiez la documentation API",
+    "Check HTTP version compatibility": "Vérifiez la compatibilité de la version HTTP",
+    "Check business logic rules": "Vérifiez les règles de logique métier",
+    "Check client version": "Vérifiez la version du client",
+    "Check compatibility matrix": "Vérifiez la matrice de compatibilité",
+    "Check content negotiation configuration": "Vérifiez la configuration de négociation de contenu",
+    "Check dependency connectivity": "Vérifiez la connectivité des dépendances",
+    "Check dependency status": "Vérifiez le statut des dépendances",
+    "Check development roadmap": "Vérifiez la feuille de route de développement",
+    "Check extension configuration": "Vérifiez la configuration de l'extension",
+    "Check extension support": "Vérifiez le support de l'extension",
+    "Check feature availability": "Vérifiez la disponibilité des fonctionnalités",
+    "Check file format": "Vérifiez le format de fichier",
+    "Check file sizes before upload": "Vérifiez les tailles de fichiers avant le téléchargement",
+    "Check for active locks": "Vérifiez les verrous actifs",
+    "Check header compression": "Vérifiez la compression d'en-tête",
+    "Check header size limits": "Vérifiez les limites de taille d'en-tête",
+    "Check if you are logged in": "Vérifiez si vous êtes connecté",
+    "Check jurisdiction rules": "Vérifiez les règles de juridiction",
+    "Check legal restrictions": "Vérifiez les restrictions légales",
+    "Check network authentication": "Vérifiez l'authentification réseau",
+    "Check network configuration": "Vérifiez la configuration réseau",
+    "Check network connectivity": "Vérifiez la connectivité réseau",
+    "Check our status page": "Vérifiez notre page de statut",
+    "Check precondition configuration": "Vérifiez la configuration de précondition",
+    "Check precondition requirements": "Vérifiez les exigences de précondition",
+    "Check proxy settings": "Vérifiez les paramètres de proxy",
+    "Check range parameters": "Vérifiez les paramètres de plage",
+    "Check rate limit status": "Vérifiez le statut de limite de taux",
+    "Check request data format": "Vérifiez le format des données de requête",
+    "Check request headers": "Vérifiez les en-têtes de requête",
+    "Check request preconditions": "Vérifiez les préconditions de requête",
+    "Check request processing logic": "Vérifiez la logique de traitement des requêtes",
+    "Check request scheduling": "Vérifiez la planification des requêtes",
+    "Check request timing": "Vérifiez le timing des requêtes",
+    "Check resource state before requests": "Vérifiez l'état de la ressource avant les requêtes",
+    "Check resource status": "Vérifiez le statut de la ressource",
+    "Check resource status before making changes": "Vérifiez le statut de la ressource avant d'apporter des modifications",
+    "Check server capabilities": "Vérifiez les capacités du serveur",
+    "Check server capacity": "Vérifiez la capacité du serveur",
+    "Check server configuration": "Vérifiez la configuration du serveur",
+    "Check server logs": "Vérifiez les journaux du serveur",
+    "Check server status": "Vérifiez le statut du serveur",
+    "Check server storage capacity": "Vérifiez la capacité de stockage du serveur",
+    "Check storage quotas": "Vérifiez les quotas de stockage",
+    "Check supported file formats": "Vérifiez les formats de fichiers supportés",
+    "Check the URL for typos": "Vérifiez l'URL pour les fautes de frappe",
+    "Check the request method": "Vérifiez la méthode de requête",
+    "Check upload limits": "Vérifiez les limites de téléchargement",
+    "Check upstream server status": "Vérifiez le statut du serveur en amont",
+    "Check your API usage": "Vérifiez votre utilisation de l'API",
+    "Check your account permissions": "Vérifiez les permissions de votre compte",
+    "Check your account status and permissions": "Vérifiez le statut et les permissions de votre compte",
+    "Check your input data": "Vérifiez vos données d'entrée",
+    "Check your internet connection": "Vérifiez votre connexion internet",
+    "Check your login credentials": "Vérifiez vos identifiants de connexion",
+    "Check your login status": "Vérifiez votre statut de connexion",
+    "Check your payment status": "Vérifiez votre statut de paiement",
+    "Check your usage limits": "Vérifiez vos limites d'utilisation",
+    "Checkout functionality will be implemented soon. Please contact sales for now.": "La fonctionnalité de commande sera implémentée bientôt. Veuillez contacter les ventes pour le moment.",
+    "Clean Duplicate Records": "Nettoyer les Enregistrements Dupliqués",
+    "Clear your browser cache": "Videz le cache de votre navigateur",
+    "Click me": "Cliquez sur moi",
+    "Company Culture": "Culture d'Entreprise",
+    "Company History": "Historique de l'Entreprise",
+    "Company Statistics": "Statistiques de l'Entreprise",
+    "Completed": "Terminé",
+    "Completion Rate": "Taux d'Achèvement",
+    "Compliance Frameworks": "Cadres de Conformité",
+    "Compliance Mapping": "Cartographie de Conformité",
+    "Compliance Overview": "Aperçu de Conformité",
+    "Compliance Reporting": "Rapports de Conformité",
+    "Compliant": "Conforme",
+    "Configuration": "Configuration",
+    "Configure system-wide settings and preferences": "Configurer les paramètres et préférences à l'échelle du système",
+    "Conflict Error": "Erreur de Conflit",
+    "Contact Information": "Informations de Contact",
+    "Contact Support": "Contacter le Support",
+    "Contact Us": "Nous Contacter",
+    "Contact billing support": "Contacter le support de facturation",
+    "Contact dependency administrator": "Contacter l'administrateur de dépendance",
+    "Contact development team": "Contacter l'équipe de développement",
+    "Contact legal department": "Contacter le service juridique",
+    "Contact network administrator": "Contacter l'administrateur réseau",
+    "Contact our support team": "Contacter notre équipe de support",
+    "Contact resource administrator": "Contacter l'administrateur de ressource",
+    "Contact server administrator": "Contacter l'administrateur de serveur",
+    "Contact support": "Contacter le support",
+    "Contact us at legal@vendortal.com": "Contactez-nous à legal@vendortal.com",
+    "Contact us at privacy@vendortal.com": "Contactez-nous à privacy@vendortal.com",
+    "Contact your administrator": "Contactez votre administrateur",
+    "Contact your administrator for access": "Contactez votre administrateur pour l'accès",
+    "Content": "Contenu",
+    "Convert files to supported formats": "Convertir les fichiers aux formats supportés",
+    "Convert to supported format": "Convertir au format supporté",
+    "Create Backup": "Créer une Sauvegarde",
+    "Create Policy": "Créer une Politique",
+    "Create Rule functionality will open the automation rule builder. You can define triggers (risk score changes, assessment completion, etc.) and actions (notifications, task creation, escalations) to automate your vendor risk management processes.": "La fonctionnalité Créer une Règle ouvrira le constructeur de règles d'automatisation. Vous pouvez définir des déclencheurs (changements de score de risque, achèvement d'évaluation, etc.) et des actions (notifications, création de tâches, escalades) pour automatiser vos processus de gestion des risques fournisseurs.",
+    "Create Support Ticket": "Créer un Ticket de Support",
+    "Create Template functionality will allow you to design custom workflow templates with automated task sequences, approval chains, and notification rules for vendor risk management processes.": "La fonctionnalité Créer un Modèle vous permettra de concevoir des modèles de workflow personnalisés avec des séquences de tâches automatisées, des chaînes d'approbation et des règles de notification pour les processus de gestion des risques fournisseurs.",
+    "Create an account": "Créer un compte",
+    "Create your account": "Créez votre compte",
+    "Critical": "Critique",
+    "Critical Vulnerability in OpenSSL": "Vulnérabilité Critique dans OpenSSL",
+    "Custom": "Personnalisé",
+    "Customer Success": "Succès Client",
+    "CVE": "CVE",
+    "CVE-2024-1234": "CVE-2024-1234",
+    "Daily": "Quotidien",
+    "Dashboard": "Tableau de Bord",
+    "Dashboard Overview": "Aperçu du Tableau de Bord",
+    "Data Cleanup": "Nettoyage des Données",
+    "Data Encryption Policy": "Politique de Chiffrement des Données",
+    "Data Management": "Gestion des Données",
+    "Data Overview": "Aperçu des Données",
+    "Data Protection": "Protection des Données",
+    "Data Security": "Sécurité des Données",
+    "Data Validation": "Validation des Données",
+    "Data encryption standards and procedures": "Standards et procédures de chiffrement des données",
+    "Data export functionality would be implemented here": "La fonctionnalité d'exportation de données serait implémentée ici",
+    "Data import functionality would be implemented here": "La fonctionnalité d'importation de données serait implémentée ici",
+    "Database Error": "Erreur de Base de Données",
+    "Deactivate User": "Désactiver l'Utilisateur",
+    "Delete User": "Supprimer l'Utilisateur",
+    "Description": "Description",
+    "Disabled": "Désactivé",
+    "Disclaimer": "Avertissement",
+    "Documentation": "Documentation",
+    "Double-check URLs before clicking": "Vérifiez les URL avant de cliquer",
+    "Double-check your input": "Vérifiez votre saisie",
+    "Download Report": "Télécharger le Rapport",
+    "Draft": "Brouillon",
+    "Duration": "Durée",
+    "During maintenance, some features may be temporarily unavailable.": "Pendant la maintenance, certaines fonctionnalités peuvent être temporairement indisponibles.",
+    "Edit Policy": "Modifier la Politique",
+    "Edit User": "Modifier l'Utilisateur",
+    "Effective Date": "Date d'Entrée en Vigueur",
+    "Email": "Email",
+    "Email Notifications": "Notifications Email",
+    "Email Support": "Support Email",
+    "Email address": "Adresse email",
+    "Enable two-factor authentication": "Activer l'authentification à deux facteurs",
+    "End Time": "Heure de Fin",
+    "Ensure all required fields are filled": "Assurez-vous que tous les champs obligatoires sont remplis",
+    "Ensure data consistency": "Assurez-vous de la cohérence des données",
+    "Ensure data format is correct": "Assurez-vous que le format des données est correct",
+    "Ensure proper request format": "Assurez-vous du format de requête approprié",
+    "Ensure server compatibility": "Assurez-vous de la compatibilité du serveur",
+    "Ensure server support": "Assurez-vous du support du serveur",
+    "Error Code": "Code d'Erreur",
+    "Error Details": "Détails de l'Erreur",
+    "Error Rate": "Taux d'Erreur",
+    "Error Time": "Heure de l'Erreur",
+    "Error creating checkout session. Please try again.": "Erreur lors de la création de la session de commande. Veuillez réessayer.",
+    "Error rate exceeded threshold": "Le taux d'erreur a dépassé le seuil",
+    "Estimated Completion": "Achèvement Estimé",
+    "Estimated Restoration": "Restauration Estimée",
+    "Expectation Failed": "Attente Échouée",
+    "Experienced security executive with 15+ years in the industry": "Dirigeant de sécurité expérimenté avec plus de 15 ans dans l'industrie",
+    "Export Assessments": "Exporter les Évaluations",
+    "Export CSV": "Exporter CSV",
+    "Export Data": "Exporter les Données",
+    "Export JSON": "Exporter JSON",
+    "Export Logs": "Exporter les Journaux",
+    "Export Report functionality will generate a comprehensive PDF report including assessment status, completion rates, compliance scores, and vendor risk summaries. The report will include executive dashboard views and detailed findings.": "La fonctionnalité d'exportation de rapport générera un rapport PDF complet incluant le statut d'évaluation, les taux d'achèvement, les scores de conformité et les résumés de risques fournisseurs. Le rapport inclura des vues de tableau de bord exécutif et des résultats détaillés.",
+    "Export SBOM Analyses": "Exporter les Analyses SBOM",
+    "Export Vendors": "Exporter les Fournisseurs",
+    "Failed Dependency": "Dépendance Échouée",
+    "Failed to load company information": "Échec du chargement des informations de l'entreprise",
+    "Failed to load contact information": "Échec du chargement des informations de contact",
+    "Failed to load data": "Échec du chargement des données",
+    "Failed to load integrations": "Échec du chargement des intégrations",
+    "Failed to load logs": "Échec du chargement des journaux",
+    "Failed to load maintenance information": "Échec du chargement des informations de maintenance",
+    "Failed to load metrics": "Échec du chargement des métriques",
+    "Failed to load page": "Échec du chargement de la page",
+    "Failed to load policies": "Échec du chargement des politiques",
+    "Failed to load privacy policy": "Échec du chargement de la politique de confidentialité",
+    "Failed to load reports": "Échec du chargement des rapports",
+    "Failed to load service status": "Échec du chargement du statut du service",
+    "Failed to load settings": "Échec du chargement des paramètres",
+    "Failed to load support data": "Échec du chargement des données de support",
+    "Failed to load terms of service": "Échec du chargement des conditions d'utilisation",
+    "Failed to load threats": "Échec du chargement des menaces",
+    "Failed to load users": "Échec du chargement des utilisateurs",
+    "Failed to load vendors": "Échec du chargement des fournisseurs",
+    "Failed to send message. Please try again.": "Échec de l'envoi du message. Veuillez réessayer.",
+    "Failed to submit vendor onboarding. Please try again.": "Échec de la soumission de l'intégration fournisseur. Veuillez réessayer.",
+    "Failed to verify vendor. Please try again.": "Échec de la vérification du fournisseur. Veuillez réessayer.",
+    "Feature Usage": "Utilisation des Fonctionnalités",
+    "Filter Logs": "Filtrer les Journaux",
+    "Filter by Action": "Filtrer par Action",
+    "Filter by Date": "Filtrer par Date",
+    "Filter by Role": "Filtrer par Rôle",
+    "Filter by Status": "Filtrer par Statut",
+    "Filter by User": "Filtrer par Utilisateur",
+    "Finance": "Finance",
+    "Follow request format requirements": "Suivez les exigences de format de requête",
+    "Follow the required format": "Suivez le format requis",
+    "Follow us on social media": "Suivez-nous sur les réseaux sociaux",
+    "Forbidden": "Interdit",
+    "Founded in 2024": "Fondé en 2024",
+    "Frequently Asked Questions": "Questions Fréquemment Posées",
+    "Gateway Timeout": "Délai d'Attente de Passerelle",
+    "General Settings": "Paramètres Généraux",
+    "Generate Report": "Générer un Rapport",
+    "Generate and manage compliance reports": "Générer et gérer les rapports de conformité",
+    "Get help and support for your account": "Obtenez de l'aide et du support pour votre compte",
+    "Get in touch with our team": "Entrez en contact avec notre équipe",
+    "Go Home": "Aller à l'Accueil",
+    "Go back to the previous page": "Retourner à la page précédente",
+    "Governing Law": "Loi Applicable",
+    "Guest": "Invité",
+    "Handle concurrent modifications gracefully": "Gérez les modifications concurrentes avec grâce",
+    "Header content": "Contenu d'en-tête",
+    "Help & Support": "Aide et Support",
+    "High": "Élevé",
+    "High Risk": "Risque Élevé",
+    "How We Use Your Information": "Comment Nous Utilisons Vos Informations",
+    "How do I add a new vendor?": "Comment ajouter un nouveau fournisseur ?",
+    "How do I upload an SBOM?": "Comment télécharger un SBOM ?",
+    "How we collect, use, and protect your information": "Comment nous collectons, utilisons et protégeons vos informations",
+    "I Am A Teapot": "Je Suis une Théière",
+    "I have read and agree to the Terms of Service": "J'ai lu et j'accepte les Conditions d'Utilisation",
+    "ISO 27001": "ISO 27001",
+    "ISO 27001 Assessment": "Évaluation ISO 27001",
+    "ISO 27001 Template": "Modèle ISO 27001",
+    "Import Assessments": "Importer les Évaluations",
+    "Import Data": "Importer les Données",
+    "Import Vendors": "Importer les Fournisseurs",
+    "In Progress": "En Cours",
+    "In no event shall VendorTal™ Risk Review or its suppliers be liable for any damages arising out of the use or inability to use the materials on VendorTal™ Risk Review.": "En aucun cas VendorTal™ Risk Review ou ses fournisseurs ne seront responsables de dommages résultant de l'utilisation ou de l'impossibilité d'utiliser les matériaux sur VendorTal™ Risk Review.",
+    "Inactive": "Inactif",
+    "Include Content-Length header": "Inclure l'en-tête Content-Length",
+    "Industry Recognition": "Reconnaissance de l'Industrie",
+    "Information Sharing": "Partage d'Informations",
+    "Information We Collect": "Informations que Nous Collectons",
+    "Innovation": "Innovation",
+    "Insufficient Storage": "Stockage Insuffisant",
+    "Integration Settings": "Paramètres d'Intégration",
+    "Internal Server Error": "Erreur Interne du Serveur",
+    "Invalid credentials": "Identifiants invalides",
+    "Jane Smith": "Jane Smith",
+    "January 1, 2025": "1er janvier 2025",
+    "John Doe": "John Doe",
+    "Keep URLs short and simple": "Gardez les URL courtes et simples",
+    "Keep track of page navigation": "Gardez une trace de la navigation des pages",
+    "Keep your browser updated": "Gardez votre navigateur à jour",
+    "Keep your login credentials secure": "Gardez vos identifiants de connexion sécurisés",
+    "Keep your payment method updated": "Gardez votre méthode de paiement à jour",
+    "Language": "Langue",
+    "Large": "Grand",
+    "Last Backup": "Dernière Sauvegarde",
+    "Last updated: January 1, 2025": "Dernière mise à jour : 1er janvier 2025",
+    "Leading vendor security management platform": "Plateforme de gestion de sécurité fournisseur leader",
+    "Learn more about our company and mission": "En savoir plus sur notre entreprise et notre mission",
+    "Length Required": "Longueur Requise",
+    "Limitations": "Limitations",
+    "Link Button": "Bouton de Lien",
+    "LinkedIn": "LinkedIn",
+    "Links": "Liens",
+    "Loading": "Chargement",
+    "Log Statistics": "Statistiques des Journaux",
+    "Loop Detected": "Boucle Détectée",
+    "Low": "Faible",
+    "Low Risk": "Risque Faible",
+    "Maintenance History": "Historique de Maintenance",
+    "Maintenance Reason": "Raison de Maintenance",
+    "Maintenance Schedule": "Planning de Maintenance",
+    "Maintenance Status": "Statut de Maintenance",
+    "Maintenance Updates": "Mises à Jour de Maintenance",
+    "Manage Vendors": "Gérer les Fournisseurs",
+    "Manage and maintain security policies": "Gérer et maintenir les politiques de sécurité",
+    "Manage external API connections": "Gérer les connexions API externes",
+    "Manage user accounts and permissions": "Gérer les comptes utilisateurs et permissions",
+    "Manage your data import, export, and backup": "Gérez votre importation, exportation et sauvegarde de données",
+    "Manage your subscription, billing details, and usage": "Gérez votre abonnement, détails de facturation et utilisation",
+    "Map policies to compliance requirements": "Mapper les politiques aux exigences de conformité",
+    "Medium": "Moyen",
+    "Memory Usage": "Utilisation de la Mémoire",
+    "Message": "Message",
+    "Message sent successfully!": "Message envoyé avec succès !",
+    "Method Not Allowed": "Méthode Non Autorisée",
+    "Minimize query parameters": "Minimiser les paramètres de requête",
+    "Minimum Length": "Longueur Minimale",
+    "Misdirected Request": "Requête Mal Dirigée",
+    "Modifications": "Modifications",
+    "Monday - Friday: 9:00 AM - 6:00 PM PST": "Lundi - Vendredi : 9h00 - 18h00 PST",
+    "Monitor system performance and health": "Surveiller les performances et la santé du système",
+    "Monitor your billing status": "Surveillez votre statut de facturation",
+    "Monitor your usage patterns": "Surveillez vos modèles d'utilisation",
+    "Monitor your usage regularly": "Surveillez votre utilisation régulièrement",
+    "Monitoring Settings": "Paramètres de Surveillance",
+    "NVD API": "API NVD",
+    "Name": "Nom",
+    "National Vulnerability Database": "Base de Données Nationale des Vulnérabilités",
+    "Navigate to the SBOM Analyzer page and use the file upload feature.": "Naviguez vers la page Analyseur SBOM et utilisez la fonctionnalité de téléchargement de fichier.",
+    "Need help?": "Besoin d'aide ?",
+    "Need immediate assistance?": "Besoin d'assistance immédiate ?",
+    "Network Authentication Required": "Authentification Réseau Requise",
+    "Network Error": "Erreur Réseau",
+    "Never": "Jamais",
+    "New Assessment": "Nouvelle Évaluation",
+    "Node.js": "Node.js",
+    "Not Extended": "Non Étendu",
+    "Not Found": "Non Trouvé",
+    "Not Implemented": "Non Implémenté",
+    "Not logged in?": "Pas connecté ?",
+    "Notification Settings": "Paramètres de Notification",
+    "OSV API": "API OSV",
+    "Office Hours": "Heures de Bureau",
+    "Open": "Ouvrir",
+    "Open Source Vulnerabilities database": "Base de données des vulnérabilités open source",
+    "OpenSSL 3.0.0": "OpenSSL 3.0.0",
+    "OpenSSL 3.0.1": "OpenSSL 3.0.1",
+    "Optimize your API usage": "Optimisez votre utilisation de l'API",
+    "Our Mission": "Notre Mission",
+    "Our Team": "Notre Équipe",
+    "Our Values": "Nos Valeurs",
+    "Outline": "Plan",
+    "Overdue": "En Retard",
+    "Page Not Found": "Page Non Trouvée",
+    "Partial": "Partiel",
+    "Password": "Mot de Passe",
+    "Password Policy": "Politique de Mot de Passe",
+    "Password Requirements": "Exigences de Mot de Passe",
+    "Password requirements and security guidelines": "Exigences de mot de passe et directives de sécurité",
+    "Payment Required": "Paiement Requis",
+    "Payment Support": "Support de Paiement",
+    "Payment is required to access this resource": "Un paiement est requis pour accéder à cette ressource",
+    "Performance Alerts": "Alertes de Performance",
+    "Performance Monitoring": "Surveillance de Performance",
+    "Performance Trends": "Tendances de Performance",
+    "Permission Information": "Informations de Permission",
+    "Permission Levels": "Niveaux de Permission",
+    "Permission is granted to temporarily download one copy of VendorTal™ Risk Review for personal, non-commercial transitory viewing only.": "La permission est accordée de télécharger temporairement une copie de VendorTal™ Risk Review pour un visionnement personnel et non commercial transitoire uniquement.",
+    "Permissions": "Permissions",
+    "Phone Support": "Support Téléphonique",
+    "Please enter a message": "Veuillez entrer un message",
+    "Please enter a subject": "Veuillez entrer un sujet",
+    "Please enter your email": "Veuillez entrer votre email",
+    "Please enter your name": "Veuillez entrer votre nom",
+    "Please enter your password": "Veuillez entrer votre mot de passe",
+    "Please log in to import data": "Veuillez vous connecter pour importer des données",
+    "Please sign in to subscribe": "Veuillez vous connecter pour vous abonner",
+    "Policy Changes": "Changements de Politique",
+    "Policy Summary": "Résumé de Politique",
+    "Policy Templates": "Modèles de Politique",
+    "Policy Version": "Version de Politique",
+    "Popular Pages": "Pages Populaires",
+    "Precondition Failed": "Précondition Échouée",
+    "Precondition Required": "Précondition Requise",
+    "Prevention Tips": "Conseils de Prévention",
+    "Previous maintenance windows": "Fenêtres de maintenance précédentes",
+    "Previous service interruptions": "Interruptions de service précédentes",
+    "Primary": "Primaire",
+    "Priority": "Priorité",
+    "Privacy Policy": "Politique de Confidentialité",
+    "Professional": "Professionnel",
+    "Progress": "Progrès",
+    "Publish Policy": "Publier la Politique",
+    "Quota Exceeded": "Quota Dépassé",
+    "Question about billing": "Question sur la facturation",
+    "Questions about these Terms?": "Questions sur ces Conditions ?",
+    "Questions about this Privacy Policy?": "Questions sur cette Politique de Confidentialité ?",
+    "Quick Actions": "Actions Rapides",
+    "Rate Limit Exceeded": "Limite de Taux Dépassée",
+    "Reason": "Raison",
+    "Recent Activity": "Activité Récente",
+    "Recovery Options": "Options de Récupération",
+    "Reduce file size": "Réduire la taille du fichier",
+    "Reduce query parameters": "Réduire les paramètres de requête",
+    "Reduce request frequency": "Réduire la fréquence des requêtes",
+    "Refresh the page": "Actualiser la page",
+    "Regular User": "Utilisateur Régulier",
+    "Report generation would start here": "La génération de rapport commencerait ici",
+    "Report this error": "Signaler cette erreur",
+    "Reporting": "Rapports",
+    "Request Entity Too Large": "Entité de Requête Trop Grande",
+    "Request Header Fields Too Large": "Champs d'En-tête de Requête Trop Grands",
+    "Request Timeout": "Délai d'Attente de Requête",
+    "Request URI Too Long": "URI de Requête Trop Longue",
+    "Requested Range Not Satisfiable": "Plage Demandée Non Satisfaisable",
+    "Require Special Characters": "Exiger des Caractères Spéciaux",
+    "Reset to Defaults": "Réinitialiser aux Valeurs par Défaut",
+    "Resolved": "Résolu",
+    "Resource Locked": "Ressource Verrouillée",
+    "Resource Usage": "Utilisation des Ressources",
+    "Response Time": "Temps de Réponse",
+    "Response time increased": "Le temps de réponse a augmenté",
+    "Restore from Backup": "Restaurer depuis la Sauvegarde",
+    "Return to the homepage": "Retourner à la page d'accueil",
+    "Risk Distribution": "Distribution des Risques",
+    "Role Management": "Gestion des Rôles",
+    "SBOM": "SBOM",
+    "SBOM Analyses": "Analyses SBOM",
+    "SBOM Analysis": "Analyse SBOM",
+    "SBOM Analyzer": "Analyseur SBOM",
+    "SBOM Scans": "Scans SBOM",
+    "SBOM Uploaded": "SBOM Téléchargé",
+    "SMS Notifications": "Notifications SMS",
+    "SOC 2": "SOC 2",
+    "SOC 2 Compliance Report": "Rapport de Conformité SOC 2",
+    "SOC 2 Template": "Modèle SOC 2",
+    "SOC 2 Type II": "SOC 2 Type II",
+    "Sales": "Ventes",
+    "San Francisco, CA": "San Francisco, CA",
+    "Save Settings": "Sauvegarder les Paramètres",
+    "Schedule Report": "Planifier un Rapport",
+    "Scheduled maintenance": "Maintenance programmée",
+    "Scheduled system maintenance and updates": "Maintenance et mises à jour système programmées",
+    "Search FAQs": "Rechercher dans les FAQ",
+    "Search Logs": "Rechercher dans les Journaux",
+    "Search Users": "Rechercher des Utilisateurs",
+    "Search for what you need": "Recherchez ce dont vous avez besoin",
+    "Search for what you need:": "Recherchez ce dont vous avez besoin :",
+    "Secondary": "Secondaire",
+    "Security First": "Sécurité d'Abord",
+    "Security Policies": "Politiques de Sécurité",
+    "Security Research": "Recherche en Sécurité",
+    "Security Settings": "Paramètres de Sécurité",
+    "Send us a message": "Envoyez-nous un message",
+    "Service History": "Historique du Service",
+    "Service Status": "Statut du Service",
+    "Service Unavailable": "Service Indisponible",
+    "Service Updates": "Mises à Jour du Service",
+    "Session Timeout (minutes)": "Délai d'Attente de Session (minutes)",
+    "Set up automatic payments": "Configurer les paiements automatiques",
+    "Shorten the URL": "Raccourcir l'URL",
+    "Sign In": "Se Connecter",
+    "Sign in to your account": "Connectez-vous à votre compte",
+    "Small": "Petit",
+    "Something went wrong": "Quelque chose s'est mal passé",
+    "Something went wrong on our end": "Quelque chose s'est mal passé de notre côté",
+    "Sorry, we could not find the page you are looking for.": "Désolé, nous n'avons pas pu trouver la page que vous recherchez.",
+    "Space out your requests": "Espacez vos requêtes",
+    "Split large files into smaller parts": "Divisez les gros fichiers en parties plus petites",
+    "Start Time": "Heure de Début",
+    "Stay informed about the latest security threats": "Restez informé des dernières menaces de sécurité",
+    "Still having issues?": "Vous avez encore des problèmes ?",
+    "Still having trouble?": "Vous avez encore des difficultés ?",
+    "Storage Usage": "Utilisation du Stockage",
+    "Subject": "Sujet",
+    "Submit": "Soumettre",
+    "Supply Chain": "Chaîne d'Approvisionnement",
+    "Supply Chain Attack on npm Package": "Attaque de Chaîne d'Approvisionnement sur le Package npm",
+    "Support": "Support",
+    "Support Resources": "Ressources de Support",
+    "Support Tickets": "Tickets de Support",
+    "Sync Settings": "Paramètres de Synchronisation",
+    "System Maintenance": "Maintenance Système",
+    "System Settings": "Paramètres Système",
+    "Table of Contents": "Table des Matières",
+    "Technology": "Technologie",
+    "Technology leader specializing in security platforms": "Leader technologique spécialisé dans les plateformes de sécurité",
+    "Terms Changes": "Changements de Conditions",
+    "Terms Summary": "Résumé des Conditions",
+    "Terms Version": "Version des Conditions",
+    "Terms and conditions for using VendorTal™ Risk Review": "Conditions d'utilisation de VendorTal™ Risk Review",
+    "Terms of Service": "Conditions d'Utilisation",
+    "Test Card": "Carte de Test",
+    "Test Connection": "Tester la Connexion",
+    "Test User": "Utilisateur de Test",
+    "Test Vendor": "Fournisseur de Test",
+    "Test Vendor 1": "Fournisseur de Test 1",
+    "Test Vendor 2": "Fournisseur de Test 2",
+    "Test Webhook": "Webhook de Test",
+    "The HTTP version used in the request is not supported": "La version HTTP utilisée dans la requête n'est pas supportée",
+    "The client must authenticate with the network to access the resource": "Le client doit s'authentifier avec le réseau pour accéder à la ressource",
+    "The client must upgrade to a newer version": "Le client doit mettre à niveau vers une version plus récente",
+    "The data you provided is invalid": "Les données que vous avez fournies sont invalides",
+    "The gateway did not receive a timely response from the upstream server": "La passerelle n'a pas reçu de réponse en temps voulu du serveur en amont",
+    "The materials appearing on VendorTal™ Risk Review could include technical, typographical, or photographic errors.": "Les matériaux apparaissant sur VendorTal™ Risk Review pourraient inclure des erreurs techniques, typographiques ou photographiques.",
+    "The media type is not supported": "Le type de média n'est pas supporté",
+    "The page you are looking for does not exist.": "La page que vous recherchez n'existe pas.",
+    "The request URI is too long": "L'URI de la requête est trop longue",
+    "The request conflicts with the current state of the resource": "La requête entre en conflit avec l'état actuel de la ressource",
+    "The request entity is too large": "L'entité de la requête est trop grande",
+    "The request failed due to a failed dependency": "La requête a échoué en raison d'une dépendance échouée",
+    "The request header fields are too large": "Les champs d'en-tête de la requête sont trop grands",
+    "The request method is not allowed for this resource": "La méthode de requête n'est pas autorisée pour cette ressource",
+    "The request precondition failed": "La précondition de la requête a échoué",
+    "The request requires a Content-Length header": "La requête nécessite un en-tête Content-Length",
+    "The request requires a precondition to be met": "La requête nécessite qu'une précondition soit remplie",
+    "The request timed out": "La requête a expiré",
+    "The request was directed to the wrong server": "La requête a été dirigée vers le mauvais serveur",
+    "The request was invalid or cannot be served": "La requête était invalide ou ne peut pas être servie",
+    "The request was sent too early": "La requête a été envoyée trop tôt",
+    "The request was well-formed but contains semantic errors": "La requête était bien formée mais contient des erreurs sémantiques",
+    "The requested functionality is not implemented": "La fonctionnalité demandée n'est pas implémentée",
+    "The requested range cannot be satisfied": "La plage demandée ne peut pas être satisfaite",
+    "The requested resource was not found": "La ressource demandée n'a pas été trouvée",
+    "The resource is locked and cannot be accessed": "La ressource est verrouillée et ne peut pas être accédée",
+    "The resource is unavailable due to legal restrictions": "La ressource est indisponible en raison de restrictions légales",
+    "The server cannot meet the requirements of the Expect request-header field": "Le serveur ne peut pas répondre aux exigences du champ d'en-tête de requête Expect",
+    "The server detected an infinite loop while processing the request": "Le serveur a détecté une boucle infinie lors du traitement de la requête",
+    "The server did not receive a timely response from an upstream server": "Le serveur n'a pas reçu de réponse en temps voulu d'un serveur en amont",
+    "The server does not support the extension required for the request": "Le serveur ne supporte pas l'extension requise pour la requête",
+    "The server has a configuration error in content negotiation": "Le serveur a une erreur de configuration dans la négociation de contenu",
+    "The server has insufficient storage to complete the request": "Le serveur a un stockage insuffisant pour compléter la requête",
+    "The server is a teapot and cannot brew coffee": "Le serveur est une théière et ne peut pas faire du café",
+    "The server is temporarily unavailable": "Le serveur est temporairement indisponible",
+    "The server received an invalid response from an upstream server": "Le serveur a reçu une réponse invalide d'un serveur en amont",
+    "The service is temporarily unavailable": "Le service est temporairement indisponible",
+    "The service is temporarily unavailable due to maintenance or technical issues.": "Le service est temporairement indisponible en raison de maintenance ou de problèmes techniques.",
+    "These terms and conditions are governed by and construed in accordance with the laws of California.": "Ces conditions sont régies et interprétées conformément aux lois de la Californie.",
+    "These terms of service govern your use of VendorTal™ Risk Review and our services.": "Ces conditions d'utilisation régissent votre utilisation de VendorTal™ Risk Review et de nos services.",
+    "This is the card content.": "Ceci est le contenu de la carte.",
+    "This privacy policy explains how we collect, use, and protect your personal information.": "Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations personnelles.",
+    "This resource requires specific permissions to access.": "Cette ressource nécessite des permissions spécifiques pour y accéder.",
+    "Threat Intelligence": "Renseignement sur les Menaces",
+    "Throughput": "Débit",
+    "Timeout Error": "Erreur de Délai d'Attente",
+    "Timezone": "Fuseau Horaire",
+    "To help organizations manage vendor security risks effectively": "Pour aider les organisations à gérer efficacement les risques de sécurité des fournisseurs",
+    "Too Early": "Trop Tôt",
+    "Too Many Requests": "Trop de Requêtes",
+    "Too many requests, please try again later": "Trop de requêtes, veuillez réessayer plus tard",
+    "Total Logs": "Total des Journaux",
+    "Total Users": "Total des Utilisateurs",
+    "Total Vendors": "Total des Fournisseurs",
+    "Track and monitor system activities": "Suivre et surveiller les activités du système",
+    "Transparency": "Transparence",
+    "Troubleshooting Steps": "Étapes de Dépannage",
+    "Try a different action": "Essayez une action différente",
+    "Try a different approach": "Essayez une approche différente",
+    "Try a different file": "Essayez un fichier différent",
+    "Try a different range": "Essayez une plage différente",
+    "Try Again": "Réessayer",
+    "Try again after payment": "Réessayer après paiement",
+    "Try again in a few minutes": "Réessayer dans quelques minutes",
+    "Try again later": "Réessayer plus tard",
+    "Try again with corrected data": "Réessayer avec des données corrigées",
+    "Try again with correct headers": "Réessayer avec des en-têtes corrects",
+    "Try again with updated data": "Réessayer avec des données mises à jour",
+    "Try again with valid data": "Réessayer avec des données valides",
+    "Try brewing tea instead": "Essayez de faire du thé à la place",
+    "Try logging in again": "Essayez de vous reconnecter",
+    "Try smaller files": "Essayez des fichiers plus petits",
+    "Try these instead:": "Essayez ceux-ci à la place :",
+    "Try without Expect header": "Essayez sans l'en-tête Expect",
+    "Two-Factor Authentication": "Authentification à Deux Facteurs",
+    "Unable to authenticate your request": "Impossible d'authentifier votre requête",
+    "Unable to connect to the database": "Impossible de se connecter à la base de données",
+    "Unable to connect to the server": "Impossible de se connecter au serveur",
+    "Unable to upload SBOM file": "Impossible de télécharger le fichier SBOM",
+    "Unauthorized": "Non Autorisé",
+    "Unavailable": "Indisponible",
+    "Unavailable For Legal Reasons": "Indisponible pour des Raisons Légales",
+    "Unprocessable Entity": "Entité Non Traitable",
+    "Unsupported Media Type": "Type de Média Non Supporté",
+    "Update your payment method": "Mettez à jour votre méthode de paiement",
+    "Upgrade Plan": "Plan de Mise à Niveau",
+    "Upgrade Required": "Mise à Niveau Requise",
+    "Upgrade your plan": "Mettez à niveau votre plan",
+    "Upgrade your plan when needed": "Mettez à niveau votre plan quand nécessaire",
+    "Upload SBOM": "Télécharger SBOM",
+    "Uptime": "Temps de Fonctionnement",
+    "Use appropriate endpoints": "Utilisez des points de terminaison appropriés",
+    "Use a stable internet connection": "Utilisez une connexion internet stable",
+    "Use bookmarks for important pages": "Utilisez des signets pour les pages importantes",
+    "Use compression": "Utilisez la compression",
+    "Use compression when possible": "Utilisez la compression quand possible",
+    "Use correct HTTP method": "Utilisez la méthode HTTP correcte",
+    "Use correct HTTP methods": "Utilisez les méthodes HTTP correctes",
+    "Use efficient API calls": "Utilisez des appels API efficaces",
+    "Use License": "Licence d'Utilisation",
+    "Use optimistic locking": "Utilisez le verrouillage optimiste",
+    "Use POST for large data": "Utilisez POST pour les grandes données",
+    "Use POST instead of GET": "Utilisez POST au lieu de GET",
+    "User": "Utilisateur",
+    "User Management": "Gestion des Utilisateurs",
+    "User Statistics": "Statistiques des Utilisateurs",
+    "Use standard media types": "Utilisez des types de média standard",
+    "Use strong passwords": "Utilisez des mots de passe forts",
+    "Use supported media types": "Utilisez des types de média supportés",
+    "Use valid range values": "Utilisez des valeurs de plage valides",
+    "Validate data before submission": "Validez les données avant soumission",
+    "Validate Data Integrity": "Valider l'Intégrité des Données",
+    "Validation Error": "Erreur de Validation",
+    "Variant Also Negotiates": "La Variante Négocie Aussi",
+    "Vendor": "Fournisseur",
+    "Vendor Created": "Fournisseur Créé",
+    "Vendor Management": "Gestion des Fournisseurs",
+    "Vendor onboarding submitted successfully!": "Intégration fournisseur soumise avec succès !",
+    "Vendor Security Assessments": "Évaluations de Sécurité des Fournisseurs",
+    "VendorTal™ Risk Review": "VendorTal™ Risk Review",
+    "VendorTal™ Risk Review has not reviewed all of the sites linked to our website and is not responsible for the contents of any such linked site.": "VendorTal™ Risk Review n'a pas examiné tous les sites liés à notre site web et n'est pas responsable du contenu de ces sites liés.",
+    "VendorTal™ Risk Review may revise these terms of service for its website at any time without notice.": "VendorTal™ Risk Review peut réviser ces conditions d'utilisation pour son site web à tout moment sans préavis.",
+    "Verify access permissions": "Vérifiez les permissions d'accès",
+    "Verify API endpoint": "Vérifiez le point de terminaison API",
+    "Verify client configuration": "Vérifiez la configuration du client",
+    "Verify compliance status": "Vérifiez le statut de conformité",
+    "Verify Content-Length header": "Vérifiez l'en-tête Content-Length",
+    "Verify data consistency": "Vérifiez la cohérence des données",
+    "Verify dependency configuration": "Vérifiez la configuration des dépendances",
+    "Verify endpoint compatibility": "Vérifiez la compatibilité des points de terminaison",
+    "Verify Expect header": "Vérifiez l'en-tête Expect",
+    "Verify Expect header compatibility": "Vérifiez la compatibilité de l'en-tête Expect",
+    "Verify field validation": "Vérifiez la validation des champs",
+    "Verify gateway configuration": "Vérifiez la configuration de la passerelle",
+    "Verify gateway timeout settings": "Vérifiez les paramètres de délai d'attente de la passerelle",
+    "Verify header configuration": "Vérifiez la configuration des en-têtes",
+    "Verify implementation status": "Vérifiez le statut d'implémentation",
+    "Verify loop detection settings": "Vérifiez les paramètres de détection de boucle",
+    "Verify maintenance schedule": "Vérifiez le planning de maintenance",
+    "Verify network credentials": "Vérifiez les identifiants réseau",
+    "Verify preconditions": "Vérifiez les préconditions",
+    "Verify precondition status": "Vérifiez le statut des préconditions",
+    "Verify request compatibility": "Vérifiez la compatibilité des requêtes",
+    "Verify request format": "Vérifiez le format de la requête",
+    "Verify request frequency": "Vérifiez la fréquence des requêtes",
+    "Verify request routing": "Vérifiez le routage des requêtes",
+    "Verify request type": "Vérifiez le type de requête",
+    "Verify required fields": "Vérifiez les champs requis",
+    "Verify resource size": "Vérifiez la taille de la ressource",
+    "Verify resource state": "Vérifiez l'état de la ressource",
+    "Verify server capabilities": "Vérifiez les capacités du serveur",
+    "Verify server readiness": "Vérifiez la préparation du serveur",
+    "Verify server requirements": "Vérifiez les exigences du serveur",
+    "Verify server status": "Vérifiez le statut du serveur",
+    "Verify storage configuration": "Vérifiez la configuration du stockage",
+    "Verify variant settings": "Vérifiez les paramètres de variante",
+    "Verify your account permissions": "Vérifiez les permissions de votre compte",
+    "Verify your account status": "Vérifiez le statut de votre compte",
+    "Verify your role level": "Vérifiez votre niveau de rôle",
+    "Video Tutorials": "Tutoriels Vidéo",
+    "View Reports": "Voir les Rapports",
+    "Vulnerability": "Vulnérabilité",
+    "Wait a few minutes": "Attendez quelques minutes",
+    "Wait before retrying": "Attendez avant de réessayer",
+    "Wait for quota reset": "Attendez la réinitialisation du quota",
+    "We apologize for the inconvenience. Please try again later.": "Nous nous excusons pour la gêne occasionnée. Veuillez réessayer plus tard.",
+    "We are currently performing scheduled maintenance": "Nous effectuons actuellement une maintenance programmée",
+    "Webhook Notifications": "Notifications Webhook",
+    "Webhook URL": "URL Webhook",
+    "We collect information you provide directly to us, such as when you create an account, use our services, or contact us for support.": "Nous collectons les informations que vous nous fournissez directement, comme lorsque vous créez un compte, utilisez nos services ou nous contactez pour le support.",
+    "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy.": "Nous ne vendons, n'échangeons ou ne transférons pas vos informations personnelles à des tiers sans votre consentement, sauf comme décrit dans cette politique.",
+    "Weekly": "Hebdomadaire",
+    "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.": "Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos informations personnelles contre l'accès non autorisé, l'altération, la divulgation ou la destruction.",
+    "Welcome back!": "Bon retour !",
+    "We may update these terms of service from time to time. We will notify you of any changes by posting the new terms on this page.": "Nous pouvons mettre à jour ces conditions d'utilisation de temps en temps. Nous vous informerons de tout changement en publiant les nouvelles conditions sur cette page.",
+    "We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page.": "Nous pouvons mettre à jour cette politique de confidentialité de temps en temps. Nous vous informerons de tout changement en publiant la nouvelle politique sur cette page.",
+    "We use the information we collect to provide, maintain, and improve our services, process transactions, and communicate with you.": "Nous utilisons les informations que nous collectons pour fournir, maintenir et améliorer nos services, traiter les transactions et communiquer avec vous.",
+    "We will provide updates on our progress here.": "Nous fournirons des mises à jour sur nos progrès ici.",
+    "What does this mean?": "Qu'est-ce que cela signifie ?",
+    "What you can do:": "Ce que vous pouvez faire :",
+    "With Icon": "Avec Icône",
+    "You are not authorized to access this resource": "Vous n'êtes pas autorisé à accéder à cette ressource",
+    "You do not have permission to access this resource": "Vous n'avez pas la permission d'accéder à cette ressource",
+    "You do not have permission to access this resource.": "Vous n'avez pas la permission d'accéder à cette ressource.",
+    "You do not have permission to perform this action": "Vous n'avez pas la permission d'effectuer cette action",
+    "You have exceeded the rate limit": "Vous avez dépassé la limite de taux",
+    "You have exceeded your usage quota": "Vous avez dépassé votre quota d'utilisation",
+    "You have the right to access, update, or delete your personal information. You may also opt out of certain communications from us.": "Vous avez le droit d'accéder, de mettre à jour ou de supprimer vos informations personnelles. Vous pouvez également vous désabonner de certaines communications de notre part.",
+    "Your Free Benefits": "Vos Avantages Gratuits",
+    "Your Professional Benefits": "Vos Avantages Professionnels",
+    "Your Rights": "Vos Droits"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SBOM-example-application",
+  "documentNamespace": "https://vendorsoluce.com/sboms/example-app-1.0",
+  "creationInfo": {
+    "created": "2025-04-17T09:00:00Z",
+    "creators": [
+      "Organization: VendorSoluce",
+      "Tool: VendorSoluce SBOM Generator 1.0"
+    ],
+    "licenseListVersion": "3.19"
+  },
+  "packages": [
+    {
+      "name": "example-application",
+      "SPDXID": "SPDXRef-Package-example-application",
+      "downloadLocation": "git+https://github.com/example/application.git@v1.0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright 2025 Example Corp",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: Example Corp",
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "name": "lodash",
+      "SPDXID": "SPDXRef-Package-lodash",
+      "downloadLocation": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright JS Foundation and other contributors",
+      "versionInfo": "4.17.21",
+      "supplier": "Organization: JS Foundation",
+      "primaryPackagePurpose": "LIBRARY",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:lodash:lodash:4.17.21:*:*:*:*:node.js:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/lodash@4.17.21"
+        }
+      ]
+    },
+    {
+      "name": "react",
+      "SPDXID": "SPDXRef-Package-react",
+      "downloadLocation": "https://registry.npmjs.org/react/-/react-18.2.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+      "versionInfo": "18.2.0",
+      "supplier": "Organization: Meta Platforms, Inc.",
+      "primaryPackagePurpose": "LIBRARY",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:facebook:react:18.2.0:*:*:*:*:node.js:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/react@18.2.0"
+        }
+      ]
+    },
+    {
+      "name": "express",
+      "SPDXID": "SPDXRef-Package-express",
+      "downloadLocation": "https://registry.npmjs.org/express/-/express-4.18.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2009-2014 TJ Holowaychuk\nCopyright (c) 2013-2014 Roman Shtylman\nCopyright (c) 2014-2015 Douglas Christopher Wilson",
+      "versionInfo": "4.18.2",
+      "supplier": "Person: TJ Holowaychuk",
+      "primaryPackagePurpose": "FRAMEWORK",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:expressjs:express:4.18.2:*:*:*:*:node.js:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/express@4.18.2"
+        }
+      ]
+    },
+    {
+      "name": "axios",
+      "SPDXID": "SPDXRef-Package-axios",
+      "downloadLocation": "https://registry.npmjs.org/axios/-/axios-1.3.5.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2014-present Matt Zabriskie",
+      "versionInfo": "1.3.5",
+      "supplier": "Person: Matt Zabriskie",
+      "primaryPackagePurpose": "LIBRARY",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/axios@1.3.5"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-example-application",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-example-application",
+      "relatedSpdxElement": "SPDXRef-Package-lodash",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-example-application",
+      "relatedSpdxElement": "SPDXRef-Package-react",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-example-application",
+      "relatedSpdxElement": "SPDXRef-Package-express",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-example-application",
+      "relatedSpdxElement": "SPDXRef-Package-axios",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

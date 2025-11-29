@@ -1,0 +1,19 @@
+.sbom-progress-bar-container {
+  width: 100%;
+  background-color: rgb(229 231 235); /* bg-gray-200 */
+  border-radius: 9999px; /* rounded-full */
+  height: 0.625rem; /* h-2.5 */
+}
+
+.dark .sbom-progress-bar-container {
+  background-color: rgb(55 65 81); /* dark:bg-gray-700 */
+}
+
+.sbom-progress-bar-fill {
+  background-color: var(--supply-chain-teal, rgb(20 184 166)); /* bg-supply-chain-teal fallback to teal-500 */
+  height: 0.625rem; /* h-2.5 */
+  border-radius: 9999px; /* rounded-full */
+  transition: all 300ms ease-out;
+  width: var(--sbom-progress-width, 0%);
+}
+

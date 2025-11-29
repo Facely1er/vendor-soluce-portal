@@ -1,0 +1,3342 @@
+{
+  "contact": {
+    "title": "Contact Us",
+    "description": "We're here to help you secure your supply chain. Reach out with any questions about our platform or supply chain risk management.",
+    "form": {
+      "title": "Get in Touch",
+      "fields": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "company": "Company",
+        "message": "Message",
+        "messagePlaceholder": "Please provide details about your inquiry...",
+        "topic": {
+          "label": "How can we help?",
+          "placeholder": "Select a topic",
+          "options": {
+            "productInfo": "Product Information",
+            "techSupport": "Technical Support",
+            "demo": "Schedule a Demo",
+            "partnership": "Partnership Opportunities",
+            "compliance": "Federal Compliance Questions",
+            "other": "Other"
+          }
+        },
+        "termsPrefix": "I agree to the",
+        "privacyPolicy": "privacy policy",
+        "termsSuffix": "and consent to being contacted regarding my inquiry."
+      },
+      "validation": {
+        "requiredFields": "Please fill in all required fields.",
+        "termsRequired": "Please agree to the privacy policy.",
+        "submitError": "Failed to submit your message. Please try again later."
+      },
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "success": {
+        "title": "Thank You!",
+        "message": "We've received your message and will get back to you shortly.",
+        "sendAnother": "Send Another Message"
+      }
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": {
+        "label": "Email",
+        "value": "contact@ermits.com"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+1 (240) 599-0102"
+      },
+      "address": {
+        "label": "Headquarters",
+        "line1": "8300 McCullough Lane",
+        "line2": "Suite 203",
+        "line3": "Gaithersburg, MD 20877"
+      },
+      "hours": {
+        "label": "Hours",
+        "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM ET",
+        "weekends": "Saturday - Sunday: Closed"
+      }
+    },
+    "demo": {
+      "title": "Schedule a Demo",
+      "description": "See how VendorTal™ Risk Review can help secure your supply chain and meet federal compliance requirements.",
+      "duration": "30-minute personalized demo",
+      "button": "Schedule Now"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "questions": {
+        "nist": {
+          "question": "How does VendorTal™ Risk Review help with NIST 800-161 compliance?",
+          "answer": "VendorTal™ Risk Review provides assessment templates, controls mapping, and risk scoring that aligns with NIST SP 800-161 requirements, making it easier for organizations to implement and document their supply chain risk management program."
+        },
+        "integration": {
+          "question": "Can VendorTal™ Risk Review integrate with our existing GRC platform?",
+          "answer": "Yes, VendorTal™ Risk Review offers API integrations with major GRC platforms including ServiceNow, RSA Archer, MetricStream, and more. Our integration guides provide step-by-step instructions."
+        },
+        "sbom": {
+          "question": "Does VendorTal™ Risk Review provide SBOM analysis?",
+          "answer": "SBOM analysis is available through our partner platform TechnoSoluce at technosoluce.com. VendorTal™ Risk Review focuses on vendor risk management, while TechnoSoluce specializes in software supply chain security including SBOM analysis."
+        },
+        "setup": {
+          "question": "How quickly can we get started with VendorTal™ Risk Review?",
+          "answer": "Most customers can begin using the platform within a day. Our onboarding process includes guidance and the platform is designed for straightforward setup."
+        },
+        "services": {
+          "question": "Does VendorTal™ Risk Review offer professional services?",
+          "answer": "Yes, we offer professional services for customers who need help with implementation, customization, or creating custom assessment templates for specific industries or compliance requirements."
+        },
+        "security": {
+          "question": "What security certifications does VendorTal™ Risk Review have?",
+          "answer": "VendorTal™ Risk Review implements security measures designed to support SOC 2 Type II and FedRAMP compliance requirements. We use industry-standard security practices to protect your data."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to secure your supply chain?",
+      "description": "Get started with VendorTal™ Risk Review today and access tools designed to support NIST SP 800-161 compliance efforts.",
+      "demoButton": "Schedule a Demo",
+      "freeButton": "Try for Free"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: April 15, 2025",
+    "section1": {
+      "title": "1. Introduction",
+      "paragraph1": "VendorTal™ Risk Review (\"we\", \"our\", or \"us\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website vendortal.com, use our platform, or use our mobile application (collectively, the \"Services\").",
+      "paragraph2": "Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the Services. By accessing or using our Services, you consent to the collection, use, and storage of your information as outlined in this Privacy Policy.",
+      "paragraph3": "We reserve the right to make changes to this Privacy Policy at any time and for any reason. We will alert you about any changes by updating the \"Last updated\" date of this Privacy Policy. You are encouraged to periodically review this Privacy Policy to stay informed of updates."
+    },
+    "section2": {
+      "title": "2. Information We Collect",
+      "personalInfo": {
+        "title": "Personal Information",
+        "description": "We may collect personal information that you voluntarily provide to us when you register on the Services, express an interest in obtaining information about us or our products and Services, participate in activities on the Services, or otherwise contact us. The personal information we collect may include:",
+        "items": {
+          "contact": "Name, email address, telephone number, and contact or authentication data",
+          "billing": "Billing address, payment information, and financial data",
+          "employer": "Employer information and job title",
+          "preferences": "User preferences and settings",
+          "other": "Other information you choose to provide"
+        }
+      },
+      "automaticData": {
+        "title": "Data Collected Automatically",
+        "description": "We automatically collect certain information when you visit, use, or navigate the Services. This information does not reveal your specific identity but may include:",
+        "items": {
+          "device": "Device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, and information about how and when you use our Services",
+          "tracking": "Information collected through cookies, pixel tags, and other tracking technologies"
+        }
+      },
+      "thirdParty": {
+        "title": "Information from Third Parties",
+        "description": "We may collect information about you from third-party sources, such as public databases, joint marketing partners, social media platforms, and other third parties. Examples of the information we receive from other sources include social media profile information, marketing leads, and search results and links, including paid listings."
+      }
+    },
+    "section3": {
+      "title": "3. How We Use Your Information",
+      "description": "We use the information we collect for various business purposes, including:",
+      "items": {
+        "provide": "To provide, operate, and maintain our Services",
+        "improve": "To improve, personalize, and expand our Services",
+        "understand": "To understand and analyze how you use our Services",
+        "develop": "To develop new products, services, features, and functionality",
+        "communicate": "To communicate with you, including for customer service, updates, and marketing purposes",
+        "process": "To process your transactions and manage your account",
+        "fraud": "To find and prevent fraud, and respond to trust and safety issues",
+        "compliance": "For compliance, legal process, and law enforcement purposes"
+      }
+    },
+    "section4": {
+      "title": "4. Sharing Your Information",
+      "description": "We may share your information in the following situations:",
+      "items": {
+        "serviceProviders": {
+          "title": "Service Providers",
+          "description": "We may share your information with third-party vendors, service providers, contractors, or agents who perform services for us or on our behalf."
+        },
+        "businessTransfers": {
+          "title": "Business Transfers",
+          "description": "We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company."
+        },
+        "affiliates": {
+          "title": "Affiliates",
+          "description": "We may share your information with our affiliates, in which case we will require those affiliates to honor this Privacy Policy."
+        },
+        "businessPartners": {
+          "title": "Business Partners",
+          "description": "We may share your information with our business partners to offer you certain products, services, or promotions."
+        },
+        "consent": {
+          "title": "With Your Consent",
+          "description": "We may disclose your information for any other purpose with your consent."
+        },
+        "otherUsers": {
+          "title": "Other Users",
+          "description": "When you share personal information or otherwise interact with public areas of the Services, such information may be viewed by all users and may be publicly distributed."
+        }
+      }
+    },
+    "section5": {
+      "title": "5. Security of Your Information",
+      "description": "We use administrative, technical, and physical security measures to help protect your personal information from unauthorized access, use, or disclosure. These include:",
+      "items": {
+        "encryption": "Encryption of sensitive data at rest and in transit",
+        "assessments": "Regular security assessments and penetration testing",
+        "accessControls": "Access controls and authentication requirements",
+        "monitoring": "Monitoring for suspicious activities",
+        "physical": "Physical security of our data centers and offices"
+      },
+      "disclaimer": "While we have implemented reasonable security measures, please understand that no security system is impenetrable, and we cannot guarantee the absolute security of our databases, nor can we guarantee that information you supply will not be intercepted while being transmitted over the Internet."
+    },
+    "section6": {
+      "title": "6. Your Privacy Rights",
+      "description": "Depending on your location, you may have the following rights regarding your personal information:",
+      "rights": {
+        "access": {
+          "title": "Right to Access",
+          "description": "You may request to review the personal information we have collected about you."
+        },
+        "rectification": {
+          "title": "Right to Rectification",
+          "description": "You may request that we correct any inaccurate or incomplete personal information."
+        },
+        "erasure": {
+          "title": "Right to Erasure",
+          "description": "You may request the deletion of your personal information, subject to certain exceptions."
+        },
+        "restrict": {
+          "title": "Right to Restrict Processing",
+          "description": "You may request that we restrict the processing of your information under certain circumstances."
+        },
+        "portability": {
+          "title": "Right to Data Portability",
+          "description": "You may request a copy of your personal information in a structured, machine-readable format."
+        },
+        "object": {
+          "title": "Right to Object",
+          "description": "You may object to our processing of your personal information in certain circumstances."
+        }
+      },
+      "exercise": "To exercise these rights, please contact us using the contact information provided at the end of this Privacy Policy. We will respond to your request within a reasonable timeframe."
+    },
+    "section7": {
+      "title": "7. Cookies and Tracking Technologies",
+      "paragraph1": "We use cookies and similar tracking technologies to collect and use information about you, including to serve interest-based advertising. Cookies are small data files placed on your device. We use both session cookies (which expire once you close your web browser) and persistent cookies (which stay on your device until you delete them).",
+      "paragraph2": "You can set your browser to refuse all or some browser cookies, or to alert you when cookies are being sent. However, if you disable or refuse cookies, please note that some parts of the Services may be inaccessible or not function properly."
+    },
+    "section8": {
+      "title": "8. Children's Privacy",
+      "paragraph1": "Our Services are not intended for use by children under the age of 18. We do not knowingly collect personal information from children under 18. If you are under 18, do not use or provide any information on our Services. If we learn we have collected or received personal information from a child under 18 without verification of parental consent, we will delete that information."
+    },
+    "section9": {
+      "title": "9. International Data Transfers",
+      "paragraph1": "We are based in the United States and process data both inside and outside of the United States. If you are accessing our Services from outside the United States, please be aware that your information may be transferred to, stored, and processed by us in our facilities and by our third-party service providers in the United States and other countries.",
+      "paragraph2": "If you are a resident of the European Economic Area (EEA), we ensure that your data is protected when transferred outside of the EEA. We rely on mechanisms such as standard contractual clauses, Privacy Shield certification, or other lawful means to transfer data internationally."
+    },
+    "section10": {
+      "title": "10. Data Retention",
+      "description": "We will retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your information to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our policies. When we no longer need your personal information, we will securely delete or anonymize it."
+    },
+    "section11": {
+      "title": "11. Contact Us",
+      "description": "If you have questions or comments about this Privacy Policy, please contact us at:",
+      "contact": {
+        "company": "VendorTal™ Risk Review",
+        "address1": "8300 McCullough Lane, Suite 203",
+        "address2": "Gaithersburg, MD 20877",
+        "email": "Email: contact@ermits.com",
+        "phone": "Phone: +1 (240) 599-0102"
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: January 15, 2025",
+    "section1": {
+      "title": "1. Acceptance of Terms",
+      "paragraph1": "These Terms of Service (\"Terms\") govern your use of VendorTal™ Risk Review (\"Service\") operated by ERMITS LLC (\"us\", \"we\", or \"our\"). By accessing or using our Service, you agree to be bound by these Terms.",
+      "paragraph2": "If you disagree with any part of these terms, then you may not access the Service. These Terms apply to all visitors, users, and others who access or use the Service.",
+      "paragraph3": "We reserve the right to update, change or replace any part of these Terms of Service by posting updates and/or changes to our website. It is your responsibility to check this page periodically for changes."
+    },
+    "section2": {
+      "title": "2. Service Description",
+      "description": "VendorTal™ Risk Review provides supply chain risk management tools and services including:",
+      "items": {
+        "assessment": "Supply chain risk assessment tools designed to support NIST SP 800-161 compliance efforts",
+        "riskMonitoring": "Real-time vendor risk monitoring and threat intelligence",
+        "vendor": "Vendor risk management and monitoring capabilities",
+        "reporting": "Risk reporting and compliance documentation tools",
+        "api": "Application Programming Interface (API) for integration with third-party systems"
+      },
+      "disclaimer": {
+        "title": "Important Disclaimer",
+        "text": "VendorTal™ Risk Review provides tools and frameworks to support your compliance efforts, but does not guarantee compliance with any regulatory requirements. Users are responsible for ensuring their own compliance with applicable laws and regulations. All assessments and recommendations should be reviewed by qualified professionals."
+      }
+    },
+    "section3": {
+      "title": "3. User Responsibilities",
+      "description": "As a user of our Service, you agree to:",
+      "items": {
+        "accurate": "Provide accurate and complete information when using our services",
+        "compliance": "Ensure your use of the Service complies with all applicable laws and regulations",
+        "security": "Maintain the security of your account credentials and notify us of any unauthorized access",
+        "professional": "Use professional judgment when interpreting assessment results and recommendations",
+        "unauthorized": "Not use the Service for any unlawful or unauthorized purpose"
+      }
+    },
+    "section4": {
+      "title": "4. Prohibited Uses",
+      "description": "You may not use our Service:",
+      "items": {
+        "illegal": "For any unlawful purpose or to solicit others to perform unlawful acts",
+        "reverse": "To reverse engineer, decompile, or disassemble any part of the Service",
+        "interfere": "To interfere with or disrupt the Service or servers connected to the Service",
+        "violate": "To violate any international, federal, provincial, or state regulations, rules, laws, or local ordinances",
+        "resell": "To resell or redistribute the Service without our express written permission"
+      }
+    },
+    "section5": {
+      "title": "5. Limitation of Liability",
+      "description": "In no event shall ERMITS LLC, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your use of the Service.",
+      "disclaimer": {
+        "title": "No Warranties",
+        "text": "The Service is provided on an \"AS IS\" and \"AS AVAILABLE\" basis. We make no representations or warranties of any kind, express or implied, as to the operation of the Service or the information, content, materials, or products included on the Service."
+      }
+    },
+    "section6": {
+      "title": "6. Termination",
+      "description": "We may terminate or suspend your account and bar access to the Service immediately, without prior notice or liability, under our sole discretion, for any reason whatsoever and without limitation, including but not limited to a breach of the Terms.",
+      "items": {
+        "termination": "We may terminate your access to the Service at any time",
+        "suspension": "We may suspend your account if you violate these Terms",
+        "effect": "Upon termination, your right to use the Service will cease immediately"
+      }
+    },
+    "section7": {
+      "title": "7. Contact Information",
+      "description": "If you have any questions about these Terms of Service, please contact us:",
+      "contact": "ERMITS LLC, Gaithersburg, MD. Email: legal@vendortal.com"
+    },
+    "section8": {
+      "title": "8. Governing Law",
+      "description": "These Terms shall be interpreted and governed by the laws of the State of Maryland, United States, without regard to its conflict of law provisions.",
+      "governing": "Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights."
+    }
+  },
+  "about": {
+    "page": {
+      "title": "About VendorTal™ Risk Review",
+      "subtitle": "We're on a mission to make supply chain security accessible, actionable, and provide tools that support federal compliance standards for organizations of all sizes."
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "VendorTal™ Risk Review was founded in 2023 by a team of cybersecurity and supply chain experts who recognized the critical need for better tools to manage third-party risk, especially for organizations working with federal contracts.",
+      "paragraph2": "After years of helping organizations manually implement NIST SP 800-161 controls and struggling with spreadsheets and disconnected tools, we decided to build a comprehensive platform that makes supply chain risk management accessible, effective, and provides tools to support federal compliance requirements.",
+      "paragraph3": "Today, VendorTal™ Risk Review helps organizations of all sizes assess, monitor, and mitigate risks across their supply chain with powerful tools designed to support NIST SP 800-161 compliance efforts."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To secure the digital supply chain by making enterprise-grade security assessments accessible to all organizations and providing tools that support federal compliance requirements."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "A world where organizations can confidently manage their supply chain risks with tools that are powerful yet simple to use, enabling them to focus on innovation while maintaining security and compliance."
+    },
+    "values": {
+      "title": "Our Values",
+      "security": {
+        "title": "Security First",
+        "description": "We believe in security by design, not as an afterthought. This principle guides our product development and our company operations."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for excellence in all we do, from our product quality to customer support, and maintaining the highest standards."
+      },
+      "integrity": {
+        "title": "Integrity",
+        "description": "We build trust through transparency, honest communication, and always doing what's right for our customers and partners."
+      }
+    },
+    "whyChoose": {
+      "title": "Why Choose VendorTal™ Risk Review",
+      "nistAlignment": {
+        "title": "NIST Alignment",
+        "description": "Our platform is built specifically to support NIST SP 800-161 compliance efforts, making it ideal for federal contractors and organizations working with government agencies."
+      },
+      "federalExperience": {
+        "title": "Federal Experience",
+        "description": "Founded by leaders with extensive experience working with federal agencies and contractors on supply chain security challenges."
+      },
+      "comprehensiveSolution": {
+        "title": "Comprehensive Solution",
+        "description": "From vendor assessments to SBOM analysis and risk dashboards, we provide all the tools you need for effective supply chain risk management."
+      },
+      "apiFirst": {
+        "title": "API-First Architecture",
+        "description": "Our API-first approach allows for seamless integration with your existing systems, workflows, and security tools."
+      }
+    },
+    "careers": {
+      "title": "Join Our Team",
+      "subtitle": "We're always looking for talented individuals who are passionate about security, supply chain risk management, and building great products.",
+      "jobs": {
+        "securityEngineer": {
+          "title": "Security Engineer",
+          "description": "Help build and secure our platform with a focus on supply chain security best practices.",
+          "details": "Remote • Full-time"
+        },
+        "productManager": {
+          "title": "Product Manager",
+          "description": "Lead the development of new features focused on supply chain risk management.",
+          "details": "Remote • Full-time"
+        },
+        "customerSuccess": {
+          "title": "Customer Success Engineer",
+          "description": "Help customers implement and get the most out of our supply chain risk management tools.",
+          "details": "Remote • Full-time"
+        }
+      },
+      "viewAllPositions": "View All Open Positions"
+    }
+  },
+  "assetDashboard": {
+    "loading": "Loading dashboard...",
+    "title": "Asset-Vendor Risk Dashboard",
+    "subtitle": "Comprehensive view of asset inventory and vendor relationships",
+    "addAsset": "Add Asset",
+    "tabs": {
+      "overview": "Overview",
+      "assets": "Assets",
+      "vendors": "Vendors",
+      "relationships": "Relationships",
+      "alerts": "Alerts"
+    },
+    "search": {
+      "placeholder": "Search assets, vendors, or relationships..."
+    },
+    "filters": {
+      "allItems": "All Items",
+      "assetsOnly": "Assets Only",
+      "vendorsOnly": "Vendors Only",
+      "allRisks": "All Risk Levels",
+      "lowRisk": "Low Risk",
+      "mediumRisk": "Medium Risk",
+      "highRisk": "High Risk",
+      "criticalRisk": "Critical Risk"
+    },
+    "matrix": {
+      "title": "Asset-Vendor Risk Matrix"
+    },
+    "primaryVendor": "Primary Vendor: ",
+    "recentAlerts": "Recent Alerts",
+    "assets": {
+      "title": "Assets"
+    },
+    "vendors": {
+      "title": "Vendors"
+    },
+    "relationships": {
+      "title": "Asset-Vendor Relationships"
+    },
+    "systemAlerts": "System Alerts",
+    "table": {
+      "asset": "Asset",
+      "type": "Type",
+      "criticality": "Criticality",
+      "riskScore": "Risk Score",
+      "vendors": "Vendors",
+      "vendor": "Vendor",
+      "industry": "Industry",
+      "assets": "Assets",
+      "criticalAssets": "Critical Assets"
+    },
+    "risk": {
+      "label": "{{level}} Risk"
+    },
+    "notAssessed": "Not assessed",
+    "vendorCount": "{{count}} vendor(s)",
+    "relationshipCount": "{{count}} relationship(s)",
+    "assetCount": "{{count}} asset(s)",
+    "criticalCount": "{{count}} critical",
+    "unknownVendor": "Unknown Vendor",
+    "access": "access",
+    "acknowledge": "Acknowledge"
+  },
+  "onboarding": {
+    "welcome": {
+      "title": "Welcome to VendorTal™ Risk Review",
+      "subtitle": "Your complete supply chain risk management platform",
+      "greeting": "Welcome, {{name}}!",
+      "description": "VendorTal™ Risk Review helps you assess, monitor, and mitigate third-party risks across your supply chain with tools aligned with NIST SP 800-161.",
+      "cards": {
+        "assessVendors": {
+          "title": "Assess Vendors",
+          "desc": "NIST 800-161 compliant assessments"
+        },
+        "monitorRisks": {
+          "title": "Monitor Risks",
+          "desc": "Real-time risk dashboards"
+        },
+        "analyzeSboms": {
+          "title": "Analyze SBOMs",
+          "desc": "Software bill of materials analysis"
+        }
+      }
+    },
+    "profile": {
+      "title": "Your Role & Organization",
+      "subtitle": "Help us tailor your experience",
+      "header": "Tell us about yourself",
+      "helper": "This helps us show you the most relevant features and content",
+      "roleLabel": "Your Primary Role",
+      "sizeLabel": "Organization Size",
+      "industryLabel": "Industry",
+      "role": {
+        "placeholder": "Select your role",
+        "security": "Security Professional",
+        "procurement": "Procurement Manager",
+        "compliance": "Compliance Officer",
+        "risk": "Risk Manager",
+        "it": "IT Manager",
+        "executive": "Executive"
+      },
+      "size": {
+        "placeholder": "Select size",
+        "startup": "Startup (1-50 employees)",
+        "small": "Small Business (51-200 employees)",
+        "medium": "Medium Business (201-1000 employees)",
+        "large": "Large Enterprise (1000+ employees)"
+      },
+      "industry": {
+        "placeholder": "Select industry",
+        "technology": "Technology",
+        "healthcare": "Healthcare",
+        "financial": "Financial Services",
+        "manufacturing": "Manufacturing",
+        "government": "Government/Public Sector",
+        "defense": "Defense/Aerospace",
+        "energy": "Energy/Utilities",
+        "retail": "Retail/E-commerce"
+      }
+    },
+    "getStarted": {
+      "title": "Get Started",
+      "subtitle": "Choose your first action",
+      "question": "What would you like to do first?",
+      "helper": "Choose an action to get started with VendorTal™ Risk Review",
+      "assessment": {
+        "title": "Run Supply Chain Assessment",
+        "desc": "Evaluate your organization's supply chain security posture"
+      },
+      "vendor": {
+        "title": "Add Your First Vendor",
+        "desc": "Start building your vendor risk portfolio"
+      },
+      "riskRadar": {
+        "title": "View Risk Radar",
+        "desc": "Monitor real-time vendor risks and threat intelligence"
+      },
+      "tour": {
+        "title": "Take a Quick Tour",
+        "desc": "Learn about key features with a guided walkthrough"
+      }
+    },
+    "tour": {
+      "title": "Quick Tour",
+      "subtitle": "Key features overview",
+      "header": "VendorTal™ Risk Review Key Features",
+      "assessments": {
+        "title": "Supply Chain Assessments",
+        "desc": "Comprehensive NIST SP 800-161 aligned assessments to evaluate your supply chain security posture across 6 key domains."
+      },
+      "vendorRisk": {
+        "title": "Vendor Risk Management",
+        "desc": "Track and monitor vendor risks with automated scoring, compliance tracking, and customizable dashboards."
+      },
+      "riskRadar": {
+        "title": "Risk Radar",
+        "desc": "Monitor vendor risks in real-time with automated threat intelligence, compliance tracking, and executive dashboards."
+      },
+      "quickTools": {
+        "title": "Quick Tools",
+        "desc": "Access rapid assessment tools like the Vendor Risk Calculator, SBOM Quick Scan, and NIST 800-161 Checklist."
+      }
+    },
+    "actions": {
+      "skipTour": "Skip Tour",
+      "getStarted": "Get Started"
+    }
+  },
+  "vendorRiskRadar": {
+    "title": "Vendor Risk Radar",
+    "description": "Assess vendor risks with focus on data privacy, protection requirements, and regulatory compliance",
+    "steps": {
+      "selectCategory": "1. Select Vendor Category",
+      "vendorInfo": "2. Vendor Information", 
+      "riskDimensions": "3. Risk Assessment Dimensions"
+    },
+    "vendorCategories": {
+      "cloudStorage": {
+        "name": "Cloud Storage & Backup",
+        "description": "File storage, backup, and document management services",
+        "commonUseCase": "Document storage, file sharing, backup solutions",
+        "privacyImpact": "High - Direct data hosting and processing",
+        "commonRegulations": ["GDPR", "SOX", "HIPAA", "SOC 2"]
+      },
+      "paymentProcessor": {
+        "name": "Payment Processing", 
+        "description": "Payment gateways, billing, and financial transaction services",
+        "commonUseCase": "Credit card processing, subscription billing, payments",
+        "privacyImpact": "Critical - Financial and PII data processing",
+        "commonRegulations": ["PCI DSS", "GDPR", "PSD2", "SOX"]
+      },
+      "hrSoftware": {
+        "name": "HR & Workforce Management",
+        "description": "HRIS, payroll, recruiting, and employee management systems", 
+        "commonUseCase": "Employee data, payroll, performance management",
+        "privacyImpact": "High - Sensitive employee and personal data",
+        "commonRegulations": ["GDPR", "CCPA", "Employment Law", "SOX"]
+      },
+      "saasProductivity": {
+        "name": "SaaS Productivity Tools",
+        "description": "Collaboration, communication, and productivity software",
+        "commonUseCase": "Email, messaging, project management, CRM", 
+        "privacyImpact": "Medium - Business communications and workflow data",
+        "commonRegulations": ["GDPR", "SOC 2", "ISO 27001"]
+      },
+      "analyticsMarketing": {
+        "name": "Analytics & Marketing",
+        "description": "Data analytics, marketing automation, and customer tracking",
+        "commonUseCase": "Customer analytics, marketing campaigns, tracking",
+        "privacyImpact": "High - Customer behavior and PII tracking",
+        "commonRegulations": ["GDPR", "CCPA", "PECR", "ePrivacy"]
+      },
+      "infrastructure": {
+        "name": "Infrastructure & Hosting",
+        "description": "Cloud infrastructure, hosting, and technical services", 
+        "commonUseCase": "Server hosting, cloud infrastructure, CDN",
+        "privacyImpact": "Medium-High - Infrastructure-level data access",
+        "commonRegulations": ["SOC 2", "ISO 27001", "GDPR", "FedRAMP-ready"]
+      }
+    },
+    "riskDimensions": {
+      "dataSensitivity": {
+        "name": "Data Sensitivity Level",
+        "shortName": "Data Sensitivity",
+        "description": "Classification and sensitivity of data being processed",
+        "privacyRegulations": ["GDPR Art. 9", "CCPA", "HIPAA"],
+        "protectionRequirements": ["Data Classification", "Access Controls", "Encryption at Rest"]
+      },
+      "accessControl": {
+        "name": "Access Control & Authentication", 
+        "shortName": "Access Control",
+        "description": "Identity management and access control mechanisms",
+        "privacyRegulations": ["GDPR Art. 25", "SOX", "ISO 27001"],
+        "protectionRequirements": ["MFA", "Role-Based Access", "Audit Logging"]
+      },
+      "dataResidency": {
+        "name": "Data Residency & Jurisdiction",
+        "shortName": "Data Residency", 
+        "description": "Geographic location and legal jurisdiction of data processing",
+        "privacyRegulations": ["GDPR Art. 44-49", "Schrems II", "Data Localization Laws"],
+        "protectionRequirements": ["Adequacy Decisions", "SCCs", "Data Mapping"]
+      },
+      "retentionControl": {
+        "name": "Data Retention & Deletion",
+        "shortName": "Retention Control",
+        "description": "Data lifecycle management and deletion capabilities",
+        "privacyRegulations": ["GDPR Art. 17", "CCPA", "Data Minimization"],
+        "protectionRequirements": ["Retention Policies", "Secure Deletion", "Data Portability"]
+      },
+      "encryptionStandards": {
+        "name": "Encryption & Security Standards",
+        "shortName": "Encryption",
+        "description": "Cryptographic controls and security implementation",
+        "privacyRegulations": ["GDPR Art. 32", "PCI DSS", "FIPS 140-2"],
+        "protectionRequirements": ["Encryption in Transit", "Encryption at Rest", "Key Management"]
+      },
+      "complianceFramework": {
+        "name": "Compliance & Certification", 
+        "shortName": "Compliance",
+        "description": "Regulatory compliance and industry certifications",
+        "privacyRegulations": ["SOC 2", "ISO 27001", "Industry Standards"],
+        "protectionRequirements": ["Regular Audits", "Compliance Monitoring", "Incident Response"]
+      }
+    },
+    "form": {
+      "vendorNameLabel": "Vendor Name",
+      "vendorNamePlaceholder": "Enter vendor name...",
+      "categoryOverview": "Category Overview",
+      "commonUseCase": "Common Use Case:",
+      "privacyImpact": "Privacy Impact:",
+      "keyRegulations": "Key Regulations:",
+      "lowRisk": "Low Risk",
+      "highRisk": "High Risk",
+      "privacyRegulations": "Privacy Regulations:",
+      "protectionRequirements": "Protection Requirements:"
+    },
+    "buttons": {
+      "generateRadar": "Generate Risk Radar",
+      "viewFullDashboard": "View Full Dashboard"
+    },
+    "results": {
+      "radarVisualization": "Risk Radar Visualization", 
+      "overallAssessment": "Overall Risk Assessment",
+      "privacyRecommendations": "Privacy Recommendations",
+      "currentRisk": "Current Risk",
+      "requiredControls": "Required Controls"
+    },
+    "howToUse": {
+      "title": "How to Use the Risk Radar",
+      "step1": "Choose the vendor category that best matches your use case to load baseline risk settings",
+      "step2": "Adjust risk dimensions based on your specific data sensitivity and regulatory requirements", 
+      "step3": "Generate the radar chart to visualize risk levels and required control gaps"
+    },
+    "demo": {
+      "title": "Demo Mode Active",
+      "description": "Using CloudCorp Document Storage as example. Select a category to see different risk profiles."
+    },
+    "errors": {
+      "enterVendorName": "Please enter a vendor name",
+      "calculationFailed": "Failed to calculate risk score"
+    },
+    "status": {
+      "saving": "Saving progress...",
+      "saved": "Progress saved automatically", 
+      "analyzing": "Analyzing vendor risk..."
+    },
+    "riskLevels": {
+      "low": "Low",
+      "medium": "Medium", 
+      "high": "High",
+      "critical": "Critical"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "solutions": "Solutions",
+    "vendors": "Vendors",
+    "dashboard": "Dashboard",
+    "tools": "Tools",
+    "templates": "Templates",
+    "about": "About",
+    "contact": "Contact",
+    "pricing": "Pricing",
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "premium": "Premium"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "retrying": "Retrying...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "remove": "Remove",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "export": "Export",
+    "import": "Import",
+    "download": "Download",
+    "upload": "Upload",
+    "refresh": "Refresh",
+    "view": "View",
+    "details": "Details",
+    "summary": "Summary",
+    "status": "Status",
+    "actions": "Actions",
+    "settings": "Settings",
+    "preferences": "Preferences",
+    "help": "Help",
+    "support": "Support",
+    "documentation": "Documentation",
+    "feedback": "Feedback",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Info",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "maybe": "Maybe",
+    "unknown": "Unknown",
+    "pending": "Pending",
+    "completed": "Completed",
+    "failed": "Failed",
+    "active": "Active",
+    "inactive": "Inactive",
+    "enabled": "Enabled",
+    "disabled": "Disabled"
+  },
+  "home": {
+    "hero": {
+      "title_line1": "Send Security Questionnaires",
+      "title_line2": "to Vendors for Due Diligence",
+      "subtitle": "Send security questionnaires to vendors, collect responses, and review for due diligence. Streamline your vendor security assessment process.",
+      "description": "VendorTal™ Risk Review enables you to send security questionnaires to vendors for due diligence, track responses, and review vendor security posture.",
+      "carousel": {
+        "text1": "Send security questionnaires to vendors for due diligence - automated sending with vendor portal for responses.",
+        "text2": "Send CMMC and NIST questionnaires to vendors. Collect responses and review for compliance.",
+        "text3": "Send questionnaires to vendors and track responses in real-time. Review vendor security for due diligence.",
+        "text4": "Send security questionnaires to vendors, collect responses, and generate due diligence reports.",
+        "text5": "Send questionnaires to vendors for due diligence. Review responses and generate compliance reports."
+      },
+      "cta1": "Send Security Questionnaire",
+      "cta2": "View Questionnaire Demo",
+      "benefits": {
+        "section1": {
+          "title": "Automated Questionnaire Sending",
+          "benefit1": "Send security questionnaires to vendors automatically",
+          "benefit2": "Vendor portal for questionnaire completion",
+          "benefit3": "Track questionnaire responses in real-time"
+        },
+        "section2": {
+          "title": "Due Diligence Workflow", 
+          "benefit1": "Send questionnaires to vendors for due diligence",
+          "benefit2": "Collect vendor responses securely",
+          "benefit3": "Review responses for compliance"
+        },
+        "section3": {
+          "title": "Compliance Ready",
+          "benefit1": "CMMC and NIST questionnaire templates",
+          "benefit2": "Automated response tracking", 
+          "benefit3": "Due diligence reporting"
+        }
+      },
+      "trustIndicators": {
+        "customers": "Enterprise Customers",
+        "assessments": "10,000+ Vendors Assessed",
+        "success": "Enterprise-Grade Compliance"
+      }
+    },
+    "assessments": {
+      "title": "Available Assessments",
+      "description": "Choose from our comprehensive assessment tools to evaluate your supply chain security posture and compliance readiness.",
+      "cta": "Start Assessment",
+      "supplyChain": {
+        "title": "Supply Chain Risk Assessment",
+        "description": "Comprehensive assessment aligned with NIST SP 800-161 for federal compliance and enterprise risk management.",
+        "feature1": "NIST SP 800-161 framework compliance",
+        "feature2": "Automated risk scoring and reporting",
+        "feature3": "Gap analysis with actionable recommendations",
+        "feature4": "Executive summary for stakeholder communication"
+      },
+      "riskMonitoring": {
+        "title": "Risk Radar",
+        "description": "Real-time vendor risk monitoring with automated threat intelligence and compliance tracking.",
+        "feature1": "Real-time risk scoring and alerting",
+        "feature2": "Automated compliance tracking",
+        "feature3": "Threat intelligence integration",
+        "feature4": "Executive risk dashboards"
+      },
+      "vendor": {
+        "title": "Vendor Security Assessments",
+        "description": "Send comprehensive security questionnaires to vendors with automated tracking and scoring.",
+        "feature1": "CMMC Level 1 & 2 assessment templates",
+        "feature2": "NIST Privacy Framework questionnaires",
+        "feature3": "Automated scoring and risk rating",
+        "feature4": "Secure evidence collection portal"
+      }
+    },
+    "stakeholders": {
+      "title": "Solutions for Every Stakeholder",
+      "description": "Our platform addresses the unique challenges faced by security teams, procurement professionals, compliance officers, and executives in managing supply chain risk.",
+      "common": {
+        "challenges": "Key Challenges"
+      },
+      "security": {
+        "title": "Security Teams",
+        "description": "Security professionals need comprehensive visibility into third-party risks and vulnerabilities across their supply chain.",
+        "challenges": {
+          "visibility": "Limited visibility into third-party software components and dependencies",
+          "manual": "Manual processes for vendor security assessments and reviews",
+          "tracking": "Difficulty tracking and managing vulnerabilities across the supply chain",
+          "compliance": "Complex compliance requirements for federal and industry standards"
+        },
+        "solutions": {
+          "sbom": {
+            "title": "SBOM Analysis",
+            "description": "Comprehensive software bill of materials analysis for vulnerability identification, license compliance, and supply chain transparency.",
+            "benefits": {
+              "vulnerabilities": "Identify vulnerable components quickly",
+              "licenses": "Track open source licenses for compliance",
+              "reports": "Generate detailed component reports",
+              "monitoring": "Continuous SBOM monitoring and alerting"
+            },
+            "cta": "Analyze SBOM"
+          },
+          "vendorIQ": {
+            "title": "VendorIQ - Intelligent Vendor Assessment",
+            "description": "Comprehensive vendor risk assessment with NIST 800-161 Rev 1 C-SCRM mapping, vendor categorization, and risk scoring.",
+            "benefits": {
+              "assessment": "Comprehensive vendor risk assessments",
+              "nistMapping": "NIST 800-161 Rev 1 C-SCRM mapping",
+              "categorization": "Vendor categorization (Critical, Strategic, Tactical)",
+              "scoring": "Weighted risk score calculation",
+              "compliance": "NIST compliance report generation"
+            },
+            "cta": "Start Assessment"
+          },
+          "riskMonitoring": {
+            "title": "Risk Radar & Threat Intelligence",
+            "description": "Real-time vendor risk monitoring with automated threat intelligence, compliance tracking, and risk scoring.",
+            "benefits": {
+              "intelligence": "Real-time vendor risk intelligence and threat data",
+              "tracking": "Automated compliance status tracking",
+              "reports": "Generate executive risk dashboards and reports",
+              "monitoring": "Continuous vendor risk monitoring and alerting"
+            },
+            "cta": "View Risk Radar"
+          },
+          "nistAssessment": {
+            "title": "NIST Supply Chain Assessment",
+            "description": "Comprehensive supply chain risk management assessment aligned with NIST SP 800-161 framework.",
+            "benefits": {
+              "framework": "NIST SP 800-161 framework alignment",
+              "assessment": "Comprehensive supply chain assessment",
+              "scoring": "Automated compliance scoring",
+              "recommendations": "Priority-based risk recommendations",
+              "reporting": "Executive reporting and gap analysis"
+            },
+            "cta": "Start Assessment"
+          },
+          "assessments": {
+            "title": "Send Security Questionnaires",
+            "description": "Send security questionnaires to vendors for due diligence. Collect responses and review for compliance.",
+            "benefits": {
+              "cmmc": "Send CMMC Level 1 & 2 questionnaires to vendors",
+              "nist": "Send NIST Privacy Framework questionnaires to vendors",
+              "scoring": "Review vendor responses and generate compliance scores",
+              "portal": "Vendors complete questionnaires in secure portal",
+              "tracking": "Track questionnaire sending and response collection"
+            },
+            "cta": "Send Questionnaire"
+          }
+        }
+      },
+      "procurement": {
+        "title": "Procurement Teams",
+        "description": "Procurement professionals must balance cost, quality, and risk when selecting and managing vendors throughout the relationship lifecycle.",
+        "challenges": {
+          "balancing": "Balancing cost considerations with security and compliance requirements",
+          "lifecycle": "Managing vendor relationships across the entire procurement lifecycle",
+          "contracts": "Incorporating appropriate security terms into vendor contracts",
+          "diligence": "Conducting thorough due diligence on potential vendors"
+        },
+        "solutions": {
+          "calculator": {
+            "title": "Vendor Risk Calculator",
+            "description": "Quick risk assessment tool to evaluate potential vendors based on multiple security and business factors.",
+            "benefits": {
+              "criteria": "Standardized risk assessment criteria",
+              "scoring": "Objective vendor risk scoring methodology",
+              "comparison": "Side-by-side vendor risk comparisons",
+              "integration": "Integration with procurement workflows"
+            },
+            "cta": "Calculate Risk"
+          },
+          "dashboard": {
+            "title": "Vendor Risk Dashboard",
+            "description": "Centralized dashboard for monitoring and managing all vendor relationships and associated risks.",
+            "benefits": {
+              "monitoring": "Real-time vendor risk monitoring",
+              "tracking": "Compliance status tracking across vendors",
+              "alerts": "Automated risk threshold alerts",
+              "reporting": "Executive reporting and analytics"
+            },
+            "cta": "View Dashboard"
+          }
+        }
+      },
+      "compliance": {
+        "title": "Compliance Officers",
+        "description": "Compliance teams need to ensure adherence to evolving regulatory requirements while maintaining comprehensive documentation and audit trails.",
+        "challenges": {
+          "evolving": "Keeping up with evolving regulatory requirements and frameworks",
+          "documenting": "Documenting compliance efforts for audits and assessments",
+          "obligations": "Managing complex third-party compliance obligations",
+          "frameworks": "Mapping requirements across multiple compliance frameworks"
+        },
+        "solutions": {
+          "nist": {
+            "title": "NIST SP 800-161 Compliance Assessment",
+            "description": "Comprehensive assessment aligned with NIST SP 800-161 supply chain risk management practices.",
+            "benefits": {
+              "templates": "Pre-built NIST-aligned assessment templates",
+              "scoring": "Automated compliance scoring and gap analysis",
+              "documentation": "Comprehensive audit trail and documentation",
+              "analysis": "Risk analysis and remediation recommendations"
+            },
+            "cta": "Start Assessment"
+          },
+          "templates": {
+            "title": "Compliance Templates & Resources",
+            "description": "Ready-to-use templates, checklists, and documentation for various compliance frameworks.",
+            "benefits": {
+              "federal": "Federal compliance templates and guides",
+              "industry": "Industry-specific assessment frameworks",
+              "matrices": "Risk scoring matrices and methodologies",
+              "executive": "Executive summary and reporting templates"
+            },
+            "cta": "Browse Templates"
+          }
+        }
+      },
+      "executives": {
+        "title": "Executive Leadership",
+        "description": "Executives need clear visibility into supply chain risks and their potential business impact to make informed strategic decisions.",
+        "challenges": {
+          "understanding": "Understanding the business impact of supply chain security risks",
+          "investment": "Justifying security investments and resource allocation",
+          "demonstrating": "Demonstrating compliance posture to stakeholders and customers",
+          "balancing": "Balancing operational efficiency with security requirements"
+        },
+        "solutions": {
+          "dashboards": {
+            "title": "Executive Risk Dashboards",
+            "description": "High-level dashboards providing strategic insights into supply chain risk posture and trends.",
+            "benefits": {
+              "metrics": "Key risk metrics and performance indicators",
+              "portfolio": "Portfolio-wide risk visibility and trends",
+              "compliance": "Compliance status across frameworks",
+              "recommendations": "Strategic recommendations and priorities"
+            },
+            "cta": "View Dashboard"
+          },
+          "reporting": {
+            "title": "Executive Reporting & Analytics",
+            "description": "Automated reporting capabilities for board presentations and stakeholder communications.",
+            "benefits": {
+              "automated": "Automated report generation and scheduling",
+              "customizable": "Customizable reporting templates",
+              "analysis": "Trend analysis and risk forecasting",
+              "presentations": "Board-ready presentations and summaries"
+            },
+            "cta": "Generate Report"
+          }
+        }
+      },
+      "cta": {
+        "title": "Ready to Send Security Questionnaires?",
+        "description": "Send security questionnaires to vendors for due diligence. Start your first questionnaire or schedule a demo.",
+        "startAssessment": "Send Security Questionnaire",
+        "scheduleDemo": "View Questionnaire Demo"
+      }
+    },
+    "features": {
+      "title": "Key Features",
+      "description": "Send security questionnaires to vendors for due diligence and manage responses",
+      "feature1": {
+        "title": "Send Security Questionnaires",
+        "description": "Send security questionnaires to vendors for due diligence. Automated sending with vendor portal for responses."
+      },
+      "feature2": {
+        "title": "Questionnaire Templates",
+        "description": "Pre-built security questionnaire templates (NIST, CMMC, SOC2, etc.) ready to send to vendors"
+      },
+      "feature3": {
+        "title": "Vendor Portal & Collaboration",
+        "description": "Vendors complete questionnaires in dedicated portal. Track progress and collect responses."
+      },
+      "feature4": {
+        "title": "Response Analytics & Reporting",
+        "description": "Review vendor responses and generate due diligence reports for compliance"
+      },
+      "learnMore": "Learn More"
+    },
+    "benefits": {
+      "title": "Why Choose Our Platform",
+      "item1": "Significantly reduce compliance costs",
+      "item2": "Automate repetitive assessment tasks",
+      "item3": "Get executive-ready reports in minutes"
+    },
+    "quickTools": {
+      "title": "Quick Tools",
+      "description": "Get started immediately with our free assessment tools"
+    },
+    "cta": {
+      "title": "Ready to Send Security Questionnaires?",
+      "description": "Send security questionnaires to vendors for due diligence. Start your first questionnaire today."
+    }
+  },
+  "compliance": {
+    "nist800161": {
+      "title": "NIST SP 800-161 Extended",
+      "subtitle": "Client assessment with audit and vendor mapping hooks",
+      "markImplemented": "Mark Implemented"
+    }
+  },
+  "vendorPortal": {
+  },
+  "vendorAssessments": {
+    "title": "Send Security Questionnaires for Due Diligence",
+    "description": "Send security questionnaires to vendors for due diligence. Collect responses and review for compliance.",
+    "premiumFeature": "Premium Feature",
+    "buttons": {
+      "newAssessment": "Send Questionnaire",
+      "createFirstAssessment": "Send Your First Questionnaire",
+      "sendAssessment": "Send Questionnaire",
+      "view": "View",
+      "copyLink": "Copy Link",
+      "signUpFreeTrial": "Sign Up for Free Trial",
+      "viewPricing": "View Pricing"
+    },
+    "features": {
+      "cmmcAssessments": {
+        "title": "CMMC Assessments",
+        "description": "Pre-built CMMC Level 1 & 2 assessment templates with automated scoring and evidence collection.",
+        "feature1": "DoD-aligned question sets",
+        "feature2": "Automated compliance scoring",
+        "feature3": "Evidence collection portal"
+      },
+      "vendorPortal": {
+        "title": "Vendor Portal",
+        "description": "Secure assessment portal for vendors to complete questionnaires and upload evidence.",
+        "feature1": "Secure access with unique links",
+        "feature2": "Progress saving and resume",
+        "feature3": "Automated notifications"
+      },
+      "analytics": {
+        "title": "Analytics & Reporting",
+        "description": "Advanced analytics and executive reporting for vendor compliance status.",
+        "feature1": "Compliance trend analysis",
+        "feature2": "Executive dashboards",
+        "feature3": "Automated report generation"
+      }
+    },
+    "frameworks": {
+      "cmmcLevel1": {
+        "name": "CMMC Level 1",
+        "description": "Basic cybersecurity hygiene practices for protecting Federal Contract Information (FCI)"
+      },
+      "cmmcLevel2": {
+        "name": "CMMC Level 2",
+        "description": "Intermediate practices for protecting Controlled Unclassified Information (CUI)"
+      },
+      "nistPrivacy": {
+        "name": "NIST Privacy Framework",
+        "description": "Comprehensive privacy risk management assessment"
+      },
+      "nist80053": {
+        "name": "NIST SP 800-53 Controls",
+        "description": "Security and privacy controls for information systems"
+      }
+    },
+    "estimatedTime": {
+      "short": "1-2 hours",
+      "medium": "2-3 hours",
+      "long": "4-6 hours"
+    },
+    "status": {
+      "pending": "Pending",
+      "sent": "Sent",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "reviewed": "Reviewed"
+    },
+    "search": {
+      "placeholder": "Search assessments..."
+    },
+    "filters": {
+      "allStatuses": "All Statuses"
+    },
+    "actions": {
+      "exportReport": "Export Report"
+    },
+    "table": {
+      "title": "Vendor Questionnaires",
+      "count": "{{count}} questionnaires",
+      "headers": {
+        "vendor": "Vendor",
+        "framework": "Framework",
+        "status": "Status",
+        "progress": "Progress", 
+        "dueDate": "Due Date",
+        "score": "Score",
+        "actions": "Actions"
+      }
+    },
+    "emptyState": {
+      "title": "No questionnaires found",
+      "noMatches": "No questionnaires match your current filters.",
+      "noAssessments": "Send your first security questionnaire to a vendor for due diligence."
+    },
+    "overview": {
+      "premiumBenefits": {
+        "title": "Premium Assessment Features",
+        "cmmcAligned": {
+          "title": "CMMC & Privacy Aligned",
+          "description": "Pre-built assessment templates aligned with CMMC levels and NIST Privacy Framework"
+        },
+        "securePortal": {
+          "title": "Secure Vendor Portal",
+          "description": "Dedicated portal for vendors to complete assessments and upload evidence securely"
+        },
+        "evidenceCollection": {
+          "title": "Evidence Collection",
+          "description": "Automated evidence collection, validation, and audit trail management"
+        }
+      },
+      "statistics": {
+        "totalAssessments": "Total Assessments",
+        "inProgress": "In Progress", 
+        "completed": "Completed",
+        "highCompliance": "High Compliance"
+      },
+      "gettingStarted": {
+        "title": "Getting Started",
+        "step1": {
+          "title": "Select Vendor",
+          "description": "Choose a vendor to send a security questionnaire to for due diligence"
+        },
+        "step2": {
+          "title": "Choose Questionnaire Template", 
+          "description": "Select CMMC, NIST Privacy Framework, or custom questionnaire template"
+        },
+        "step3": {
+          "title": "Send Questionnaire",
+          "description": "Send security questionnaire to vendor. Vendor completes in portal and you review responses."
+        }
+      },
+      "capabilities": {
+        "title": "Assessment Capabilities",
+        "evidenceCollection": "Automated evidence collection",
+        "progressTracking": "Real-time progress tracking",
+        "secureSharing": "Secure document sharing",
+        "automatedScoring": "Automated compliance scoring",
+        "auditTrail": "Audit trail and reporting",
+        "multiFramework": "Multi-framework support"
+      }
+    },
+    "assessments": {
+      "title": "Active Assessments",
+      "fields": {
+        "framework": "Framework",
+        "sentDate": "Sent Date",
+        "dueDate": "Due Date", 
+        "progress": "Progress",
+        "notSent": "Not sent",
+        "notSet": "Not set"
+      }
+    },
+    "templates": {
+      "title": "Assessment Framework Templates",
+      "fields": {
+        "questions": "Questions",
+        "estimatedTime": "Est. Time"
+      }
+    },
+    "portal": {
+      "title": "Vendor Assessment Portal",
+      "features": {
+        "title": "Secure Vendor Portal Features",
+        "capabilities": {
+          "title": "Portal Capabilities",
+          "secureLinks": "Secure unique assessment links",
+          "progressSaving": "Progress saving and resume capability", 
+          "encryptedUploads": "Encrypted evidence file uploads",
+          "realTimeCollaboration": "Real-time collaboration features",
+          "mobileResponsive": "Mobile-responsive design"
+        },
+        "security": {
+          "title": "Security Features",
+          "endToEndEncryption": "End-to-end encryption",
+          "multiFactorAuth": "Multi-factor authentication", 
+          "auditLogging": "Audit trail logging",
+          "timeLimitedTokens": "Time-limited access tokens",
+          "ipAllowlist": "IP allowlist support"
+        },
+        "exampleUrl": "Example Portal URL:"
+      }
+    },
+    "upgrade": {
+      "title": "Unlock Premium Questionnaire Features",
+      "description": "Create an account to send security questionnaires to vendors for due diligence"
+    }
+  },
+  "buttons": {
+    "startAssessment": "Start Assessment",
+    "analyzeNow": "Analyze Now",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started"
+  },
+  "assessment": {
+    "title": "Supply Chain Risk Assessment",
+    "subtitle": "Comprehensive NIST SP 800-161 aligned assessment",
+    "view": "View Assessment",
+    "current": "Current Assessment",
+    "complete": "Complete",
+    "incomplete": "Incomplete",
+    "overallScore": "Overall Score",
+    "score": "Score",
+    "backToHome": "Back to Home",
+    "backToStart": "Back to Assessment Start",
+    "restartAssessment": "Restart Assessment",
+    "section": "Section",
+    "sectionProgress": "Section Progress",
+    "previousSection": "Previous Section",
+    "nextSection": "Next Section",
+    "viewResults": "View Results",
+    "saving": "Saving progress...",
+    "saved": "Progress saved automatically",
+    "saveError": "Error saving progress",
+    "sections": "Sections",
+    "startScreen": {
+      "startAssessment": "Start Assessment",
+      "nistAligned": "NIST Aligned",
+      "nistDescription": "Assessment based on NIST SP 800-161 Supply Chain Risk Management framework",
+      "comprehensive": "Comprehensive",
+      "comprehensiveDescription": "24 questions across 6 key supply chain security domains",
+      "actionable": "Actionable",
+      "actionableDescription": "Get personalized recommendations and a detailed compliance report",
+      "infoMessage": "This assessment will help you evaluate your organization's supply chain security posture against NIST SP 800-161 guidelines. You'll receive a detailed score and actionable recommendations to improve your security posture."
+    },
+    "onboarding": {
+      "nameYourAssessment": "Name Your Assessment",
+      "assessmentDescription": "Give your assessment a descriptive name to help you identify it later. This name will appear in your assessment list and reports.",
+      "assessmentNameLabel": "Assessment Name",
+      "assessmentNamePlaceholder": "e.g., Q3 2025 Supply Chain Assessment",
+      "whatToExpect": "What to expect:",
+      "expectation1": "24 questions across 6 supply chain security domains",
+      "expectation2": "Approximately 15-20 minutes to complete",
+      "expectation3": "Your progress is automatically saved",
+      "expectation4": "Detailed results and recommendations",
+      "continueToAssessment": "Continue to Assessment",
+      "back": "Back"
+    },
+    "progress": {
+      "progressLabel": "Progress: {{answered}} / {{total}} questions",
+      "questionsAnswered": "{{count}} / {{total}}"
+    },
+    "supplyChain": {
+      "title": "Supply Chain Risk Assessment",
+      "description": "Comprehensive assessment based on NIST SP 800-161 framework to evaluate supplier security posture and supply chain risks.",
+      "feature1": "Supplier security evaluation",
+      "feature2": "NIST SCRM control mapping",
+      "feature3": "Risk scoring and prioritization",
+      "feature4": "Vendor onboarding requirements"
+    },
+    "riskMonitoring": {
+      "title": "Risk Radar",
+      "description": "Real-time vendor risk monitoring and threat intelligence for comprehensive risk management.",
+      "feature1": "Real-time risk scoring",
+      "feature2": "License compliance check",
+      "feature3": "Component risk analysis",
+      "feature4": "Federal compliance reporting"
+    },
+    "vendor": {
+      "title": "Vendor Risk Dashboard",
+      "description": "Comprehensive dashboard to monitor, track, and manage risks across your entire vendor ecosystem.",
+      "feature1": "Risk scoring methodology",
+      "feature2": "Vendor portfolio management",
+      "feature3": "Trend analysis and alerts",
+      "feature4": "Compliance status tracking"
+    }
+  },
+  "supplyChain": {
+    "sections": {
+      "information": {
+        "title": "Information Security",
+        "description": "Assess information security controls and practices within your supply chain",
+        "questions": {
+          "is1": {
+            "question": "Do you have documented information security policies?",
+            "guidance": "Organizations should maintain current, documented information security policies that address supply chain risks"
+          },
+          "is2": {
+            "question": "Are security requirements included in vendor contracts?",
+            "guidance": "All vendor agreements should include specific security requirements and compliance obligations"
+          },
+          "is3": {
+            "question": "Do you conduct regular security assessments of vendors?",
+            "guidance": "Regular security assessments help identify and mitigate evolving risks in your supply chain"
+          },
+          "is4": {
+            "question": "Is sensitive data classification and handling documented?",
+            "guidance": "Clear data classification and handling procedures ensure appropriate protection throughout the supply chain"
+          }
+        }
+      },
+      "supplier": {
+        "title": "Supplier Management",
+        "description": "Evaluate supplier onboarding, monitoring, and management processes",
+        "questions": {
+          "sr1": {
+            "question": "Do you have a formal supplier onboarding process?",
+            "guidance": "A structured onboarding process ensures all suppliers meet minimum security requirements before engagement"
+          },
+          "sr2": {
+            "question": "Are supplier security capabilities regularly reviewed?",
+            "guidance": "Regular reviews help ensure suppliers maintain adequate security posture throughout the relationship"
+          },
+          "sr3": {
+            "question": "Do you maintain an approved supplier list?",
+            "guidance": "An approved supplier list helps control which vendors can access your systems and data"
+          },
+          "sr4": {
+            "question": "Are supplier termination procedures documented?",
+            "guidance": "Clear termination procedures ensure secure offboarding and protection of organizational assets"
+          }
+        }
+      },
+      "vulnerability": {
+        "title": "Vulnerability Management",
+        "description": "Assess vulnerability identification, tracking, and remediation processes",
+        "questions": {
+          "vm1": {
+            "question": "Do you have a vulnerability management program?",
+            "guidance": "A comprehensive vulnerability management program is essential for maintaining security across the supply chain"
+          },
+          "vm2": {
+            "question": "Are vulnerabilities tracked and prioritized?",
+            "guidance": "Systematic tracking and prioritization ensures critical vulnerabilities are addressed promptly"
+          },
+          "vm3": {
+            "question": "Do you require vulnerability disclosure from suppliers?",
+            "guidance": "Suppliers should be required to disclose known vulnerabilities in their products and services"
+          },
+          "vm4": {
+            "question": "Are patch management processes documented?",
+            "guidance": "Clear patch management processes help ensure timely remediation of identified vulnerabilities"
+          }
+        }
+      },
+      "incident": {
+        "title": "Incident Response",
+        "description": "Evaluate incident response capabilities and supply chain coordination",
+        "questions": {
+          "ir1": {
+            "question": "Do you have an incident response plan?",
+            "guidance": "A comprehensive incident response plan should address supply chain-related security incidents"
+          },
+          "ir2": {
+            "question": "Are suppliers required to report security incidents?",
+            "guidance": "Suppliers should be contractually obligated to report security incidents that may affect your organization"
+          },
+          "ir3": {
+            "question": "Do you conduct incident response exercises?",
+            "guidance": "Regular exercises help ensure your team is prepared to respond effectively to supply chain incidents"
+          },
+          "ir4": {
+            "question": "Are lessons learned documented and shared?",
+            "guidance": "Documenting and sharing lessons learned helps improve future incident response capabilities"
+          }
+        }
+      },
+      "threat": {
+        "title": "Threat Management",
+        "description": "Assess threat intelligence and supply chain threat awareness capabilities",
+        "questions": {
+          "tm1": {
+            "question": "Do you have access to threat intelligence?",
+            "guidance": "Current threat intelligence helps organizations understand and prepare for supply chain threats"
+          },
+          "tm2": {
+            "question": "Are supply chain threats regularly assessed?",
+            "guidance": "Regular threat assessments help identify emerging risks in your supply chain"
+          },
+          "tm3": {
+            "question": "Do you share threat information with suppliers?",
+            "guidance": "Sharing relevant threat information helps suppliers better protect your organization"
+          },
+          "tm4": {
+            "question": "Are threat hunting activities conducted?",
+            "guidance": "Proactive threat hunting helps identify advanced threats that may have bypassed traditional defenses"
+          }
+        }
+      },
+      "lifecycle": {
+        "title": "Lifecycle Management",
+        "description": "Evaluate product and service lifecycle security management",
+        "questions": {
+          "sl1": {
+            "question": "Are security requirements defined for the entire lifecycle?",
+            "guidance": "Security should be considered throughout the entire product or service lifecycle"
+          },
+          "sl2": {
+            "question": "Do you conduct security reviews at lifecycle milestones?",
+            "guidance": "Regular security reviews at key milestones help ensure continued security posture"
+          },
+          "sl3": {
+            "question": "Are end-of-life procedures documented?",
+            "guidance": "Clear end-of-life procedures ensure secure disposal or decommissioning of products and services"
+          },
+          "sl4": {
+            "question": "Do you track product and service dependencies?",
+            "guidance": "Understanding dependencies helps identify potential single points of failure in your supply chain"
+          }
+        }
+      }
+    }
+  },
+  "sbom": {
+    "title": "SBOM Analysis (Available at TechnoSoluce)",
+    "description": "SBOM analysis is available through our partner platform TechnoSoluce at technosoluce.com. VendorTal™ Risk Review focuses on vendor risk management.",
+    "features": {
+      "componentAnalysis": {
+        "title": "Component Analysis",
+        "description": "Comprehensive analysis of software components, dependencies, and their security posture."
+      },
+      "vulnerabilityDetection": {
+        "title": "Vulnerability Detection",
+        "description": "Identify known vulnerabilities in your software components with detailed risk assessments."
+      },
+      "licenseCompliance": {
+        "title": "License Compliance",
+        "description": "Track open source licenses and ensure compliance with organizational policies."
+      }
+    },
+    "upload": {
+      "title": "Upload SBOM",
+      "supportedFormats": "Supported Formats",
+      "noSbom": "No SBOM Uploaded",
+      "uploadPrompt": "Upload a Software Bill of Materials file to begin analysis. We support SPDX, CycloneDX, and other standard formats.",
+      "dropHere": "Drop your SBOM file here",
+      "browseFiles": "Browse Files",
+      "analyzing": "Analyzing SBOM..."
+    },
+    "results": {
+      "title": "Analysis Results",
+      "components": "Components",
+      "vulnerabilities": "Vulnerabilities",
+      "licenses": "Licenses",
+      "overallSecurityScore": "Overall Security Score",
+      "criticalCVEs": "Critical CVEs",
+      "licenseIssues": "License Issues",
+      "recommendations": "Recommendations:",
+      "immediateAction": "Immediate action required: {{count}} critical vulnerabilities found",
+      "goodPosture": "Good security posture. Continue monitoring for new vulnerabilities.",
+      "reviewComponents": "Review components with vulnerabilities and consider updates.",
+      "detailedAnalysis": "Detailed Component Analysis"
+    },
+    "recentAnalyses": "Recent Analyses",
+    "export": "Export",
+    "aboutSBOM": {
+      "title": "About SBOM Analysis",
+      "whatIsSBOM": "What is SBOM?",
+      "sbomDescription": "A Software Bill of Materials (SBOM) is a formal record containing the details and supply chain relationships of various components used in building software. It provides transparency into software composition and enables effective vulnerability management.",
+      "benefits": {
+        "identifyVulnerabilities": "Identify vulnerable components quickly",
+        "trackLicenses": "Track open source licenses for compliance",
+        "meetRequirements": "Meet federal transparency requirements"
+      },
+      "nistAlignment": "NIST SP 800-161 Alignment",
+      "nistDescription": "Our SBOM analysis aligns with NIST SP 800-161 supply chain risk management practices, helping organizations meet federal compliance requirements.",
+      "controls": {
+        "authenticity": "Control C-SCRM-7: Component authenticity",
+        "management": "Control C-SCRM-16: SBOM management",
+        "executiveOrder": "Executive Order 14028 requirements"
+      },
+      "helpSection": {
+        "title": "Need Help Getting Started?",
+        "description": "Learn more about SBOM implementation and download templates to get started.",
+        "downloadTemplates": "Download Templates",
+        "implementationGuide": "Implementation Guide"
+      }
+    }
+  },
+  "vendorRisk": {
+    "title": "Vendor Risk Management",
+    "description": "Comprehensive vendor risk assessment and monitoring platform",
+    "riskOverview": "Risk Overview",
+    "vendorOverview": "Vendor Overview",
+    "complianceStatus": "Compliance Status",
+    "addNewVendor": "Add New Vendor",
+    "totalVendors": "Total Vendors",
+    "monitoredVendors": "Monitored Vendors",
+    "highRisk": "High Risk",
+    "mediumRisk": "Medium Risk",
+    "compliant": "Compliant",
+    "nonCompliant": "Non-Compliant",
+    "partial": "Partial",
+    "navigation": {
+      "overviewDashboard": "Overview Dashboard",
+      "workflowAutomation": "Workflow Automation",
+      "threatIntelligence": "Threat Intelligence",
+      "predictiveAnalytics": "Predictive Analytics"
+    },
+    "dashboard": {
+      "advancedDashboard": "Advanced Dashboard",
+      "exportDashboard": "Export Dashboard",
+      "viewFullDashboard": "View Full Dashboard"
+    },
+    "workflows": {
+      "title": "Workflow Automation",
+      "description": "Automate your vendor risk management processes",
+      "newWorkflow": "New Workflow",
+      "manageAutomation": "Manage Automation",
+      "stats": {
+        "activeTasks": "Active Tasks",
+        "completed": "Completed",
+        "overdue": "Overdue",
+        "automationRules": "Automation Rules"
+      }
+    },
+    "threatIntelligence": {
+      "title": "Threat Intelligence",
+      "description": "Monitor security threats affecting your vendors",
+      "stats": {
+        "activeSources": "Active Sources",
+        "threatsToday": "Threats Today",
+        "coverage": "Coverage"
+      },
+      "sources": {
+        "title": "Threat Intelligence Sources"
+      }
+    },
+    "analytics": {
+      "title": "Predictive Analytics",
+      "description": "AI-powered insights and risk predictions",
+      "exportReport": {
+        "title": "Export Analytics Report",
+        "description": "Generate a comprehensive report of your analytics insights",
+        "button": "Export Report"
+      }
+    },
+    "alerts": {
+      "workflowCreation": "Workflow creation would open here. This feature allows you to create custom automation rules for vendor risk management.",
+      "automationManagement": "Automation management interface would open here. Configure triggers, actions, and notification settings."
+    },
+    "table": {
+      "vendor": "Vendor",
+      "riskScore": "Risk Score",
+      "riskLevel": "Risk Level",
+      "complianceStatus": "Compliance Status",
+      "lastAssessment": "Last Assessment"
+    },
+    "riskScoring": {
+      "title": "Risk Scoring",
+      "description": "Automated risk scoring based on multiple factors",
+      "lowRisk": "Low Risk",
+      "mediumRisk": "Medium Risk",
+      "highRisk": "High Risk",
+      "criticalRisk": "Critical Risk",
+      "excellent": "Excellent",
+      "acceptable": "Acceptable",
+      "concerning": "Concerning",
+      "unacceptable": "Unacceptable"
+    },
+    "actions": {
+      "title": "Recommended Actions",
+      "lowRisk": {
+        "title": "Low Risk Vendors",
+        "description": "Continue regular monitoring and annual assessments"
+      },
+      "mediumRisk": {
+        "title": "Medium Risk Vendors",
+        "description": "Increase monitoring frequency and require additional security controls"
+      },
+      "highRisk": {
+        "title": "High Risk Vendors",
+        "description": "Implement immediate remediation plan and enhanced oversight"
+      },
+      "criticalRisk": {
+        "title": "Critical Risk Vendors",
+        "description": "Consider termination or require immediate security improvements"
+      }
+    }
+  },
+  "supplyChainResults": {
+    "defaultTitle": "Supply Chain Risk Assessment",
+    "resultsTitle": "Results",
+    "accountPrompt": {
+      "title": "Create an account to save your results",
+      "description": "Sign up for a free account to save your assessment results, track progress over time, and access additional features.",
+      "createAccount": "Create Account",
+      "signIn": "Sign In"
+    },
+    "keyFindings": {
+      "title": "Key Findings",
+      "primaryRiskAreas": "Primary Risk Areas",
+      "strengths": "Strengths",
+      "compliance": "compliance",
+      "noCriticalRisks": "No critical risk areas identified",
+      "noSignificantStrengths": "No significant strengths identified"
+    },
+    "viewDetailedRecommendations": "View Detailed Recommendations"
+  },
+  "supplyChainRecommendations": {
+    "title": "Supply Chain Risk Management Recommendations",
+    "subtitle": "Prioritized recommendations to improve your supply chain security posture",
+    "stats": {
+      "totalRecommendations": "Total Recommendations",
+      "criticalPriority": "Critical Priority",
+      "inProgress": "In Progress",
+      "completed": "Completed"
+    },
+    "search": {
+      "placeholder": "Search recommendations by title, description, or category..."
+    },
+    "filters": {
+      "priority": "Priority",
+      "category": "Category",
+      "timeframe": "Timeframe",
+      "effort": "Effort",
+      "status": "Status",
+      "allPriorities": "All Priorities",
+      "allCategories": "All Categories",
+      "allTimeframes": "All Timeframes",
+      "allEffortLevels": "All Effort Levels",
+      "allStatuses": "All Statuses",
+      "clearAll": "Clear All Filters"
+    },
+    "priorities": {
+      "critical": "Critical",
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "timeframes": {
+      "immediate": "Immediate",
+      "shortterm": "Short-term",
+      "mediumterm": "Medium-term",
+      "longterm": "Long-term"
+    },
+    "efforts": {
+      "minimal": "Minimal",
+      "moderate": "Moderate",
+      "significant": "Significant"
+    },
+    "statuses": {
+      "notStarted": "Not Started",
+      "inProgress": "In Progress",
+      "completed": "Completed"
+    },
+    "impactLevels": {
+      "high": "High"
+    },
+    "labels": {
+      "timeframe": "Timeframe",
+      "effort": "Effort",
+      "impact": "Impact",
+      "expectedImpact": "Expected Impact",
+      "implementationSteps": "Implementation Steps",
+      "references": "References"
+    },
+    "actions": {
+      "filters": "Filters",
+      "exportPdf": "Export PDF",
+      "exporting": "Exporting...",
+      "retry": "Retry",
+      "viewSteps": "View Implementation Steps",
+      "completed": "Completed",
+      "markComplete": "Mark Complete"
+    },
+    "navigation": {
+      "backToResults": "Back to Results"
+    },
+    "errors": {
+      "loadingError": "Error Loading Recommendations"
+    },
+    "emptyState": {
+      "noRecommendations": "No recommendations found",
+      "tryDifferentFilters": "Try adjusting your search terms or filters to find recommendations."
+    },
+    "resultsCount": "Showing {{filtered}} of {{total}} recommendations"
+  },
+  "quickTools": {
+    "nistChecklist": {
+      "title": "NIST Compliance Checklist",
+      "description": "Quick assessment of your NIST SP 800-161 compliance posture",
+      "aboutTitle": "About This Checklist",
+      "aboutText1": "This checklist provides a high-level assessment of your organization's compliance with NIST SP 800-161 supply chain risk management guidelines.",
+      "aboutText2": "Complete all items to get an overall compliance score and recommendations for improvement.",
+      "keyAreas": "Key Areas",
+      "checklistTitle": "Compliance Checklist",
+      "instructions": "Check each item that your organization has implemented",
+      "complianceResults": "Compliance Results",
+      "checkCompliance": "Check Compliance",
+      "downloadReport": "Download Report",
+      "fullAssessment": "Start Full Assessment",
+      "action": "Action Required",
+      "implemented": "Implemented",
+      "improvementNeeded": "Improvement Needed",
+      "goodCompliance": "Good Compliance",
+      "compliantMessage": "Your organization shows good alignment with NIST SP 800-161 guidelines. However, this is a preliminary assessment and should be followed by comprehensive evaluation.",
+      "nonCompliantMessage": "Several areas require attention to improve compliance posture. This assessment is for informational purposes only and should be followed by professional evaluation.",
+      "areas": {
+        "governance": "Governance & Strategy",
+        "supplierManagement": "Supplier Management",
+        "informationSharing": "Information Sharing",
+        "productSecurity": "Product Security",
+        "incidentResponse": "Incident Response"
+      },
+      "items": {
+        "scrm1": "Supply chain risk management policy established",
+        "scrm2": "Supplier security requirements defined",
+        "scrm3": "Vendor onboarding process implemented",
+        "scrm4": "Regular supplier assessments conducted",
+        "scrm5": "Incident response plan includes supply chain",
+        "scrm6": "Vulnerability management program active",
+        "scrm7": "Third-party risk monitoring in place",
+        "scrm8": "Security requirements in contracts",
+        "scrm9": "Regular compliance audits performed",
+        "scrm10": "Staff training on supply chain risks"
+      }
+    },
+    "riskCalculator": {
+      "title": "Vendor Risk Calculator",
+      "description": "Calculate vendor risk scores based on multiple factors",
+      "howToUse": "How to Use",
+      "inputTitle": "Vendor Information",
+      "vendorName": "Vendor Name",
+      "vendorNamePlaceholder": "Enter vendor name",
+      "riskFactors": "Risk Factors",
+      "step1": "Enter vendor details",
+      "step2": "Assess risk factors",
+      "step3": "Review calculated risk",
+      "calculate": "Calculate Risk",
+      "resultsTitle": "Risk Assessment Results",
+      "vendorRiskScore": "Vendor Risk Score",
+      "recommendation": "Recommendation",
+      "viewDashboard": "View Full Dashboard",
+      "disclaimer": "This is a preliminary assessment tool for informational purposes only. Results should not be considered as definitive risk evaluations or compliance determinations. For critical vendors, conduct comprehensive assessments and consult with qualified professionals. VendorTal™ Risk Review makes no warranties regarding the accuracy or completeness of assessment results.",
+      "action": "Recommended Action",
+      "lowRisk": "Low Risk",
+      "highRisk": "High Risk",
+      "factors": {
+        "criticality": {
+          "name": "Business Criticality",
+          "description": "How critical is this vendor to your business operations?"
+        },
+        "dataAccess": {
+          "name": "Data Access Level",
+          "description": "What level of sensitive data does this vendor access?"
+        },
+        "systemExposure": {
+          "name": "System Exposure",
+          "description": "How much access does this vendor have to your systems?"
+        },
+        "compliance": {
+          "name": "Compliance Status",
+          "description": "What is the vendor's compliance posture?"
+        },
+        "securityControls": {
+          "name": "Security Controls",
+          "description": "How robust are the vendor's security controls?"
+        }
+      },
+      "results": {
+        "low": "Continue with standard monitoring procedures",
+        "medium": "Implement enhanced monitoring and additional controls",
+        "high": "Require immediate remediation and enhanced oversight",
+        "critical": "Consider contract termination or emergency security measures"
+      }
+    },
+    "sbomScan": {
+      "title": "SBOM Scanner",
+      "description": "Quick scan of your Software Bill of Materials",
+      "action": "Scan SBOM",
+      "scanComplete": "Scan Complete",
+      "noVulnerabilities": "No critical vulnerabilities found",
+      "fullAnalysis": "Run Full Analysis",
+      "formatInfo": "Supports SPDX, CycloneDX, and SWID formats",
+      "disclaimer": "SBOM analysis results are provided for informational purposes only. Vulnerability data is sourced from public databases and may not be complete or current. Users should verify findings and consult with security professionals for critical decisions. VendorTal™ Risk Review makes no warranties regarding the accuracy or completeness of vulnerability assessments."
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Streamline vendor security assessments through a secure portal workflow",
+    "hero": {
+      "scheduleDemo": "Schedule Demo",
+      "tryNow": "Try Now"
+    },
+    "process": {
+      "title": "Our Process",
+      "description": "From sending questionnaires to vendors through the portal to reviewing responses and monitoring compliance, we guide you through every step",
+      "stepTitle": "Step"
+    },
+    "steps": {
+      "send": {
+        "title": "Send Security Questionnaires",
+        "description": "Send security questionnaires to vendors for due diligence with automated sending and tracking",
+        "cta": "Send Questionnaire",
+        "features": {
+          "templates": "CMMC and NIST questionnaire templates",
+          "automation": "Automated questionnaire sending",
+          "tracking": "Real-time response tracking",
+          "notifications": "Email notifications and reminders"
+        }
+      },
+      "portal": {
+        "title": "Vendors Complete via Portal",
+        "description": "Vendors receive secure portal access to complete questionnaires with guided workflows",
+        "cta": "View Portal Demo",
+        "features": {
+          "secure": "Secure vendor portal access",
+          "guided": "Guided questionnaire completion",
+          "save": "Save and resume functionality",
+          "support": "Built-in help and support"
+        }
+      },
+      "review": {
+        "title": "Review Responses & Assess Risk",
+        "description": "Review vendor responses, assess risk levels, and generate compliance reports",
+        "cta": "Review Assessments",
+        "features": {
+          "scoring": "Automated risk scoring",
+          "analysis": "Compliance gap analysis",
+          "compliance": "NIST and CMMC compliance mapping",
+          "recommendations": "Actionable remediation recommendations"
+        }
+      },
+      "assess": {
+        "title": "Assess Risks",
+        "description": "Comprehensive risk assessment using NIST frameworks",
+        "cta": "Start Assessment",
+        "features": {
+          "nist": "NIST SP 800-161 aligned",
+          "questions": "Guided questionnaires",
+          "scoring": "Automated risk scoring",
+          "recommendations": "Actionable recommendations"
+        }
+      },
+      "riskRadar": {
+        "title": "View Risk Radar",
+        "description": "Real-time vendor risk monitoring and threat intelligence",
+        "cta": "View Risk Radar",
+        "features": {
+          "formats": "Multiple format support",
+          "vulnerability": "Vulnerability scanning",
+          "license": "License compliance",
+          "compliance": "Regulatory compliance"
+        }
+      },
+      "vendors": {
+        "title": "Assess Vendor Risk with VendorIQ",
+        "description": "Quick, Standard, or Comprehensive vendor risk assessments",
+        "cta": "Start Assessment",
+        "features": {
+          "assessment": "3 assessment modes (Quick/Standard/Comprehensive)",
+          "scoring": "Multi-dimensional risk scoring",
+          "monitoring": "NIST control mapping",
+          "reporting": "Detailed compliance reports"
+        }
+      },
+      "monitor": {
+        "title": "Monitor Continuously",
+        "description": "Ongoing monitoring and reporting for compliance",
+        "cta": "View Dashboard",
+        "features": {
+          "dashboard": "Real-time dashboard",
+          "alerts": "Risk alerts",
+          "trends": "Trend analysis",
+          "reports": "Executive reports"
+        }
+      }
+    },
+    "benefits": {
+      "title": "Key Benefits",
+      "description": "Why organizations choose our platform for supply chain security",
+      "compliance": {
+        "title": "Compliance Automation",
+        "description": "Automate NIST, CMMC, and ISO compliance reporting"
+      },
+      "efficiency": {
+        "title": "Improved Efficiency",
+        "description": "Automate manual assessment tasks"
+      },
+      "insights": {
+        "title": "Actionable Insights",
+        "description": "Get clear recommendations for risk remediation"
+      },
+      "automation": {
+        "title": "Process Automation",
+        "description": "Streamline vendor onboarding and monitoring"
+      }
+    },
+    "quickTools": {
+      "title": "Quick Tools",
+      "description": "Get started immediately with our free tools",
+      "nistChecklist": {
+        "title": "NIST Checklist",
+        "description": "Quick compliance assessment",
+        "cta": "Check Compliance"
+      },
+      "riskCalculator": {
+        "title": "Risk Calculator",
+        "description": "Calculate vendor risk scores",
+        "cta": "Calculate Risk"
+      },
+      "sbomScan": {
+        "title": "SBOM Scanner",
+        "description": "Scan for vulnerabilities",
+        "cta": "Scan Now"
+      }
+    },
+    "integration": {
+      "title": "Integration & Export",
+      "description": "Seamlessly integrate with your existing tools and workflows",
+      "cta": "View Integrations",
+      "features": {
+        "api": "API Access",
+        "apiDesc": "RESTful API for custom integrations",
+        "export": "Data Export",
+        "exportDesc": "Export reports in multiple formats",
+        "alerts": "Automated Alerts",
+        "alertsDesc": "Real-time notifications and alerts",
+        "templates": "Custom Templates",
+        "templatesDesc": "Customize assessments for your needs"
+      }
+    },
+    "getStarted": {
+      "title": "Get Started Today",
+      "description": "Join organizations securing their supply chains",
+      "steps": {
+        "step1": {
+          "title": "Sign Up",
+          "description": "Create your free account in minutes"
+        },
+        "step2": {
+          "title": "Configure",
+          "description": "Set up your assessment templates and vendors"
+        },
+        "step3": {
+          "title": "Assess",
+          "description": "Start your first supply chain risk assessment"
+        }
+      },
+      "cta": {
+        "signup": "Sign Up Free",
+        "resources": "Browse Resources"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the plan that fits your organization's needs",
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Join organizations managing supply chain risk",
+      "startTrial": "Start Free Trial",
+      "scheduleDemo": "Schedule Demo"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "questions": {
+        "freeTrial": {
+          "question": "Do you offer a free trial?",
+          "answer": "Yes, we offer a 14-day free trial with full access to all starter features."
+        },
+        "dataSecure": {
+          "question": "How secure is my data?",
+          "answer": "We use enterprise-grade security with encryption at rest and in transit, SOC 2 compliance, and regular security audits."
+        },
+        "supportIncluded": {
+          "question": "What support is included?",
+          "answer": "All plans include email support. Professional and Enterprise plans include priority support and dedicated customer success."
+        },
+        "changePlans": {
+          "question": "Can I change plans anytime?",
+          "answer": "Yes, you can upgrade or downgrade your plan at any time. Changes take effect at your next billing cycle."
+        },
+        "customIntegrations": {
+          "question": "Do you support custom integrations?",
+          "answer": "Enterprise plans include custom integrations. Professional plans have API access for self-service integrations."
+        },
+        "paymentMethods": {
+          "question": "What payment methods do you accept?",
+          "answer": "We accept all major credit cards, ACH transfers, and can accommodate purchase orders for Enterprise customers."
+        }
+      }
+    },
+    "tiers": {
+      "starter": {
+        "name": "Starter",
+        "description": "Perfect for small teams getting started with supply chain risk management",
+        "cta": "Start Free Trial",
+        "maxUsers": "Up to 5 users",
+        "maxVendors": "Up to 25 vendors",
+        "features": {
+          "nistBasic": "Basic NIST assessments",
+          "sbomAnalyzer": "SBOM analyzer",
+          "vendorDashboard": "Vendor dashboard",
+          "basicReporting": "Basic reporting",
+          "standardTemplates": "Standard templates",
+          "emailSupport": "Email support"
+        }
+      },
+      "professional": {
+        "name": "Professional",
+        "description": "Advanced features for growing organizations with complex supply chains",
+        "cta": "Start Free Trial",
+        "maxUsers": "Up to 25 users",
+        "maxVendors": "Up to 100 vendors",
+        "features": {
+          "everythingStarter": "Everything in Starter",
+          "advancedNist": "Advanced NIST compliance",
+          "unlimitedSbom": "Unlimited SBOM analysis",
+          "customTemplates": "Custom templates",
+          "advancedReporting": "Advanced reporting",
+          "workflowAutomation": "Workflow automation",
+          "apiAccess": "API access",
+          "threatIntelligence": "Threat intelligence",
+          "prioritySupport": "Priority support"
+        }
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "Complete solution for large organizations with enterprise-grade requirements",
+        "cta": "Contact Sales",
+        "maxUsers": "Unlimited users",
+        "maxVendors": "Unlimited vendors",
+        "features": {
+          "everythingProfessional": "Everything in Professional",
+          "ssoSecurity": "SSO & advanced security",
+          "customBranding": "Custom branding",
+          "advancedAnalytics": "Advanced analytics",
+          "customIntegrations": "Custom integrations",
+          "dedicatedManager": "Dedicated customer success",
+          "professionalServices": "Professional services",
+          "slaGuarantees": "SLA guarantees",
+          "multiTenant": "Multi-tenant architecture"
+        }
+      },
+      "federal": {
+        "name": "Federal",
+        "description": "Specialized solution for federal agencies and contractors with FedRAMP compliance requirements",
+        "cta": "Contact Sales",
+        "maxUsers": "Unlimited users",
+        "maxVendors": "Unlimited vendors",
+        "features": {
+          "fullNistCompliance": "Full NIST compliance suite",
+          "fedrampAuth": "FedRAMP-ready infrastructure",
+          "govCloudDeployment": "GovCloud deployment",
+          "cacPivAuth": "CAC/PIV authentication",
+          "enhancedSecurity": "Enhanced security controls",
+          "federalReporting": "Federal-specific reporting",
+          "fismaCompliance": "FISMA compliance tools",
+          "atoSupport": "ATO support services",
+          "federalSupportTeam": "Dedicated federal support team"
+        }
+      }
+    },
+    "enterpriseFeatures": {
+      "title": "Enterprise Features",
+      "features": {
+        "supplyChainMapping": "Supply chain mapping and visualization",
+        "advancedVulnerability": "Advanced vulnerability management",
+        "predictiveAnalytics": "Predictive risk analytics",
+        "thirdPartyScoring": "Third-party risk scoring",
+        "regulatoryAutomation": "Regulatory compliance automation",
+        "incidentAutomation": "Incident response automation"
+      }
+    }
+  },
+  "resources": {
+    "templates": {
+      "title": "Templates & Resources",
+      "description": "Download templates and resources to accelerate your supply chain risk management program",
+      "download": "Download Template",
+      "customization": {
+        "title": "Need Custom Templates?",
+        "description": "Our team can help create custom assessment templates tailored to your specific industry and requirements.",
+        "contactButton": "Contact Us"
+      },
+      "categories": {
+        "vendorQuestionnaires": {
+          "title": "Vendor Questionnaires",
+          "description": "Ready-to-use questionnaires for vendor security assessments",
+          "items": {
+            "nistComplete": "Complete NIST SP 800-161 questionnaire",
+            "vendorQuick": "Quick vendor security assessment",
+            "cloudProvider": "Cloud provider security questionnaire",
+            "softwareProvider": "Software provider assessment template"
+          }
+        },
+        "riskAssessment": {
+          "title": "Risk Assessment Templates",
+          "description": "Templates for conducting comprehensive risk assessments",
+          "items": {
+            "scoringMatrix": "Risk scoring matrix template",
+            "riskRegister": "Supply chain risk register",
+            "managementPlan": "Risk management plan template",
+            "execSummary": "Executive summary template"
+          }
+        },
+        "sbomTemplates": {
+          "title": "SBOM Templates",
+          "description": "Software Bill of Materials templates and generators",
+          "items": {
+            "spdx": "SPDX format template",
+            "cyclonedx": "CycloneDX format template",
+            "generator": "SBOM generator tool",
+            "report": "SBOM analysis report template"
+          }
+        }
+      },
+      "implementationGuides": {
+        "title": "Implementation Guides",
+        "items": {
+          "sbomGuide": {
+            "title": "SBOM Implementation Guide",
+            "description": "Complete guide to implementing software bill of materials"
+          },
+          "maturityModel": {
+            "title": "Supply Chain Maturity Model",
+            "description": "Assess and improve your supply chain security maturity"
+          },
+          "federalCompliance": {
+            "title": "Federal Compliance Guide",
+            "description": "Navigate federal supply chain requirements and regulations"
+          }
+        }
+      },
+      "nistResources": {
+        "title": "NIST Resources",
+        "keyDocuments": {
+          "title": "Key Documents",
+          "items": {
+            "nistRev1": {
+              "title": "NIST SP 800-161 Rev. 1",
+              "description": "Cybersecurity Supply Chain Risk Management Practices"
+            },
+            "quickStart": {
+              "title": "Quick Start Guide",
+              "description": "Getting started with NIST supply chain risk management"
+            },
+            "controlMapping": {
+              "title": "Control Mapping Guide",
+              "description": "Map NIST controls to your existing security framework"
+            }
+          }
+        }
+      }
+    },
+    "apiDocs": {
+      "title": "API Documentation",
+      "description": "Integrate our platform with your existing tools and workflows",
+      "overview": "API Overview",
+      "sections": {
+        "authentication": "Authentication",
+        "rateLimits": "Rate Limits",
+        "nistControlsApi": "NIST Controls API",
+        "sbomApi": "SBOM API",
+        "vendorRiskApi": "Vendor Risk API",
+        "webhooks": "Webhooks"
+      },
+      "authentication": {
+        "description": "Secure API authentication using API keys",
+        "security": "Security Best Practices",
+        "securityTips": {
+          "clientSide": "Never expose API keys in client-side code",
+          "rotation": "Rotate API keys regularly",
+          "envVars": "Store keys in environment variables",
+          "ipRestrictions": "Use IP restrictions when possible"
+        }
+      },
+      "rateLimits": {
+        "description": "API rate limits to ensure fair usage",
+        "rateLimit": "Rate Limit",
+        "burstLimit": "Burst Limit",
+        "plan": "Plan",
+        "plans": {
+          "free": "Free",
+          "standard": "Standard",
+          "enterprise": "Enterprise"
+        },
+        "limits": {
+          "free": {
+            "rate": "100 requests/hour",
+            "burst": "10 requests/minute"
+          },
+          "standard": {
+            "rate": "1,000 requests/hour",
+            "burst": "50 requests/minute"
+          },
+          "enterprise": {
+            "rate": "10,000 requests/hour",
+            "burst": "200 requests/minute"
+          }
+        }
+      },
+      "nistControlsApi": {
+        "description": "Access NIST control frameworks and assessments",
+        "endpoints": "Available Endpoints",
+        "endpointDescriptions": {
+          "listControls": "List all available NIST controls",
+          "getControl": "Get detailed information about a specific control",
+          "getQuestions": "Get assessment questions for controls"
+        }
+      },
+      "sbomApi": {
+        "description": "Analyze and manage Software Bills of Materials",
+        "endpoints": "Available Endpoints",
+        "supportedFormats": "Supported SBOM Formats",
+        "formats": {
+          "spdx": "SPDX (Software Package Data Exchange)",
+          "cyclonedx": "CycloneDX",
+          "plainText": "Plain text format"
+        },
+        "endpointDescriptions": {
+          "analyzeSbom": "Submit SBOM for analysis",
+          "getAnalysis": "Get analysis results",
+          "getVulnerabilities": "Get vulnerability information"
+        }
+      },
+      "vendorRiskApi": {
+        "description": "Manage vendor assessments and risk scores",
+        "endpoints": "Available Endpoints",
+        "endpointDescriptions": {
+          "listVendors": "List all vendors",
+          "getVendor": "Get vendor details",
+          "createVendor": "Create new vendor",
+          "updateVendor": "Update vendor information",
+          "getRiskScore": "Get vendor risk score",
+          "createAssessment": "Create vendor assessment"
+        }
+      },
+      "webhooks": {
+        "description": "Real-time notifications for important events",
+        "availableEvents": "Available Events",
+        "payloadExample": "Payload Example",
+        "events": {
+          "assessmentCompleted": "Assessment completed",
+          "riskScoreChanged": "Risk score changed",
+          "vulnerabilityFound": "New vulnerability found",
+          "vendorCreated": "Vendor created",
+          "vendorUpdated": "Vendor updated",
+          "sbomAnalyzed": "SBOM analysis completed"
+        }
+      },
+      "common": {
+        "description": "Description",
+        "method": "Method",
+        "endpoint": "Endpoint",
+        "exampleRequest": "Example Request",
+        "exampleResponse": "Example Response"
+      }
+    }
+  },
+  "integrationGuides": {
+    "title": "Integration Guides",
+    "description": "Connect VendorTal™ Risk Review with your existing systems and workflows. Follow our step-by-step guides to integrate supply chain risk management into your technology stack.",
+    "quickStart": {
+      "title": "Getting Started with VendorTal™ Risk Review API",
+      "description": "New to VendorTal™ Risk Review integrations? Start with our REST API guide to understand the basics of authentication, endpoints, and data formats.",
+      "viewApiDocs": "View API Documentation",
+      "downloadSDKs": "Download SDKs"
+    },
+    "categories": {
+      "all": "All Integrations",
+      "api": "API Integration", 
+      "webhooks": "Webhooks",
+      "sso": "SSO/Authentication",
+      "export": "Data Export",
+      "automation": "Automation"
+    },
+    "difficulty": {
+      "beginner": "beginner",
+      "intermediate": "intermediate", 
+      "advanced": "advanced"
+    },
+    "guides": {
+      "restApi": {
+        "title": "REST API Integration",
+        "description": "Connect your applications to VendorTal™ Risk Review using our REST API for vendor data, assessments, and SBOM analysis.",
+        "estimatedTime": "30-60 minutes",
+        "steps": [
+          "Obtain API credentials from your VendorTal™ Risk Review dashboard",
+          "Set up authentication headers in your application", 
+          "Make your first API call to fetch vendor data",
+          "Implement error handling and rate limiting",
+          "Test the integration with sample data"
+        ]
+      },
+      "webhookSetup": {
+        "title": "Webhook Configuration",
+        "description": "Receive real-time notifications when vendor risk scores change, assessments complete, or vulnerabilities are detected.",
+        "estimatedTime": "45 minutes",
+        "steps": [
+          "Configure webhook endpoints in your VendorTal™ Risk Review dashboard",
+          "Set up a secure HTTPS endpoint to receive webhooks",
+          "Verify webhook signatures for security", 
+          "Handle different event types (risk changes, assessments)",
+          "Implement retry logic for failed webhook deliveries"
+        ]
+      },
+      "ssoIntegration": {
+        "title": "Single Sign-On (SSO)",
+        "description": "Integrate VendorTal™ Risk Review with your organization's identity provider using SAML 2.0 or OpenID Connect.",
+        "estimatedTime": "2-4 hours",
+        "steps": [
+          "Configure your identity provider (IdP) settings",
+          "Exchange SAML metadata with VendorTal™ Risk Review",
+          "Set up attribute mapping for user roles",
+          "Test SSO login flow with test users",
+          "Configure group-based access controls"
+        ]
+      },
+      "dataExport": {
+        "title": "Automated Data Export", 
+        "description": "Set up scheduled exports of vendor data, assessment results, and compliance reports to your data warehouse.",
+        "estimatedTime": "20 minutes",
+        "steps": [
+          "Choose your preferred export format (CSV, JSON, XML)",
+          "Configure export schedules in the dashboard",
+          "Set up secure file transfer (SFTP, S3, etc.)",
+          "Map data fields to your internal systems",
+          "Test the export process and validate data"
+        ]
+      },
+      "workflowAutomation": {
+        "title": "Workflow Automation",
+        "description": "Automate vendor onboarding, risk assessments, and compliance tracking using VendorTal™ Risk Review APIs.",
+        "estimatedTime": "1-2 hours", 
+        "steps": [
+          "Design your automation workflow",
+          "Set up trigger conditions (new vendor, risk threshold)",
+          "Configure automated actions (send assessments, alerts)",
+          "Implement approval workflows for high-risk vendors",
+          "Monitor and optimize automation performance"
+        ]
+      },
+      "cloudIntegration": {
+        "title": "Cloud Platform Integration",
+        "description": "Connect VendorTal™ Risk Review with AWS, Azure, or GCP for enhanced security monitoring and compliance.",
+        "estimatedTime": "2-3 hours",
+        "steps": [
+          "Set up cloud service credentials and permissions",
+          "Configure VendorTal™ Risk Review cloud connectors", 
+          "Map cloud resources to vendor relationships",
+          "Enable automated compliance monitoring",
+          "Set up alerting for security events"
+        ]
+      }
+    },
+    "common": {
+      "implementationSteps": "Implementation Steps:",
+      "moreSteps": "+ {{count}} more steps",
+      "codeExample": "Code Example:",
+      "copied": "Copied",
+      "copy": "Copy", 
+      "viewGuide": "View Guide",
+      "examples": "Examples"
+    },
+    "sdks": {
+      "title": "SDKs and Tools",
+      "javascript": {
+        "title": "JavaScript SDK",
+        "description": "Official JavaScript/TypeScript SDK for web and Node.js applications.",
+        "npmInstall": "npm install",
+        "github": "GitHub"
+      },
+      "python": {
+        "title": "Python SDK", 
+        "description": "Python library for data science and automation workflows.",
+        "pipInstall": "pip install",
+        "pypi": "PyPI"
+      },
+      "cli": {
+        "title": "CLI Tool",
+        "description": "Command-line interface for batch operations and CI/CD integration.",
+        "download": "Download",
+        "docs": "Docs"
+      }
+    },
+    "support": {
+      "title": "Need Integration Support?",
+      "description": "Our technical team is here to help you integrate VendorTal™ Risk Review with your systems. Get personalized support for complex integrations and custom implementations.",
+      "contactSupport": "Contact Support",
+      "scheduleConsultation": "Schedule Consultation"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "solutions": "Solutions",
+    "dashboard": " Dashboard",
+    "pricing": "Pricing",
+    "howItWorks": "How It Works",
+    "assessment": "Assessment",
+    "riskRadar": "Risk Radar",
+    "vendorRisk": "Vendor Risk",
+    "vendorIQ": "VendorIQ",
+    "vendorDashboard": "Vendor Dashboard",
+    "vendorRiskCalculator": "Quick Assessment (Free)",
+    "vendorSecurityAssessments": "Send Questionnaires",
+    "assetVendorDashboard": "Asset-Vendor Dashboard",
+    "assetManagement": "Asset Management",
+    "vendorRiskRadar": "VendorIQ Risk Radar",
+    "vendorAssessments": "Send Questionnaires",
+    "vendorPortal": "Vendor Portal",
+    "sbom": "SBOM Analyzer",
+    "templates": "Templates",
+    "resources": "Resources",
+    "apiDocs": "API Docs",
+    "integration": "Integration",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy"
+  },
+  "auth": {
+    "login": "Log In",
+    "logout": "Log Out",
+    "dashboard": " Dashboard",
+    "account": "Account",
+    "profile": "Profile"
+  },
+  "components": {
+    "yes": "Yes",
+    "no": "No",
+    "partial": "Partial"
+  },
+  "footer": {
+    "company": {
+      "name": "VendorTal™ Risk Review™ ",
+      "description": "Comprehensive supply chain risk management platform for modern organizations featuring assessments and automated compliance tools.",
+      "contact": {
+        "email": "contact@ermits.com",
+        "phone": "+1 (240) 599-0102",
+        "address": "Gaithersburg, MD"
+      },
+      "links": {
+        "company": {
+          "about": "About Us",
+          "contact": "Contact",
+          "pricing": "Pricing", 
+          "privacy": "Privacy Policy"
+        }
+      }
+    },
+    "sections": {
+      "solutions": "Solutions",
+      "resources": "Resources", 
+      "company": "Company"
+    },
+    "links": {
+      "solutions": {
+        "supplyChainAssessment": "Supply Chain Assessment",
+        "sbomAnalysis": "SBOM Analysis",
+        "vendorRiskDashboard": "Vendor Risk Dashboard",
+        "vendorAssessments": "Vendor Security Assessments"
+      },
+      "resources": {
+        "templates": "Templates & Downloads",
+        "apiDocs": "API Documentation",
+        "integrationGuides": "Integration Guides",
+        "howItWorks": "How It Works"
+      },
+      "quickTools": {
+        "title": "Quick Tools",
+        "description": "Get instant insights with our quick assessment tools",
+        "sbomScan": {
+          "title": "SBOM Quick Scan",
+          "description": "Quickly scan SBOM files for vulnerabilities",
+          "action": "Scan Now"
+        },
+      "riskCalculator": {
+        "title": "VendorIQ Quick Assessment", 
+        "description": "Free 5-minute vendor risk screening",
+        "action": "Start Free Assessment"
+      },
+        "nistChecklist": {
+          "title": "NIST Checklist",
+          "description": "Check NIST SP 800-161 compliance",
+          "action": "Check Compliance"
+        }
+      },
+      "features": {
+        "title": "Supply Chain Risk Management. Simplified.",
+        "description": "From NIST compliance to vendor risk assessment - all in one platform",
+        "feature1": {
+          "title": "NIST Compliance",
+          "description": "Prove NIST 800-161 compliance in 30 minutes"
+        },
+        "feature2": {
+          "title": "VendorIQ Platform", 
+          "description": "Quick, Standard, or Comprehensive vendor assessments"
+        },
+        "feature3": {
+          "title": "Risk Radar",
+          "description": "Portfolio visualization of all vendor risks"
+        },
+        "feature4": {
+          "title": "Continuous Monitoring",
+          "description": "Automated risk alerts and compliance tracking"
+        },
+        "learnMore": "Learn More"
+      }
+    },
+    "cta": {
+      "text": "Start Free Assessment"
+    },
+    "copyright": "© 2025 ERMITS LLC. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "security": "Security"
+  },
+  "misc": {
+    "json": "JSON",
+    "csv": "CSV",
+    "div": "div",
+    "content-type": "Content-Type",
+    "en-US": "en-US",
+    "Please log in to import data": "Please log in to import data",
+    "Report generation would start here": "Report generation would start here"
+  },
+  "app": {
+    "name": "Supply Chain Security Platform"
+  },
+  "errors": {
+    "AUTHZ_ERROR": "Authorization Error",
+    "AUTH_ERROR": "Authentication Error",
+    "BAD_GATEWAY_ERROR": "Bad Gateway Error",
+    "BAD_REQUEST_ERROR": "Bad Request Error",
+    "CONFLICT_ERROR": "Conflict Error",
+    "DATABASE_ERROR": "Database Error",
+    "EXPECTATION_FAILED_ERROR": "Expectation Failed Error",
+    "FORBIDDEN_ERROR": "Forbidden Error",
+    "GATEWAY_TIMEOUT_ERROR": "Gateway Timeout Error",
+    "HTTP_VERSION_NOT_SUPPORTED_ERROR": "HTTP Version Not Supported Error",
+    "INSUFFICIENT_STORAGE_ERROR": "Insufficient Storage Error",
+    "INTERNAL_SERVER_ERROR_ERROR": "Internal Server Error",
+    "I_AM_A_TEAPOT_ERROR": "I Am A Teapot Error",
+    "LENGTH_REQUIRED_ERROR": "Length Required Error",
+    "LOCKED_ERROR": "Locked Error",
+    "LOOP_DETECTED_ERROR": "Loop Detected Error",
+    "METHOD_NOT_ALLOWED_ERROR": "Method Not Allowed Error",
+    "MISDIRECTED_REQUEST_ERROR": "Misdirected Request Error",
+    "NETWORK_AUTHENTICATION_REQUIRED_ERROR": "Network Authentication Required Error",
+    "NETWORK_ERROR": "Network Error",
+    "NOT_EXTENDED_ERROR": "Not Extended Error",
+    "NOT_FOUND_ERROR": "Not Found Error",
+    "NOT_IMPLEMENTED_ERROR": "Not Implemented Error",
+    "PAYMENT_REQUIRED_ERROR": "Payment Required Error",
+    "PRECONDITION_FAILED_ERROR": "Precondition Failed Error",
+    "PRECONDITION_REQUIRED_ERROR": "Precondition Required Error",
+    "QUOTA_EXCEEDED_ERROR": "Quota Exceeded Error",
+    "RATE_LIMIT_ERROR": "Rate Limit Error",
+    "REQUESTED_RANGE_NOT_SATISFIABLE_ERROR": "Requested Range Not Satisfiable Error",
+    "REQUEST_ENTITY_TOO_LARGE_ERROR": "Request Entity Too Large Error",
+    "REQUEST_HEADER_FIELDS_TOO_LARGE_ERROR": "Request Header Fields Too Large Error",
+    "REQUEST_TIMEOUT_ERROR": "Request Timeout Error",
+    "REQUEST_URI_TOO_LONG_ERROR": "Request URI Too Long Error",
+    "SERVICE_UNAVAILABLE_ERROR": "Service Unavailable Error",
+    "TIMEOUT_ERROR": "Timeout Error",
+    "TOO_EARLY_ERROR": "Too Early Error",
+    "TOO_MANY_REQUESTS_ERROR": "Too Many Requests Error",
+    "UNAUTHORIZED_ERROR": "Unauthorized Error",
+    "UNAVAILABLE_FOR_LEGAL_REASONS_ERROR": "Unavailable For Legal Reasons Error",
+    "UNPROCESSABLE_ENTITY_ERROR": "Unprocessable Entity Error",
+    "UNSUPPORTED_MEDIA_TYPE_ERROR": "Unsupported Media Type Error",
+    "UPGRADE_REQUIRED_ERROR": "Upgrade Required Error",
+    "VALIDATION_ERROR": "Validation Error",
+    "VARIANT_ALSO_NEGOTIATES_ERROR": "Variant Also Negotiates Error"
+  },
+  "ui": {
+    "API Calls": "API Calls",
+    "API Integrations": "API Integrations",
+    "About VendorTal™ Risk Review": "About VendorTal™ Risk Review",
+    "Acceptance of Terms": "Acceptance of Terms",
+    "Access Denied": "Access Denied",
+    "Access Forbidden": "Access Forbidden",
+    "Account Status": "Account Status",
+    "Accuracy of Materials": "Accuracy of Materials",
+    "Achievements": "Achievements",
+    "Activate User": "Activate User",
+    "Active": "Active",
+    "Add Integration": "Add Integration",
+    "Add User": "Add User",
+    "Add Vendor": "Add Vendor",
+    "Admin": "Admin",
+    "Admin User": "Admin User",
+    "Affected Services": "Affected Services",
+    "Alert Thresholds": "Alert Thresholds",
+    "Alternative Options": "Alternative Options",
+    "An unexpected error occurred on the server": "An unexpected error occurred on the server",
+    "An unexpected error occurred while processing your request.": "An unexpected error occurred while processing your request.",
+    "Assessment History": "Assessment History",
+    "Assessments": "Assessments",
+    "Audit Logs": "Audit Logs",
+    "Authentication": "Authentication",
+    "Authentication Error": "Authentication Error",
+    "Authorization Error": "Authorization Error",
+    "Avg Compliance Score": "Avg Compliance Score",
+    "Avoid using multiple tabs simultaneously": "Avoid using multiple tabs simultaneously",
+    "Backup & Restore": "Backup & Restore",
+    "Bad Gateway": "Bad Gateway",
+    "Bad Request": "Bad Request",
+    "Billing & Subscription": "Billing & Subscription",
+    "Bug Report - VendorTal™ Risk Review": "Bug Report - VendorTal™ Risk Review",
+    "By accessing and using VendorTal™ Risk Review, you accept and agree to be bound by the terms and provision of this agreement.": "By accessing and using VendorTal™ Risk Review, you accept and agree to be bound by the terms and provision of this agreement.",
+    "CEO": "CEO",
+    "CMMC Level 1": "CMMC Level 1",
+    "Card Title": "Card Title",
+    "Card content": "Card content",
+    "Check API documentation": "Check API documentation",
+    "Check HTTP version compatibility": "Check HTTP version compatibility",
+    "Check business logic rules": "Check business logic rules",
+    "Check client version": "Check client version",
+    "Check compatibility matrix": "Check compatibility matrix",
+    "Check content negotiation configuration": "Check content negotiation configuration",
+    "Check dependency connectivity": "Check dependency connectivity",
+    "Check dependency status": "Check dependency status",
+    "Check development roadmap": "Check development roadmap",
+    "Check extension configuration": "Check extension configuration",
+    "Check extension support": "Check extension support",
+    "Check feature availability": "Check feature availability",
+    "Check file format": "Check file format",
+    "Check file sizes before upload": "Check file sizes before upload",
+    "Check for active locks": "Check for active locks",
+    "Check header compression": "Check header compression",
+    "Check header size limits": "Check header size limits",
+    "Check if you are logged in": "Check if you are logged in",
+    "Check jurisdiction rules": "Check jurisdiction rules",
+    "Check legal restrictions": "Check legal restrictions",
+    "Check network authentication": "Check network authentication",
+    "Check network configuration": "Check network configuration",
+    "Check network connectivity": "Check network connectivity",
+    "Check our status page": "Check our status page",
+    "Check precondition configuration": "Check precondition configuration",
+    "Check precondition requirements": "Check precondition requirements",
+    "Check proxy settings": "Check proxy settings",
+    "Check range parameters": "Check range parameters",
+    "Check rate limit status": "Check rate limit status",
+    "Check request data format": "Check request data format",
+    "Check request headers": "Check request headers",
+    "Check request preconditions": "Check request preconditions",
+    "Check request processing logic": "Check request processing logic",
+    "Check request scheduling": "Check request scheduling",
+    "Check request timing": "Check request timing",
+    "Check resource state before requests": "Check resource state before requests",
+    "Check resource status": "Check resource status",
+    "Check resource status before making changes": "Check resource status before making changes",
+    "Check server capabilities": "Check server capabilities",
+    "Check server capacity": "Check server capacity",
+    "Check server configuration": "Check server configuration",
+    "Check server logs": "Check server logs",
+    "Check server status": "Check server status",
+    "Check server storage capacity": "Check server storage capacity",
+    "Check storage quotas": "Check storage quotas",
+    "Check supported file formats": "Check supported file formats",
+    "Check the URL for typos": "Check the URL for typos",
+    "Check the request method": "Check the request method",
+    "Check upload limits": "Check upload limits",
+    "Check upstream server status": "Check upstream server status",
+    "Check your API usage": "Check your API usage",
+    "Check your account permissions": "Check your account permissions",
+    "Check your account status and permissions": "Check your account status and permissions",
+    "Check your input data": "Check your input data",
+    "Check your internet connection": "Check your internet connection",
+    "Check your login credentials": "Check your login credentials",
+    "Check your login status": "Check your login status",
+    "Check your payment status": "Check your payment status",
+    "Check your usage limits": "Check your usage limits",
+    "Checkout functionality will be implemented soon. Please contact sales for now.": "Checkout functionality will be implemented soon. Please contact sales for now.",
+    "Clean Duplicate Records": "Clean Duplicate Records",
+    "Clear your browser cache": "Clear your browser cache",
+    "Click me": "Click me",
+    "Company Culture": "Company Culture",
+    "Company History": "Company History",
+    "Company Statistics": "Company Statistics",
+    "Completed": "Completed",
+    "Completion Rate": "Completion Rate",
+    "Compliance Frameworks": "Compliance Frameworks",
+    "Compliance Mapping": "Compliance Mapping",
+    "Compliance Overview": "Compliance Overview",
+    "Compliance Reporting": "Compliance Reporting",
+    "Compliant": "Compliant",
+    "Configuration": "Configuration",
+    "Configure system-wide settings and preferences": "Configure system-wide settings and preferences",
+    "Conflict Error": "Conflict Error",
+    "Contact Information": "Contact Information",
+    "Contact Support": "Contact Support",
+    "Contact Us": "Contact Us",
+    "Contact billing support": "Contact billing support",
+    "Contact dependency administrator": "Contact dependency administrator",
+    "Contact development team": "Contact development team",
+    "Contact legal department": "Contact legal department",
+    "Contact network administrator": "Contact network administrator",
+    "Contact our support team": "Contact our support team",
+    "Contact resource administrator": "Contact resource administrator",
+    "Contact server administrator": "Contact server administrator",
+    "Contact support": "Contact support",
+    "Contact us at legal@vendortal.com": "Contact us at legal@vendortal.com",
+    "Contact us at privacy@vendortal.com": "Contact us at privacy@vendortal.com",
+    "Contact your administrator": "Contact your administrator",
+    "Contact your administrator for access": "Contact your administrator for access",
+    "Content": "Content",
+    "Convert files to supported formats": "Convert files to supported formats",
+    "Convert to supported format": "Convert to supported format",
+    "Create Backup": "Create Backup",
+    "Create Policy": "Create Policy",
+    "Create Rule functionality will open the automation rule builder. You can define triggers (risk score changes, assessment completion, etc.) and actions (notifications, task creation, escalations) to automate your vendor risk management processes.": "Create Rule functionality will open the automation rule builder. You can define triggers (risk score changes, assessment completion, etc.) and actions (notifications, task creation, escalations) to automate your vendor risk management processes.",
+    "Create Support Ticket": "Create Support Ticket",
+    "Create Template functionality will allow you to design custom workflow templates with automated task sequences, approval chains, and notification rules for vendor risk management processes.": "Create Template functionality will allow you to design custom workflow templates with automated task sequences, approval chains, and notification rules for vendor risk management processes.",
+    "Create an account": "Create an account",
+    "Create your account": "Create your account",
+    "Critical": "Critical",
+    "Critical Vulnerability in OpenSSL": "Critical Vulnerability in OpenSSL",
+    "Custom": "Custom",
+    "Customer Success": "Customer Success",
+    "CVE": "CVE",
+    "CVE-2024-1234": "CVE-2024-1234",
+    "Daily": "Daily",
+    "Dashboard": "Dashboard",
+    "Dashboard Overview": "Dashboard Overview",
+    "Data Cleanup": "Data Cleanup",
+    "Data Encryption Policy": "Data Encryption Policy",
+    "Data Management": "Data Management",
+    "Data Overview": "Data Overview",
+    "Data Protection": "Data Protection",
+    "Data Security": "Data Security",
+    "Data Validation": "Data Validation",
+    "Data encryption standards and procedures": "Data encryption standards and procedures",
+    "Data export functionality would be implemented here": "Data export functionality would be implemented here",
+    "Data import functionality would be implemented here": "Data import functionality would be implemented here",
+    "Database Error": "Database Error",
+    "Deactivate User": "Deactivate User",
+    "Delete User": "Delete User",
+    "Description": "Description",
+    "Disabled": "Disabled",
+    "Disclaimer": "Disclaimer",
+    "Documentation": "Documentation",
+    "Double-check URLs before clicking": "Double-check URLs before clicking",
+    "Double-check your input": "Double-check your input",
+    "Download Report": "Download Report",
+    "Draft": "Draft",
+    "Duration": "Duration",
+    "During maintenance, some features may be temporarily unavailable.": "During maintenance, some features may be temporarily unavailable.",
+    "Edit Policy": "Edit Policy",
+    "Edit User": "Edit User",
+    "Effective Date": "Effective Date",
+    "Email": "Email",
+    "Email Notifications": "Email Notifications",
+    "Email Support": "Email Support",
+    "Email address": "Email address",
+    "Enable two-factor authentication": "Enable two-factor authentication",
+    "End Time": "End Time",
+    "Ensure all required fields are filled": "Ensure all required fields are filled",
+    "Ensure data consistency": "Ensure data consistency",
+    "Ensure data format is correct": "Ensure data format is correct",
+    "Ensure proper request format": "Ensure proper request format",
+    "Ensure server compatibility": "Ensure server compatibility",
+    "Ensure server support": "Ensure server support",
+    "Error Code": "Error Code",
+    "Error Details": "Error Details",
+    "Error Rate": "Error Rate",
+    "Error Time": "Error Time",
+    "Error creating checkout session. Please try again.": "Error creating checkout session. Please try again.",
+    "Error rate exceeded threshold": "Error rate exceeded threshold",
+    "Estimated Completion": "Estimated Completion",
+    "Estimated Restoration": "Estimated Restoration",
+    "Expectation Failed": "Expectation Failed",
+    "Experienced security executive with 15+ years in the industry": "Experienced security executive with 15+ years in the industry",
+    "Export Assessments": "Export Assessments",
+    "Export CSV": "Export CSV",
+    "Export Data": "Export Data",
+    "Export JSON": "Export JSON",
+    "Export Logs": "Export Logs",
+    "Export Report functionality will generate a comprehensive PDF report including assessment status, completion rates, compliance scores, and vendor risk summaries. The report will include executive dashboard views and detailed findings.": "Export Report functionality will generate a comprehensive PDF report including assessment status, completion rates, compliance scores, and vendor risk summaries. The report will include executive dashboard views and detailed findings.",
+    "Export SBOM Analyses": "Export SBOM Analyses",
+    "Export Vendors": "Export Vendors",
+    "Failed Dependency": "Failed Dependency",
+    "Failed to load company information": "Failed to load company information",
+    "Failed to load contact information": "Failed to load contact information",
+    "Failed to load data": "Failed to load data",
+    "Failed to load integrations": "Failed to load integrations",
+    "Failed to load logs": "Failed to load logs",
+    "Failed to load maintenance information": "Failed to load maintenance information",
+    "Failed to load metrics": "Failed to load metrics",
+    "Failed to load page": "Failed to load page",
+    "Failed to load policies": "Failed to load policies",
+    "Failed to load privacy policy": "Failed to load privacy policy",
+    "Failed to load reports": "Failed to load reports",
+    "Failed to load service status": "Failed to load service status",
+    "Failed to load settings": "Failed to load settings",
+    "Failed to load support data": "Failed to load support data",
+    "Failed to load terms of service": "Failed to load terms of service",
+    "Failed to load threats": "Failed to load threats",
+    "Failed to load users": "Failed to load users",
+    "Failed to load vendors": "Failed to load vendors",
+    "Failed to send message. Please try again.": "Failed to send message. Please try again.",
+    "Failed to submit vendor onboarding. Please try again.": "Failed to submit vendor onboarding. Please try again.",
+    "Failed to verify vendor. Please try again.": "Failed to verify vendor. Please try again.",
+    "Feature Usage": "Feature Usage",
+    "Filter Logs": "Filter Logs",
+    "Filter by Action": "Filter by Action",
+    "Filter by Date": "Filter by Date",
+    "Filter by Role": "Filter by Role",
+    "Filter by Status": "Filter by Status",
+    "Filter by User": "Filter by User",
+    "Finance": "Finance",
+    "Follow request format requirements": "Follow request format requirements",
+    "Follow the required format": "Follow the required format",
+    "Follow us on social media": "Follow us on social media",
+    "Forbidden": "Forbidden",
+    "Founded in 2024": "Founded in 2024",
+    "Frequently Asked Questions": "Frequently Asked Questions",
+    "Gateway Timeout": "Gateway Timeout",
+    "General Settings": "General Settings",
+    "Generate Report": "Generate Report",
+    "Generate and manage compliance reports": "Generate and manage compliance reports",
+    "Get help and support for your account": "Get help and support for your account",
+    "Get in touch with our team": "Get in touch with our team",
+    "Go Home": "Go Home",
+    "Go back to the previous page": "Go back to the previous page",
+    "Governing Law": "Governing Law",
+    "Guest": "Guest",
+    "Handle concurrent modifications gracefully": "Handle concurrent modifications gracefully",
+    "Header content": "Header content",
+    "Help & Support": "Help & Support",
+    "High": "High",
+    "High Risk": "High Risk",
+    "How We Use Your Information": "How We Use Your Information",
+    "How do I add a new vendor?": "How do I add a new vendor?",
+    "How do I upload an SBOM?": "How do I upload an SBOM?",
+    "How we collect, use, and protect your information": "How we collect, use, and protect your information",
+    "I Am A Teapot": "I Am A Teapot",
+    "I have read and agree to the Terms of Service": "I have read and agree to the Terms of Service",
+    "ISO 27001": "ISO 27001",
+    "ISO 27001 Assessment": "ISO 27001 Assessment",
+    "ISO 27001 Template": "ISO 27001 Template",
+    "Import Assessments": "Import Assessments",
+    "Import Data": "Import Data",
+    "Import Vendors": "Import Vendors",
+    "In Progress": "In Progress",
+    "In no event shall VendorTal™ Risk Review or its suppliers be liable for any damages arising out of the use or inability to use the materials on VendorTal™ Risk Review.": "In no event shall VendorTal™ Risk Review or its suppliers be liable for any damages arising out of the use or inability to use the materials on VendorTal™ Risk Review.",
+    "Inactive": "Inactive",
+    "Include Content-Length header": "Include Content-Length header",
+    "Industry Recognition": "Industry Recognition",
+    "Information Sharing": "Information Sharing",
+    "Information We Collect": "Information We Collect",
+    "Innovation": "Innovation",
+    "Insufficient Storage": "Insufficient Storage",
+    "Integration Settings": "Integration Settings",
+    "Internal Server Error": "Internal Server Error",
+    "Invalid credentials": "Invalid credentials",
+    "Jane Smith": "Jane Smith",
+    "January 1, 2025": "January 1, 2025",
+    "John Doe": "John Doe",
+    "Keep URLs short and simple": "Keep URLs short and simple",
+    "Keep track of page navigation": "Keep track of page navigation",
+    "Keep your browser updated": "Keep your browser updated",
+    "Keep your login credentials secure": "Keep your login credentials secure",
+    "Keep your payment method updated": "Keep your payment method updated",
+    "Language": "Language",
+    "Large": "Large",
+    "Last Backup": "Last Backup",
+    "Last updated: January 1, 2025": "Last updated: January 1, 2025",
+    "Leading vendor security management platform": "Leading vendor security management platform",
+    "Learn more about our company and mission": "Learn more about our company and mission",
+    "Length Required": "Length Required",
+    "Limitations": "Limitations",
+    "Link Button": "Link Button",
+    "LinkedIn": "LinkedIn",
+    "Links": "Links",
+    "Loading": "Loading",
+    "Log Statistics": "Log Statistics",
+    "Loop Detected": "Loop Detected",
+    "Low": "Low",
+    "Low Risk": "Low Risk",
+    "Maintenance History": "Maintenance History",
+    "Maintenance Reason": "Maintenance Reason",
+    "Maintenance Schedule": "Maintenance Schedule",
+    "Maintenance Status": "Maintenance Status",
+    "Maintenance Updates": "Maintenance Updates",
+    "Manage Vendors": "Manage Vendors",
+    "Manage and maintain security policies": "Manage and maintain security policies",
+    "Manage external API connections": "Manage external API connections",
+    "Manage user accounts and permissions": "Manage user accounts and permissions",
+    "Manage your data import, export, and backup": "Manage your data import, export, and backup",
+    "Manage your subscription, billing details, and usage": "Manage your subscription, billing details, and usage",
+    "Map policies to compliance requirements": "Map policies to compliance requirements",
+    "Medium": "Medium",
+    "Memory Usage": "Memory Usage",
+    "Message": "Message",
+    "Message sent successfully!": "Message sent successfully!",
+    "Method Not Allowed": "Method Not Allowed",
+    "Minimize query parameters": "Minimize query parameters",
+    "Minimum Length": "Minimum Length",
+    "Misdirected Request": "Misdirected Request",
+    "Modifications": "Modifications",
+    "Monday - Friday: 9:00 AM - 6:00 PM PST": "Monday - Friday: 9:00 AM - 6:00 PM PST",
+    "Monitor system performance and health": "Monitor system performance and health",
+    "Monitor your billing status": "Monitor your billing status",
+    "Monitor your usage patterns": "Monitor your usage patterns",
+    "Monitor your usage regularly": "Monitor your usage regularly",
+    "Monitoring Settings": "Monitoring Settings",
+    "NVD API": "NVD API",
+    "Name": "Name",
+    "National Vulnerability Database": "National Vulnerability Database",
+    "Navigate to the SBOM Analyzer page and use the file upload feature.": "Navigate to the SBOM Analyzer page and use the file upload feature.",
+    "Need help?": "Need help?",
+    "Need immediate assistance?": "Need immediate assistance?",
+    "Network Authentication Required": "Network Authentication Required",
+    "Network Error": "Network Error",
+    "Never": "Never",
+    "New Assessment": "New Assessment",
+    "Node.js": "Node.js",
+    "Not Extended": "Not Extended",
+    "Not Found": "Not Found",
+    "Not Implemented": "Not Implemented",
+    "Not logged in?": "Not logged in?",
+    "Notification Settings": "Notification Settings",
+    "OSV API": "OSV API",
+    "Office Hours": "Office Hours",
+    "Open": "Open",
+    "Open Source Vulnerabilities database": "Open Source Vulnerabilities database",
+    "OpenSSL 3.0.0": "OpenSSL 3.0.0",
+    "OpenSSL 3.0.1": "OpenSSL 3.0.1",
+    "Optimize your API usage": "Optimize your API usage",
+    "Our Mission": "Our Mission",
+    "Our Team": "Our Team",
+    "Our Values": "Our Values",
+    "Outline": "Outline",
+    "Overdue": "Overdue",
+    "Page Not Found": "Page Not Found",
+    "Partial": "Partial",
+    "Password": "Password",
+    "Password Policy": "Password Policy",
+    "Password Requirements": "Password Requirements",
+    "Password requirements and security guidelines": "Password requirements and security guidelines",
+    "Payment Required": "Payment Required",
+    "Payment Support": "Payment Support",
+    "Payment is required to access this resource": "Payment is required to access this resource",
+    "Performance Alerts": "Performance Alerts",
+    "Performance Monitoring": "Performance Monitoring",
+    "Performance Trends": "Performance Trends",
+    "Permission Information": "Permission Information",
+    "Permission Levels": "Permission Levels",
+    "Permission is granted to temporarily download one copy of VendorTal™ Risk Review for personal, non-commercial transitory viewing only.": "Permission is granted to temporarily download one copy of VendorTal™ Risk Review for personal, non-commercial transitory viewing only.",
+    "Permissions": "Permissions",
+    "Phone Support": "Phone Support",
+    "Please enter a message": "Please enter a message",
+    "Please enter a subject": "Please enter a subject",
+    "Please enter your email": "Please enter your email",
+    "Please enter your name": "Please enter your name",
+    "Please enter your password": "Please enter your password",
+    "Please log in to import data": "Please log in to import data",
+    "Please sign in to subscribe": "Please sign in to subscribe",
+    "Policy Changes": "Policy Changes",
+    "Policy Summary": "Policy Summary",
+    "Policy Templates": "Policy Templates",
+    "Policy Version": "Policy Version",
+    "Popular Pages": "Popular Pages",
+    "Precondition Failed": "Precondition Failed",
+    "Precondition Required": "Precondition Required",
+    "Prevention Tips": "Prevention Tips",
+    "Previous maintenance windows": "Previous maintenance windows",
+    "Previous service interruptions": "Previous service interruptions",
+    "Primary": "Primary",
+    "Priority": "Priority",
+    "Privacy Policy": "Privacy Policy",
+    "Professional": "Professional",
+    "Progress": "Progress",
+    "Publish Policy": "Publish Policy",
+    "Quota Exceeded": "Quota Exceeded",
+    "Question about billing": "Question about billing",
+    "Questions about these Terms?": "Questions about these Terms?",
+    "Questions about this Privacy Policy?": "Questions about this Privacy Policy?",
+    "Quick Actions": "Quick Actions",
+    "Rate Limit Exceeded": "Rate Limit Exceeded",
+    "Reason": "Reason",
+    "Recent Activity": "Recent Activity",
+    "Recovery Options": "Recovery Options",
+    "Reduce file size": "Reduce file size",
+    "Reduce query parameters": "Reduce query parameters",
+    "Reduce request frequency": "Reduce request frequency",
+    "Refresh the page": "Refresh the page",
+    "Regular User": "Regular User",
+    "Report generation would start here": "Report generation would start here",
+    "Report this error": "Report this error",
+    "Reporting": "Reporting",
+    "Request Entity Too Large": "Request Entity Too Large",
+    "Request Header Fields Too Large": "Request Header Fields Too Large",
+    "Request Timeout": "Request Timeout",
+    "Request URI Too Long": "Request URI Too Long",
+    "Requested Range Not Satisfiable": "Requested Range Not Satisfiable",
+    "Require Special Characters": "Require Special Characters",
+    "Reset to Defaults": "Reset to Defaults",
+    "Resolved": "Resolved",
+    "Resource Locked": "Resource Locked",
+    "Resource Usage": "Resource Usage",
+    "Response Time": "Response Time",
+    "Response time increased": "Response time increased",
+    "Restore from Backup": "Restore from Backup",
+    "Return to the homepage": "Return to the homepage",
+    "Risk Distribution": "Risk Distribution",
+    "Role Management": "Role Management",
+    "SBOM": "SBOM",
+    "SBOM Analyses": "SBOM Analyses",
+    "SBOM Analysis": "SBOM Analysis",
+    "SBOM Analyzer": "SBOM Analyzer",
+    "SBOM Scans": "SBOM Scans",
+    "SBOM Uploaded": "SBOM Uploaded",
+    "SMS Notifications": "SMS Notifications",
+    "SOC 2": "SOC 2",
+    "SOC 2 Compliance Report": "SOC 2 Compliance Report",
+    "SOC 2 Template": "SOC 2 Template",
+    "SOC 2 Type II": "SOC 2 Type II",
+    "Sales": "Sales",
+    "San Francisco, CA": "San Francisco, CA",
+    "Save Settings": "Save Settings",
+    "Schedule Report": "Schedule Report",
+    "Scheduled maintenance": "Scheduled maintenance",
+    "Scheduled system maintenance and updates": "Scheduled system maintenance and updates",
+    "Search FAQs": "Search FAQs",
+    "Search Logs": "Search Logs",
+    "Search Users": "Search Users",
+    "Search for what you need": "Search for what you need",
+    "Search for what you need:": "Search for what you need:",
+    "Secondary": "Secondary",
+    "Security First": "Security First",
+    "Security Policies": "Security Policies",
+    "Security Research": "Security Research",
+    "Security Settings": "Security Settings",
+    "Send us a message": "Send us a message",
+    "Service History": "Service History",
+    "Service Status": "Service Status",
+    "Service Unavailable": "Service Unavailable",
+    "Service Updates": "Service Updates",
+    "Session Timeout (minutes)": "Session Timeout (minutes)",
+    "Set up automatic payments": "Set up automatic payments",
+    "Shorten the URL": "Shorten the URL",
+    "Sign In": "Sign In",
+    "Sign in to your account": "Sign in to your account",
+    "Small": "Small",
+    "Something went wrong": "Something went wrong",
+    "Something went wrong on our end": "Something went wrong on our end",
+    "Sorry, we could not find the page you are looking for.": "Sorry, we could not find the page you are looking for.",
+    "Space out your requests": "Space out your requests",
+    "Split large files into smaller parts": "Split large files into smaller parts",
+    "Start Time": "Start Time",
+    "Stay informed about the latest security threats": "Stay informed about the latest security threats",
+    "Still having issues?": "Still having issues?",
+    "Still having trouble?": "Still having trouble?",
+    "Storage Usage": "Storage Usage",
+    "Subject": "Subject",
+    "Submit": "Submit",
+    "Supply Chain": "Supply Chain",
+    "Supply Chain Attack on npm Package": "Supply Chain Attack on npm Package",
+    "Support": "Support",
+    "Support Resources": "Support Resources",
+    "Support Tickets": "Support Tickets",
+    "Sync Settings": "Sync Settings",
+    "System Maintenance": "System Maintenance",
+    "System Settings": "System Settings",
+    "Table of Contents": "Table of Contents",
+    "Technology": "Technology",
+    "Technology leader specializing in security platforms": "Technology leader specializing in security platforms",
+    "Terms Changes": "Terms Changes",
+    "Terms Summary": "Terms Summary",
+    "Terms Version": "Terms Version",
+    "Terms and conditions for using VendorTal™ Risk Review": "Terms and conditions for using VendorTal™ Risk Review",
+    "Terms of Service": "Terms of Service",
+    "Test Card": "Test Card",
+    "Test Connection": "Test Connection",
+    "Test User": "Test User",
+    "Test Vendor": "Test Vendor",
+    "Test Vendor 1": "Test Vendor 1",
+    "Test Vendor 2": "Test Vendor 2",
+    "Test Webhook": "Test Webhook",
+    "The HTTP version used in the request is not supported": "The HTTP version used in the request is not supported",
+    "The client must authenticate with the network to access the resource": "The client must authenticate with the network to access the resource",
+    "The client must upgrade to a newer version": "The client must upgrade to a newer version",
+    "The data you provided is invalid": "The data you provided is invalid",
+    "The gateway did not receive a timely response from the upstream server": "The gateway did not receive a timely response from the upstream server",
+    "The materials appearing on VendorTal™ Risk Review could include technical, typographical, or photographic errors.": "The materials appearing on VendorTal™ Risk Review could include technical, typographical, or photographic errors.",
+    "The media type is not supported": "The media type is not supported",
+    "The page you are looking for does not exist.": "The page you are looking for does not exist.",
+    "The request URI is too long": "The request URI is too long",
+    "The request conflicts with the current state of the resource": "The request conflicts with the current state of the resource",
+    "The request entity is too large": "The request entity is too large",
+    "The request failed due to a failed dependency": "The request failed due to a failed dependency",
+    "The request header fields are too large": "The request header fields are too large",
+    "The request method is not allowed for this resource": "The request method is not allowed for this resource",
+    "The request precondition failed": "The request precondition failed",
+    "The request requires a Content-Length header": "The request requires a Content-Length header",
+    "The request requires a precondition to be met": "The request requires a precondition to be met",
+    "The request timed out": "The request timed out",
+    "The request was directed to the wrong server": "The request was directed to the wrong server",
+    "The request was invalid or cannot be served": "The request was invalid or cannot be served",
+    "The request was sent too early": "The request was sent too early",
+    "The request was well-formed but contains semantic errors": "The request was well-formed but contains semantic errors",
+    "The requested functionality is not implemented": "The requested functionality is not implemented",
+    "The requested range cannot be satisfied": "The requested range cannot be satisfied",
+    "The requested resource was not found": "The requested resource was not found",
+    "The resource is locked and cannot be accessed": "The resource is locked and cannot be accessed",
+    "The resource is unavailable due to legal restrictions": "The resource is unavailable due to legal restrictions",
+    "The server cannot meet the requirements of the Expect request-header field": "The server cannot meet the requirements of the Expect request-header field",
+    "The server detected an infinite loop while processing the request": "The server detected an infinite loop while processing the request",
+    "The server did not receive a timely response from an upstream server": "The server did not receive a timely response from an upstream server",
+    "The server does not support the extension required for the request": "The server does not support the extension required for the request",
+    "The server has a configuration error in content negotiation": "The server has a configuration error in content negotiation",
+    "The server has insufficient storage to complete the request": "The server has insufficient storage to complete the request",
+    "The server is a teapot and cannot brew coffee": "The server is a teapot and cannot brew coffee",
+    "The server is temporarily unavailable": "The server is temporarily unavailable",
+    "The server received an invalid response from an upstream server": "The server received an invalid response from an upstream server",
+    "The service is temporarily unavailable": "The service is temporarily unavailable",
+    "The service is temporarily unavailable due to maintenance or technical issues.": "The service is temporarily unavailable due to maintenance or technical issues.",
+    "These terms and conditions are governed by and construed in accordance with the laws of California.": "These terms and conditions are governed by and construed in accordance with the laws of California.",
+    "These terms of service govern your use of VendorTal™ Risk Review and our services.": "These terms of service govern your use of VendorTal™ Risk Review and our services.",
+    "This is the card content.": "This is the card content.",
+    "This privacy policy explains how we collect, use, and protect your personal information.": "This privacy policy explains how we collect, use, and protect your personal information.",
+    "This resource requires specific permissions to access.": "This resource requires specific permissions to access.",
+    "Threat Intelligence": "Threat Intelligence",
+    "Throughput": "Throughput",
+    "Timeout Error": "Timeout Error",
+    "Timezone": "Timezone",
+    "To help organizations manage vendor security risks effectively": "To help organizations manage vendor security risks effectively",
+    "Too Early": "Too Early",
+    "Too Many Requests": "Too Many Requests",
+    "Too many requests, please try again later": "Too many requests, please try again later",
+    "Total Logs": "Total Logs",
+    "Total Users": "Total Users",
+    "Total Vendors": "Total Vendors",
+    "Track and monitor system activities": "Track and monitor system activities",
+    "Transparency": "Transparency",
+    "Troubleshooting Steps": "Troubleshooting Steps",
+    "Try a different action": "Try a different action",
+    "Try a different approach": "Try a different approach",
+    "Try a different file": "Try a different file",
+    "Try a different range": "Try a different range",
+    "Try Again": "Try Again",
+    "Try again after payment": "Try again after payment",
+    "Try again in a few minutes": "Try again in a few minutes",
+    "Try again later": "Try again later",
+    "Try again with corrected data": "Try again with corrected data",
+    "Try again with correct headers": "Try again with correct headers",
+    "Try again with updated data": "Try again with updated data",
+    "Try again with valid data": "Try again with valid data",
+    "Try brewing tea instead": "Try brewing tea instead",
+    "Try logging in again": "Try logging in again",
+    "Try smaller files": "Try smaller files",
+    "Try these instead:": "Try these instead:",
+    "Try without Expect header": "Try without Expect header",
+    "Two-Factor Authentication": "Two-Factor Authentication",
+    "Unable to authenticate your request": "Unable to authenticate your request",
+    "Unable to connect to the database": "Unable to connect to the database",
+    "Unable to connect to the server": "Unable to connect to the server",
+    "Unable to upload SBOM file": "Unable to upload SBOM file",
+    "Unauthorized": "Unauthorized",
+    "Unavailable": "Unavailable",
+    "Unavailable For Legal Reasons": "Unavailable For Legal Reasons",
+    "Unprocessable Entity": "Unprocessable Entity",
+    "Unsupported Media Type": "Unsupported Media Type",
+    "Update your payment method": "Update your payment method",
+    "Upgrade Plan": "Upgrade Plan",
+    "Upgrade Required": "Upgrade Required",
+    "Upgrade your plan": "Upgrade your plan",
+    "Upgrade your plan when needed": "Upgrade your plan when needed",
+    "Upload SBOM": "Upload SBOM",
+    "Uptime": "Uptime",
+    "Use appropriate endpoints": "Use appropriate endpoints",
+    "Use a stable internet connection": "Use a stable internet connection",
+    "Use bookmarks for important pages": "Use bookmarks for important pages",
+    "Use compression": "Use compression",
+    "Use compression when possible": "Use compression when possible",
+    "Use correct HTTP method": "Use correct HTTP method",
+    "Use correct HTTP methods": "Use correct HTTP methods",
+    "Use efficient API calls": "Use efficient API calls",
+    "Use License": "Use License",
+    "Use optimistic locking": "Use optimistic locking",
+    "Use POST for large data": "Use POST for large data",
+    "Use POST instead of GET": "Use POST instead of GET",
+    "User": "User",
+    "User Management": "User Management",
+    "User Statistics": "User Statistics",
+    "Use standard media types": "Use standard media types",
+    "Use strong passwords": "Use strong passwords",
+    "Use supported media types": "Use supported media types",
+    "Use valid range values": "Use valid range values",
+    "Validate data before submission": "Validate data before submission",
+    "Validate Data Integrity": "Validate Data Integrity",
+    "Validation Error": "Validation Error",
+    "Variant Also Negotiates": "Variant Also Negotiates",
+    "Vendor": "Vendor",
+    "Vendor Created": "Vendor Created",
+    "Vendor Management": "Vendor Management",
+    "Vendor onboarding submitted successfully!": "Vendor onboarding submitted successfully!",
+    "Vendor Security Assessments": "Vendor Security Assessments",
+    "VendorTal™ Risk Review": "VendorTal™ Risk Review",
+    "VendorTal™ Risk Review has not reviewed all of the sites linked to our website and is not responsible for the contents of any such linked site.": "VendorTal™ Risk Review has not reviewed all of the sites linked to our website and is not responsible for the contents of any such linked site.",
+    "VendorTal™ Risk Review may revise these terms of service for its website at any time without notice.": "VendorTal™ Risk Review may revise these terms of service for its website at any time without notice.",
+    "Verify access permissions": "Verify access permissions",
+    "Verify API endpoint": "Verify API endpoint",
+    "Verify client configuration": "Verify client configuration",
+    "Verify compliance status": "Verify compliance status",
+    "Verify Content-Length header": "Verify Content-Length header",
+    "Verify data consistency": "Verify data consistency",
+    "Verify dependency configuration": "Verify dependency configuration",
+    "Verify endpoint compatibility": "Verify endpoint compatibility",
+    "Verify Expect header": "Verify Expect header",
+    "Verify Expect header compatibility": "Verify Expect header compatibility",
+    "Verify field validation": "Verify field validation",
+    "Verify gateway configuration": "Verify gateway configuration",
+    "Verify gateway timeout settings": "Verify gateway timeout settings",
+    "Verify header configuration": "Verify header configuration",
+    "Verify implementation status": "Verify implementation status",
+    "Verify loop detection settings": "Verify loop detection settings",
+    "Verify maintenance schedule": "Verify maintenance schedule",
+    "Verify network credentials": "Verify network credentials",
+    "Verify preconditions": "Verify preconditions",
+    "Verify precondition status": "Verify precondition status",
+    "Verify request compatibility": "Verify request compatibility",
+    "Verify request format": "Verify request format",
+    "Verify request frequency": "Verify request frequency",
+    "Verify request routing": "Verify request routing",
+    "Verify request type": "Verify request type",
+    "Verify required fields": "Verify required fields",
+    "Verify resource size": "Verify resource size",
+    "Verify resource state": "Verify resource state",
+    "Verify server capabilities": "Verify server capabilities",
+    "Verify server readiness": "Verify server readiness",
+    "Verify server requirements": "Verify server requirements",
+    "Verify server status": "Verify server status",
+    "Verify storage configuration": "Verify storage configuration",
+    "Verify variant settings": "Verify variant settings",
+    "Verify your account permissions": "Verify your account permissions",
+    "Verify your account status": "Verify your account status",
+    "Verify your role level": "Verify your role level",
+    "Video Tutorials": "Video Tutorials",
+    "View Reports": "View Reports",
+    "Vulnerability": "Vulnerability",
+    "Wait a few minutes": "Wait a few minutes",
+    "Wait before retrying": "Wait before retrying",
+    "Wait for quota reset": "Wait for quota reset",
+    "We apologize for the inconvenience. Please try again later.": "We apologize for the inconvenience. Please try again later.",
+    "We are currently performing scheduled maintenance": "We are currently performing scheduled maintenance",
+    "Webhook Notifications": "Webhook Notifications",
+    "Webhook URL": "Webhook URL",
+    "We collect information you provide directly to us, such as when you create an account, use our services, or contact us for support.": "We collect information you provide directly to us, such as when you create an account, use our services, or contact us for support.",
+    "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy.": "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy.",
+    "Weekly": "Weekly",
+    "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.",
+    "Welcome back!": "Welcome back!",
+    "We may update these terms of service from time to time. We will notify you of any changes by posting the new terms on this page.": "We may update these terms of service from time to time. We will notify you of any changes by posting the new terms on this page.",
+    "We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page.": "We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page.",
+    "We use the information we collect to provide, maintain, and improve our services, process transactions, and communicate with you.": "We use the information we collect to provide, maintain, and improve our services, process transactions, and communicate with you.",
+    "We will provide updates on our progress here.": "We will provide updates on our progress here.",
+    "What does this mean?": "What does this mean?",
+    "What you can do:": "What you can do:",
+    "With Icon": "With Icon",
+    "You are not authorized to access this resource": "You are not authorized to access this resource",
+    "You do not have permission to access this resource": "You do not have permission to access this resource",
+    "You do not have permission to access this resource.": "You do not have permission to access this resource.",
+    "You do not have permission to perform this action": "You do not have permission to perform this action",
+    "You have exceeded the rate limit": "You have exceeded the rate limit",
+    "You have exceeded your usage quota": "You have exceeded your usage quota",
+    "You have the right to access, update, or delete your personal information. You may also opt out of certain communications from us.": "You have the right to access, update, or delete your personal information. You may also opt out of certain communications from us.",
+    "Your Free Benefits": "Your Free Benefits",
+    "Your Professional Benefits": "Your Professional Benefits",
+    "Your Rights": "Your Rights"
+  }
+}

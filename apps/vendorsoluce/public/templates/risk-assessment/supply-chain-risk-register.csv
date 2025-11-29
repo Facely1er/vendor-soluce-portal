@@ -1,0 +1,51 @@
+Supply Chain Risk Register,,,,,,,,,,
+VendorSoluce NIST 800-161 Aligned Risk Management Tool,,,,,,,,,,
+,,,,,,,,,,
+INSTRUCTIONS:,,,,,,,,,,
+1. Document all identified supply chain risks in this register,,,,,,,,,,
+2. Complete all fields to ensure comprehensive risk tracking,,,,,,,,,,
+3. Update regularly as new risks are identified or existing risks change,,,,,,,,,,
+,,,,,,,,,,
+ID,Risk Category,Risk Description,Affected Assets,Risk Owner,Inherent Risk,Inherent Risk,Inherent Risk,Controls/Mitigations,Residual Risk,Status
+,,,,,Likelihood,Impact,Rating,,,
+SC-RISK-001,Supplier Disruption,Critical component supplier business failure leading to supply disruption,Manufacturing production line,Procurement,3,5,15,"Alternate supplier qualification, Strategic inventory buffer","Medium
+(6)",Active
+SC-RISK-002,Product Integrity,Counterfeit components introduced through secondary market purchases,Server hardware,Quality Control,2,5,10,"Component authentication procedures, Authorized supplier program","Low
+(4)",Mitigated
+SC-RISK-003,Cybersecurity,Compromise of supplier systems providing remote maintenance access,SCADA systems,IT Security,3,4,12,"Network segmentation, Multi-factor authentication, Access monitoring","Medium
+(5)",Active
+SC-RISK-004,Data Protection,Sensitive data exposure through unvetted 3rd-party service provider,Customer data,Data Protection Officer,2,5,10,"Data classification, Encryption, Third-party security assessment","Low
+(3)",Mitigated
+SC-RISK-005,Regulatory,Non-compliance with NIST 800-161 requirements for federal contracts,Federal contract eligibility,Compliance Manager,4,4,16,"NIST control implementation program, Compliance monitoring system","Medium
+(8)",Active
+SC-RISK-006,Software Security,Vulnerable open-source components in critical applications,Customer-facing applications,Application Security,4,5,20,"SBOM management, Vulnerability scanning, Patch management","Medium
+(6)",Active
+SC-RISK-007,Logistics,Shipping disruptions due to geopolitical issues in key regions,Global supply chain,Supply Chain Manager,3,3,9,"Geographic diversification, Buffer inventory strategy","Low
+(4)",Monitoring
+SC-RISK-008,Insider Threat,Malicious code insertion by supplier developer,Core software products,Security Operations,2,5,10,"Code signing, Code reviews, Integrity verification","Low
+(4)",Mitigated
+SC-RISK-009,Natural Disaster,Major natural disaster affecting key supplier facilities,Component availability,Business Continuity,2,4,8,"Multi-region supplier strategy, Business continuity planning","Low
+(3)",Monitoring
+SC-RISK-010,Geopolitical,Export restrictions affecting technology supply chain,Hardware components,Legal,3,4,12,"Regulatory monitoring, Alternative sourcing strategy","Medium
+(6)",Active
+SC-RISK-011,Financial,Supplier financial instability leading to quality issues,Component quality,Procurement,3,3,9,"Financial health monitoring, Escrow agreements","Low
+(4)",Monitoring
+SC-RISK-012,Transparency,Limited visibility into supplier's subcontractors (Nth party risk),All supplier services,Vendor Management,4,3,12,"Contractual transparency requirements, Supply chain mapping","Medium
+(6)",Active
+SC-RISK-013,Configuration,Misconfigured supplier-provided cloud services,Cloud infrastructure,Cloud Security,3,4,12,"Configuration verification, Security baseline requirements","Low
+(4)",Mitigated
+SC-RISK-014,Communication,Delayed notification of security incidents from suppliers,Incident response capability,Security Operations,4,3,12,"Contractual notification requirements, Supplier security program","Medium
+(6)",Active
+SC-RISK-015,Physical Security,Physical tampering with hardware during transit,Hardware integrity,Physical Security,2,4,8,"Tamper-evident packaging, Chain of custody controls","Low
+(3)",Monitoring
+,,,,,,,,,,
+RISK CALCULATION GUIDE,,,,,,,,,,
+Likelihood Scale,Likelihood Description,,,Impact Scale,Impact Description,,,Risk Rating Matrix,,
+1,Very Unlikely,Very rare occurrence (less than 5% probability),,,1,Negligible,Minimal or no impact,,,Likelihood × Impact = Risk Rating,
+2,Unlikely,Uncommon but possible (5-25% probability),,,2,Minor,Limited impact to operations,,,1-4 = Low Risk,
+3,Possible,Might occur at some point (25-50% probability),,,3,Moderate,Significant impact but containable,,,5-9 = Medium Risk,
+4,Likely,Will probably occur (50-75% probability),,,4,Major,Major impact on operations or objectives,,,10-16 = High Risk,
+5,Almost Certain,Expected to occur (>75% probability),,,5,Severe,Critical impact threatening mission success,,,17-25 = Critical Risk,
+,,,,,,,,,,
+VERSION: 1.0,,,,,,,,,,
+© 2025 VendorSoluce,,,,,,,,,,

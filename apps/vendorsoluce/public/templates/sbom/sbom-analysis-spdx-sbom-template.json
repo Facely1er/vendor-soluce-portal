@@ -1,0 +1,187 @@
+{
+  "document": {
+    "bomFormat": "SPDX",
+    "specVersion": "SPDX-2.3",
+    "documentNamespace": "https://vendorsoluce.com/sboms/example-app-1.0",
+    "created": "2025-04-17T09:00:00Z",
+    "authors": [
+      {
+        "name": "Organization: VendorSoluce"
+      },
+      {
+        "name": "Tool: VendorSoluce SBOM Generator 1.0"
+      }
+    ],
+    "generators": [
+      {
+        "name": "Tool: VendorSoluce SBOM Generator 1.0"
+      }
+    ],
+    "sourceFile": "/workspace/public/templates/sbom/spdx-sbom-template.json"
+  },
+  "components": [
+    {
+      "component": {
+        "id": "SPDXRef-Package-example-application",
+        "name": "example-application",
+        "version": "1.0.0",
+        "type": "package",
+        "ecosystem": "npm",
+        "license": "MIT",
+        "supplier": "Organization: Example Corp"
+      },
+      "vulnerabilities": [],
+      "riskScore": 100,
+      "dataQuality": {
+        "missingPurl": true,
+        "missingHashes": true
+      }
+    },
+    {
+      "component": {
+        "id": "SPDXRef-Package-lodash",
+        "name": "lodash",
+        "version": "4.17.21",
+        "type": "package",
+        "ecosystem": "npm",
+        "license": "MIT",
+        "purl": "pkg:npm/lodash@4.17.21",
+        "supplier": "Organization: JS Foundation"
+      },
+      "vulnerabilities": [],
+      "riskScore": 100,
+      "dataQuality": {
+        "missingHashes": true
+      }
+    },
+    {
+      "component": {
+        "id": "SPDXRef-Package-react",
+        "name": "react",
+        "version": "18.2.0",
+        "type": "package",
+        "ecosystem": "npm",
+        "license": "MIT",
+        "purl": "pkg:npm/react@18.2.0",
+        "supplier": "Organization: Meta Platforms, Inc."
+      },
+      "vulnerabilities": [],
+      "riskScore": 100,
+      "dataQuality": {
+        "missingHashes": true
+      }
+    },
+    {
+      "component": {
+        "id": "SPDXRef-Package-express",
+        "name": "express",
+        "version": "4.18.2",
+        "type": "package",
+        "ecosystem": "npm",
+        "license": "MIT",
+        "purl": "pkg:npm/express@4.18.2",
+        "supplier": "Person: TJ Holowaychuk"
+      },
+      "vulnerabilities": [],
+      "riskScore": 100,
+      "dataQuality": {
+        "missingHashes": true
+      }
+    },
+    {
+      "component": {
+        "id": "SPDXRef-Package-axios",
+        "name": "axios",
+        "version": "1.3.5",
+        "type": "package",
+        "ecosystem": "npm",
+        "license": "MIT",
+        "purl": "pkg:npm/axios@1.3.5",
+        "supplier": "Person: Matt Zabriskie"
+      },
+      "vulnerabilities": [],
+      "riskScore": 100,
+      "dataQuality": {
+        "missingHashes": true
+      }
+    }
+  ],
+  "dependencyEdges": [
+    {
+      "from": "SPDXRef-Package-example-application",
+      "to": "SPDXRef-Package-lodash",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "from": "SPDXRef-Package-example-application",
+      "to": "SPDXRef-Package-react",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "from": "SPDXRef-Package-example-application",
+      "to": "SPDXRef-Package-express",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "from": "SPDXRef-Package-example-application",
+      "to": "SPDXRef-Package-axios",
+      "type": "DEPENDS_ON"
+    }
+  ],
+  "vulnerabilitySummary": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "unknown": 0,
+    "total": 0
+  },
+  "ntiaCompliance": {
+    "compliant": true,
+    "checks": {
+      "hasDependencyGraph": true,
+      "hasAuthorOrOriginator": true,
+      "hasSbomTimestamp": true,
+      "hasSpecVersion": true,
+      "hasSerialNumberOrDocumentNamespace": true
+    },
+    "failedChecks": [],
+    "score": 100
+  },
+  "dataQuality": {
+    "issues": [
+      {
+        "componentId": "SPDXRef-Package-example-application",
+        "field": "purl",
+        "issue": "Missing package URL (purl) identifier"
+      },
+      {
+        "componentId": "SPDXRef-Package-example-application",
+        "field": "hashes",
+        "issue": "Missing component hashes (prefer SHA-256)"
+      },
+      {
+        "componentId": "SPDXRef-Package-lodash",
+        "field": "hashes",
+        "issue": "Missing component hashes (prefer SHA-256)"
+      },
+      {
+        "componentId": "SPDXRef-Package-react",
+        "field": "hashes",
+        "issue": "Missing component hashes (prefer SHA-256)"
+      },
+      {
+        "componentId": "SPDXRef-Package-express",
+        "field": "hashes",
+        "issue": "Missing component hashes (prefer SHA-256)"
+      },
+      {
+        "componentId": "SPDXRef-Package-axios",
+        "field": "hashes",
+        "issue": "Missing component hashes (prefer SHA-256)"
+      }
+    ]
+  },
+  "overallRiskScore": 100,
+  "analyzedAt": "2025-11-12T18:27:31.313Z"
+}

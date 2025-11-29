@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Federal Compliance Guide: NIST SP 800-161 with VendorSoluce</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 1in;
+        }
+        h1 {
+            color: #1E3B8A;
+            text-align: center;
+            border-bottom: 2px solid #1E3B8A;
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: #2D7D7D;
+            margin-top: 1.5em;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #3B82F6;
+            margin-top: 1em;
+        }
+        .info-box {
+            background-color: #f0f7ff;
+            border-left: 4px solid #3B82F6;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .warning-box {
+            background-color: #fff5f5;
+            border-left: 4px solid #e53e3e;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .tip-box {
+            background-color: #f0fff4;
+            border-left: 4px solid #38a169;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        code {
+            background-color: #f9f9f9;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f5f5f5;
+        }
+        ul, ol {
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 0.8em;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Federal Compliance Guide: Implementing NIST SP 800-161 with VendorSoluce</h1>
+
+    <div class="info-box">
+        <p><strong>Purpose:</strong> This guide helps federal agencies and contractors implement NIST SP 800-161 Cyber Supply Chain Risk Management (C-SCRM) requirements using VendorSoluce.</p>
+        <p><strong>Target Audience:</strong> Federal IT security managers, procurement officials, compliance officers, and cybersecurity professionals responsible for supply chain security.</p>
+    </div>
+
+    <h2>1. Introduction to NIST SP 800-161</h2>
+    
+    <p>NIST Special Publication 800-161 Revision 1, "Cyber Supply Chain Risk Management Practices for Systems and Organizations," provides guidance to organizations on identifying, assessing, and mitigating cyber supply chain risks. This framework is particularly important for federal agencies and their contractors who must protect systems and data from supply chain threats.</p>
+    
+    <h3>1.1 Key Requirements</h3>
+    <p>NIST SP 800-161 emphasizes:</p>
+    <ul>
+        <li>Implementation of a formal SCRM program with clear governance</li>
+        <li>Integration of SCRM throughout the SDLC</li>
+        <li>Comprehensive supplier assessment and risk evaluation</li>
+        <li>Continuous monitoring of supply chain risks</li>
+        <li>Product and service authenticity and integrity verification</li>
+    </ul>
+
+    <h3>1.2 Federal Compliance Timeline</h3>
+    <table>
+        <tr>
+            <th>Requirement</th>
+            <th>Applicable To</th>
+            <th>Deadline</th>
+        </tr>
+        <tr>
+            <td>Full NIST SP 800-161 Implementation</td>
+            <td>Federal Agencies</td>
+            <td>May 2024</td>
+        </tr>
+        <tr>
+            <td>SCRM Plan Development</td>
+            <td>Federal Contractors (Critical Systems)</td>
+            <td>September 2023</td>
+        </tr>
+        <tr>
+            <td>SBOM Requirements</td>
+            <td>Software Providers to Federal Government</td>
+            <td>June 2023</td>
+        </tr>
+    </table>
+
+    <div class="warning-box">
+        <p><strong>Important:</strong> Federal agencies subject to Executive Order 14028 must implement supply chain security measures aligned with NIST SP 800-161. Non-compliance may result in procurement restrictions and enhanced security requirements.</p>
+    </div>
+
+    <h2>2. VendorSoluce Implementation Approach</h2>
+    
+    <h3>2.1 VendorSoluce Federal Compliance Features</h3>
+    <p>VendorSoluce provides the following capabilities to address NIST SP 800-161 requirements:</p>
+    <table>
+        <tr>
+            <th>Feature</th>
+            <th>NIST Control</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Supplier Risk Assessment</td>
+            <td>C-SCRM-2, C-SCRM-4</td>
+            <td>Pre-built assessment templates aligned with NIST SP 800-161 controls for comprehensive supplier evaluation</td>
+        </tr>
+        <tr>
+            <td>SBOM Analyzer</td>
+            <td>C-SCRM-7, C-SCRM-16</td>
+            <td>Automated analysis of software bills of materials to identify vulnerabilities and compliance issues</td>
+        </tr>
+        <tr>
+            <td>Vendor Risk Dashboard</td>
+            <td>C-SCRM-6, C-SCRM-18</td>
+            <td>Continuous monitoring of supplier risk levels with alerts for changes in security posture</td>
+        </tr>
+        <tr>
+            <td>Compliance Reporting</td>
+            <td>C-SCRM-1, C-SCRM-2</td>
+            <td>Pre-built compliance reports for audits and regulatory requirements</td>
+        </tr>
+        <tr>
+            <td>Control Implementation Tracking</td>
+            <td>All C-SCRM Controls</td>
+            <td>Track implementation status of NIST SP 800-161 controls across your organization</td>
+        </tr>
+    </table>
+
+    <h2>3. Implementation Guide</h2>
+    
+    <h3>3.1 Phase 1: Foundation Building</h3>
+    <ol>
+        <li><strong>Establish Governance Structure</strong>
+            <p>Use VendorSoluce's role-based access control to align with your SCRM governance model:</p>
+            <ul>
+                <li>Create user roles matching your SCRM team structure</li>
+                <li>Assign permissions based on responsibilities</li>
+                <li>Configure approval workflows for risk acceptance decisions</li>
+            </ul>
+        </li>
+        <li><strong>Document SCRM Strategy and Plan</strong>
+            <p>Utilize templates in the VendorSoluce platform:</p>
+            <ul>
+                <li>Download and customize the SCRM Strategy Template</li>
+                <li>Use the Risk Management Plan Template for implementation planning</li>
+                <li>Upload completed documents to the VendorSoluce document repository</li>
+            </ul>
+        </li>
+        <li><strong>Supplier Inventory</strong>
+            <p>Create a comprehensive inventory of suppliers:</p>
+            <ul>
+                <li>Import existing supplier data using CSV templates</li>
+                <li>Categorize suppliers by criticality, access level, and service type</li>
+                <li>Tag federal contract-related suppliers for enhanced monitoring</li>
+            </ul>
+        </li>
+    </ol>
+
+    <div class="tip-box">
+        <p><strong>Tip:</strong> For federal agencies, we recommend starting with critical ICT/OT suppliers that support high-value assets (HVAs) or mission-essential functions.</p>
+    </div>
+
+    <h3>3.2 Phase 2: Supplier Risk Assessment</h3>
+    <ol>
+        <li><strong>Select Assessment Templates</strong>
+            <p>Choose appropriate assessment templates:</p>
+            <ul>
+                <li>NIST SP 800-161 Complete Assessment for critical suppliers</li>
+                <li>Vendor Security Quick Assessment for lower-risk suppliers</li>
+                <li>Cloud Service Provider Assessment for FedRAMP alignment</li>
+            </ul>
+        </li>
+        <li><strong>Conduct Assessments</strong>
+            <p>Implement the assessment process:</p>
+            <ul>
+                <li>Send assessment questionnaires to suppliers through the VendorSoluce portal</li>
+                <li>Track completion status and send reminders for incomplete assessments</li>
+                <li>Review and validate supplier responses and evidence</li>
+            </ul>
+        </li>
+        <li><strong>Risk Scoring and Analysis</strong>
+            <p>Utilize VendorSoluce's risk scoring capabilities:</p>
+            <ul>
+                <li>Apply the built-in NIST scoring methodology or customize to agency requirements</li>
+                <li>Generate risk scores based on assessment responses</li>
+                <li>Identify control gaps and compliance issues</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h3>3.3 Phase 3: SBOM Implementation</h3>
+    <ol>
+        <li><strong>Establish SBOM Requirements</strong>
+            <p>Develop requirements for software suppliers:</p>
+            <ul>
+                <li>Use VendorSoluce's SBOM policy templates to define format and content requirements</li>
+                <li>Set up automated notifications to request SBOMs from applicable suppliers</li>
+                <li>Define minimum SBOM quality standards</li>
+            </ul>
+        </li>
+        <li><strong>SBOM Analysis</strong>
+            <p>Implement SBOM analysis process:</p>
+            <ul>
+                <li>Upload received SBOMs to the VendorSoluce SBOM Analyzer</li>
+                <li>Analyze components for vulnerabilities and license compliance</li>
+                <li>Review risk scores and detailed findings</li>
+            </ul>
+        </li>
+        <li><strong>SBOM Integration</strong>
+            <p>Integrate SBOM data with broader risk management:</p>
+            <ul>
+                <li>Link SBOM findings to vendor risk scores</li>
+                <li>Establish thresholds for acceptable risk based on SBOM analysis</li>
+                <li>Implement remediation tracking for identified issues</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h3>3.4 Phase 4: Continuous Monitoring</h3>
+    <ol>
+        <li><strong>Monitor Supplier Changes</strong>
+            <p>Set up continuous monitoring:</p>
+            <ul>
+                <li>Configure supplier risk alerts based on threshold changes</li>
+                <li>Schedule periodic reassessments based on supplier criticality</li>
+                <li>Track supplier compliance status changes</li>
+            </ul>
+        </li>
+        <li><strong>Vulnerability Management</strong>
+            <p>Implement vulnerability monitoring:</p>
+            <ul>
+                <li>Enable automatic vulnerability notifications for SBOM components</li>
+                <li>Track remediation of identified vulnerabilities</li>
+                <li>Generate vulnerability trend reports</li>
+            </ul>
+        </li>
+        <li><strong>Reporting and Metrics</strong>
+            <p>Establish reporting processes:</p>
+            <ul>
+                <li>Schedule automated compliance reports</li>
+                <li>Configure executive dashboards showing key supply chain risk metrics</li>
+                <li>Generate audit-ready documentation</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>4. Federal Compliance Reporting</h2>
+    
+    <h3>4.1 Required Reports</h3>
+    <p>VendorSoluce supports generation of the following federal compliance reports:</p>
+    <ul>
+        <li>FISMA SCRM Implementation Status Report</li>
+        <li>Supply Chain Risk Assessment Summary</li>
+        <li>NIST SP 800-161 Control Implementation Report</li>
+        <li>Vendor Risk Profile Report</li>
+        <li>SBOM Vulnerability Summary Report</li>
+    </ul>
+
+    <h3>4.2 Audit Support</h3>
+    <p>Prepare for federal audits and reviews with:</p>
+    <ul>
+        <li>Control implementation evidence collection</li>
+        <li>Audit trail of risk decisions and approvals</li>
+        <li>Documentation of supplier assessments and findings</li>
+        <li>SCRM process documentation and historical records</li>
+    </ul>
+
+    <div class="info-box">
+        <p><strong>Note on FedRAMP:</strong> VendorSoluce is designed to support FedRAMP compliance requirements, providing tools that can help federal agencies prepare for compliance assessments and manage supply chain risks in accordance with federal standards.</p>
+    </div>
+
+    <h2>5. Mapping to NIST SP 800-161</h2>
+    
+    <p>This section provides a high-level mapping between VendorSoluce features and NIST SP 800-161 core practices:</p>
+    
+    <table>
+        <tr>
+            <th>NIST Practice Area</th>
+            <th>VendorSoluce Feature</th>
+            <th>Implementation Guidance</th>
+        </tr>
+        <tr>
+            <td>Foundational Practices</td>
+            <td>SCRM Program Templates</td>
+            <td>Use VendorSoluce templates to document SCRM program elements, policies, and procedures</td>
+        </tr>
+        <tr>
+            <td>Supplier Assessment</td>
+            <td>Vendor Risk Assessment Module</td>
+            <td>Deploy pre-built or custom assessment templates to evaluate supplier security practices</td>
+        </tr>
+        <tr>
+            <td>Component Assessment</td>
+            <td>SBOM Analyzer</td>
+            <td>Analyze software components for vulnerabilities, license issues, and provenance concerns</td>
+        </tr>
+        <tr>
+            <td>Supplier Management</td>
+            <td>Vendor Risk Dashboard</td>
+            <td>Monitor supplier risk levels, track compliance status, and manage relationships</td>
+        </tr>
+        <tr>
+            <td>Information Sharing</td>
+            <td>Collaboration Portal</td>
+            <td>Securely share risk information with suppliers and internal stakeholders</td>
+        </tr>
+    </table>
+
+    <h2>6. Implementation Timeline</h2>
+    
+    <p>Recommended implementation timeline for federal agencies:</p>
+    
+    <table>
+        <tr>
+            <th>Phase</th>
+            <th>Activities</th>
+            <th>Timeframe</th>
+            <th>Key Milestones</th>
+        </tr>
+        <tr>
+            <td>Planning</td>
+            <td>Define governance, document strategy, establish supplier inventory</td>
+            <td>4-6 weeks</td>
+            <td>Governance structure documented, SCRM strategy approved</td>
+        </tr>
+        <tr>
+            <td>Initial Deployment</td>
+            <td>Configure VendorSoluce, import data, train users</td>
+            <td>2-4 weeks</td>
+            <td>System configured, users trained, initial data loaded</td>
+        </tr>
+        <tr>
+            <td>Tier 1 Supplier Assessment</td>
+            <td>Assess critical suppliers, analyze results, develop risk mitigation plans</td>
+            <td>4-8 weeks</td>
+            <td>Critical supplier assessments complete, risk profiles established</td>
+        </tr>
+        <tr>
+            <td>SBOM Implementation</td>
+            <td>Collect SBOMs from suppliers, analyze components, address findings</td>
+            <td>8-12 weeks</td>
+            <td>SBOMs received from critical suppliers, vulnerability analysis complete</td>
+        </tr>
+        <tr>
+            <td>Continuous Monitoring</td>
+            <td>Implement ongoing monitoring, establish reporting cadence</td>
+            <td>Ongoing</td>
+            <td>Monitoring alerts configured, regular reports established</td>
+        </tr>
+    </table>
+
+    <h2>7. Additional Resources</h2>
+    
+    <ul>
+        <li><a href="#">NIST SP 800-161 Rev. 1 Full Text</a></li>
+        <li><a href="#">VendorSoluce NIST SP 800-161 Control Implementation Guide</a></li>
+        <li><a href="#">Federal Supply Chain Security Best Practices</a></li>
+        <li><a href="#">VendorSoluce SBOM Implementation Guide</a></li>
+        <li><a href="#">VendorSoluce API Documentation for System Integration</a></li>
+    </ul>
+
+    <div class="footer">
+        <p>&copy; 2025 VendorSoluce. All rights reserved.</p>
+        <p>This document is provided for guidance purposes only and does not constitute legal advice.</p>
+        <p>For more information, contact <a href="mailto:federal@vendorsoluce.com">federal@vendorsoluce.com</a></p>
+    </div>
+</body>
+</html>

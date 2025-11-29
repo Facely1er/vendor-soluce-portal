@@ -1,0 +1,212 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Primary Colors - VendorTal Branding (Purple Theme) */
+  --vendortal-purple: #7C4DFF;
+  --vendortal-light-purple: #9C7CFF;
+  --vendortal-pale-purple: #E8D5FF;
+  --vendortal-dark-purple: #5E3FC0;
+  --vendortal-lavender: #D1C4E9;
+  --vendortal-violet: #6A1B9A;
+  /* Legacy support - deprecated, use vendortal-purple variants instead */
+  --vendorsoluce-green: #7C4DFF;
+  --vendorsoluce-light-green: #9C7CFF;
+  --vendorsoluce-pale-green: #E8D5FF;
+  --neutral-gray: #6B7280;
+  
+  /* Risk Communication Colors */
+  --risk-critical: #DC2626;
+  --risk-high: #EA580C;
+  --risk-medium: #F59E0B;
+  --risk-low: #16A34A;
+  
+  /* Text Colors */
+  --text-primary: #111827;
+  --text-secondary: #6B7280;
+  --text-primary-dark: #F8FAFC;
+  --text-secondary-dark: #94A3B8;
+}
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    @apply antialiased text-gray-800;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+}
+
+@layer components {
+  /* Accessibility enhancements */
+  .high-contrast {
+    --vendortal-purple: #5E3FC0;
+    --vendortal-light-purple: #7C4DFF;
+    --vendortal-pale-purple: #E8D5FF;
+    /* Legacy support - deprecated */
+    --vendorsoluce-green: #5E3FC0;
+    --vendorsoluce-light-green: #7C4DFF;
+    --vendorsoluce-pale-green: #E8D5FF;
+    --neutral-gray: #000000;
+    --text-primary: #000000;
+    --text-secondary: #333333;
+  }
+  
+  .high-contrast * {
+    border-color: #000000 !important;
+  }
+  
+  .font-size-small {
+    font-size: 14px;
+  }
+  
+  .font-size-normal {
+    font-size: 16px;
+  }
+  
+  .font-size-large {
+    font-size: 18px;
+  }
+  
+  /* Focus indicators for better accessibility */
+  *:focus {
+    outline: 2px solid #7C4DFF;
+    outline-offset: 2px;
+  }
+  
+  /* Screen reader only content */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  
+  .focus\:not-sr-only:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: inherit;
+    margin: inherit;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+
+  /* Brand Gradients */
+  .vendortal-gradient {
+    @apply bg-gradient-to-r from-[#7C4DFF] to-[#9C7CFF];
+  }
+  
+  .risk-heatmap-gradient {
+    @apply bg-gradient-to-r from-[#16A34A] via-[#F59E0B] to-[#DC2626];
+  }
+  
+  .vendortal-score-gradient {
+    @apply bg-gradient-to-r from-[#7C4DFF] to-[#9C7CFF];
+  }
+  
+  /* Risk Level Indicators */
+  .risk-critical {
+    @apply bg-red-100 border-red-200 text-red-800;
+  }
+  
+  .risk-high {
+    @apply bg-orange-100 border-orange-200 text-orange-800;
+  }
+  
+  .risk-medium {
+    @apply bg-yellow-100 border-yellow-200 text-yellow-800;
+  }
+  
+  .risk-low {
+    @apply bg-purple-100 border-purple-200 text-purple-800;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-out forwards;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+  }
+
+  /* Animation delay utilities */
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animate-delay-500 {
+    animation-delay: 500ms;
+  }
+
+  .animate-delay-700 {
+    animation-delay: 700ms;
+  }
+
+  .animate-delay-900 {
+    animation-delay: 900ms;
+  }
+
+  .animate-delay-1100 {
+    animation-delay: 1100ms;
+  }
+
+  .animate-delay-1300 {
+    animation-delay: 1300ms;
+  }
+
+  /* Progress Bar Styles */
+  .progress-bar-fill {
+    transition: width 0.3s ease;
+  }
+
+  /* Hero Section Styles */
+  .hero-background-image {
+    background-image: url("/background_hero_section.png");
+    background-size: auto 65%;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
+  .hero-theme-overlay {
+    background-color: #1a2e1a;
+    opacity: 0.85;
+  }
+}
