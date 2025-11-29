@@ -3,6 +3,21 @@
  * Replaces console.log statements with environment-aware logging
  */
 
+// Type declaration for Vite environment variables
+declare global {
+  interface ImportMetaEnv {
+    readonly DEV: boolean;
+    readonly PROD: boolean;
+    readonly VITE_DEBUG_MODE?: string;
+    readonly VITE_ENABLE_ERROR_REPORTING?: string;
+    [key: string]: any;
+  }
+
+  interface ImportMeta {
+    readonly env: ImportMetaEnv;
+  }
+}
+
 const isDevelopment = import.meta.env.DEV;
 const isProduction = import.meta.env.PROD;
 const debugMode = import.meta.env.VITE_DEBUG_MODE === 'true';
