@@ -182,11 +182,24 @@ export async function getAssetById(assetId: string): Promise<AssetWithVendors> {
 
 /**
  * Create a new asset
+ * 
+ * @deprecated Asset creation should be done through CyberSoluce only.
+ * This function is maintained for backward compatibility but will be removed.
+ * Please use CyberSoluce asset management API instead.
+ * 
+ * Architecture Note: CyberSoluce is the single source of truth for assets (Layer 1).
+ * Other products should reference existing assets via asset_id, not create new ones.
  */
 export async function createAsset(
   userId: string,
   asset: Omit<Asset, 'id' | 'user_id' | 'created_at' | 'updated_at'>
 ): Promise<Asset> {
+  console.warn(
+    '⚠️ DEPRECATED: createAsset() called from VendorSoluce. ' +
+    'Asset creation should be done through CyberSoluce only. ' +
+    'This function will be removed in a future version.'
+  );
+  
   try {
     const { data, error } = await supabase
       .from('assets')
@@ -197,6 +210,7 @@ export async function createAsset(
     if (error) throw error;
 
     logger.info('Asset created:', data.id);
+    logger.warn('Asset created outside CyberSoluce - this violates Layer 1 architecture');
     return data;
   } catch (error) {
     logger.error('Error creating asset:', error);
