@@ -23,6 +23,11 @@ interface AppConfig {
     vendorAssessments: boolean;
     advancedAnalytics: boolean;
     performanceMonitoring: boolean;
+    errorReporting: boolean;
+    offlineMode: boolean;
+    analytics: boolean;
+    pwa: boolean;
+    realTime: boolean;
   };
   analytics: {
     gaId?: string;
@@ -69,6 +74,11 @@ export const config: AppConfig = {
     vendorAssessments: import.meta.env.VITE_ENABLE_VENDOR_ASSESSMENTS === 'true',
     advancedAnalytics: import.meta.env.VITE_ENABLE_ADVANCED_ANALYTICS === 'true',
     performanceMonitoring: import.meta.env.PROD && !isDemo,
+    errorReporting: import.meta.env.VITE_ENABLE_ERROR_REPORTING === 'true',
+    offlineMode: import.meta.env.VITE_ENABLE_OFFLINE_MODE === 'true',
+    analytics: import.meta.env.VITE_ENABLE_ANALYTICS === 'true',
+    pwa: import.meta.env.VITE_ENABLE_PWA === 'true',
+    realTime: import.meta.env.VITE_ENABLE_REAL_TIME !== 'false', // Default enabled
   },
   analytics: {
     gaId: import.meta.env.VITE_GA_MEASUREMENT_ID,

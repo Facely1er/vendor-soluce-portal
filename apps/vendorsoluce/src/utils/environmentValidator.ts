@@ -108,6 +108,48 @@ const ENVIRONMENT_VARIABLES: EnvironmentVariable[] = [
     description: 'Stripe publishable key for payments',
     validator: (value: string) => value.startsWith('pk_'),
     errorMessage: 'Must be a valid Stripe publishable key (starts with pk_)'
+  },
+  {
+    key: 'VITE_ENABLE_ERROR_REPORTING',
+    required: false,
+    description: 'Enable error reporting to external services (true/false)',
+    validator: (value: string) => ['true', 'false'].includes(value.toLowerCase()),
+    errorMessage: 'Must be "true" or "false"'
+  },
+  {
+    key: 'VITE_ENABLE_OFFLINE_MODE',
+    required: false,
+    description: 'Enable offline mode functionality (true/false)',
+    validator: (value: string) => ['true', 'false'].includes(value.toLowerCase()),
+    errorMessage: 'Must be "true" or "false"'
+  },
+  {
+    key: 'VITE_ENABLE_ANALYTICS',
+    required: false,
+    description: 'Enable analytics tracking (true/false)',
+    validator: (value: string) => ['true', 'false'].includes(value.toLowerCase()),
+    errorMessage: 'Must be "true" or "false"'
+  },
+  {
+    key: 'VITE_ENABLE_PWA',
+    required: false,
+    description: 'Enable Progressive Web App features (true/false)',
+    validator: (value: string) => ['true', 'false'].includes(value.toLowerCase()),
+    errorMessage: 'Must be "true" or "false"'
+  },
+  {
+    key: 'VITE_ENABLE_REAL_TIME',
+    required: false,
+    description: 'Enable real-time features (true/false)',
+    validator: (value: string) => ['true', 'false'].includes(value.toLowerCase()),
+    errorMessage: 'Must be "true" or "false"'
+  },
+  {
+    key: 'VITE_DEBUG_MODE',
+    required: false,
+    description: 'Enable debug mode for detailed logging (true/false)',
+    validator: (value: string) => ['true', 'false'].includes(value.toLowerCase()),
+    errorMessage: 'Must be "true" or "false"'
   }
 ];
 
